@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord
+    url: https://discord.gg/PgzdqFmHv
+    about: Questions, playtesting and help with setting up a server. Security problems go privately (SECURITY.md).

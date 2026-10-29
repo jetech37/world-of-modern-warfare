@@ -1,0 +1,26 @@
+# Portable toolchains and downloads (tools/cmake, tools/mariadb, tools/downloads); the scripts in
+# tools/ itself are tracked.
+/tools/*
+!/tools/*.ps1
+!/tools/*.py
+!/tools/*.sh
+!/tools/*.txt
+!/tools/release-assets.json
+/dist/
+/build/
+/*.log
+/launcher/target/
+/admin/crashes.md
+# Your server's deployment settings (vps/deploy.env.example is the template).
+/vps/deploy.env.local
+*.local
+.env
+# Data made from game installs (private-assets.md); never published.
+/private-assets/
+# The community-zone merge tool is tracked (tools/community-merge; its output is private).
+!/tools/community-merge/
+/tools/community-merge/target/
+# The read-only CASC reader is tracked (tools/casc-read; what it extracts stays out of the repo).
+!/tools/casc-read/
+/tools/casc-read/target/
+__pycache__/

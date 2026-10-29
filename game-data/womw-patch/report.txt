@@ -1,0 +1,52 @@
+40001 raptor hatchling, orange                 Creature\Raptor\RaptorPet.m2 (3.3.5 display 29805, model 4001) 1.70 yd at scale 1
+40002 raptor hatchling, mottled blue-green     Creature\Raptor\RaptorPet.m2 (3.3.5 display 29803, model 4001) 1.70 yd at scale 1
+40003 raptor hatchling, mottled dark green     Creature\Raptor\RaptorPet.m2 (3.3.5 display 29804, model 4001) 1.70 yd at scale 1
+40004 raptor hatchling, red                    Creature\Raptor\RaptorPet.m2 (3.3.5 display 29806, model 4001) 1.70 yd at scale 1
+40005 baby crocolisk, green                    Creature\BabyCrocodile\BabyCrocodile.m2 (3.3.5 display 23507, model 4002) 1.54 yd at scale 0.25
+40006 baby crocolisk, brown                    Creature\BabyCrocodile\BabyCrocodile.m2 (3.3.5 display 22389, model 4002) 1.54 yd at scale 0.25
+40007 proto-drake, black                       Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26709, model 4003) 46.68 yd at scale 1
+40008 proto-drake, red                         Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26713, model 4003) 46.68 yd at scale 1
+40009 proto-drake, green                       Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26712, model 4003) 46.68 yd at scale 1
+40010 proto-drake, blue                        Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26710, model 4003) 46.68 yd at scale 1
+40011 armored bear, brown                      Creature\NorthrendBearMount\NorthrendBearMountArmored.m2 (3.3.5 display 27650, model 4004) 5.55 yd at scale 1
+40012 armored bear, black                      Creature\NorthrendBearMount\NorthrendBearMountArmored.m2 (3.3.5 display 27649, model 4004) 5.55 yd at scale 1
+40013 armored bear, white                      Creature\NorthrendBearMount\NorthrendBearMountArmored.m2 (3.3.5 display 26358, model 4004) 5.55 yd at scale 1
+40014 spectral tiger                           Creature\SpectralTiger\SpectralTiger.m2 (3.3.5 display 21973, model 4005) 9.72 yd at scale 1.5
+40015 phoenix                                  Creature\PHOENIX\Phoenix.m2 (3.3.5 display 17784, model 4006) 24.43 yd at scale 1
+40016 riding turtle                            Creature\RidingTurtle\RidingTurtle.m2 (3.3.5 display 17158, model 2325) 3.86 yd at scale 1
+40017 hawkstrider hatchling                    Creature\BabyHawkstrider\Babyhawkstrider.m2 (3.3.5 display 21382, model 4007) 1.56 yd at scale 0.2
+40018 phoenix hatchling                        Creature\PhoenixPet\PhoenixPet.m2 (3.3.5 display 23574, model 4008) 5.47 yd at scale 0.5
+40019 gryphon hatchling                        Creature\GryphonPet\GryphonPet.m2 (3.3.5 display 30412, model 4009) 1.38 yd at scale 0.15
+40020 riding gryphon, armored                  Creature\Gryphon\Gryphon_Mount.m2 (3.3.5 display 17697, model 4010) 10.16 yd at scale 1
+40021 wind rider cub                           Creature\WyvernPet\WyvernPet.m2 (3.3.5 display 30413, model 4011) 1.86 yd at scale 0.2
+40022 riding wind rider, tawny                 Creature\RidingWyvern\RidingWyvern.m2 (3.3.5 display 17699, model 4012) 12.16 yd at scale 1
+40023 riding hippogryph, blue                  Creature\HippogryphMount\HippogryphMount.m2 (3.3.5 display 22472, model 4013) 9.15 yd at scale 1
+40024 dragonhawk hatchling, red                Creature\DragonHawk\DragonHawk.m2 (3.3.5 display 20026, model 4014) 2.54 yd at scale 0.2
+40025 dragonhawk, golden                       Creature\DragonHawk\DragonHawk.m2 (3.3.5 display 21831, model 4014) 22.21 yd at scale 1.75
+40026 riding dragonhawk, red                   CREATURE\DragonHawk\DragonHawkMount.m2 (3.3.5 display 28402, model 4015) 14.73 yd at scale 1.6
+40027 netherwhelp                              Creature\DragonWhelpOutlandCute\DragonWhelpOutlandCute.m2 (3.3.5 display 18946, model 4016) 2.28 yd at scale 0.5
+40028 nether drake, purple                     Creature\NetherDrake\NetherDrakeOutland.m2 (3.3.5 display 20540, model 4017) 11.46 yd at scale 0.5
+40029 riding nether drake, purple              Creature\NetherDrake\NetherDrake.m2 (3.3.5 display 21523, model 4018) 26.44 yd at scale 1
+40030 proto-drake whelp, red                   Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26735, model 4003) 7.00 yd at scale 0.15
+40031 proto-drake, violet                      Creature\ProtoDragon\ProtoDragon.m2 (3.3.5 display 26714, model 4003) 46.68 yd at scale 1
+40032 riding proto-drake, red                  Creature\ProtoDragon\ProtoDragonMount.m2 (3.3.5 display 26718, model 4019) 46.68 yd at scale 1
+40033 frost wyrm whelp                         Creature\FrostwyrmPet\FrostWyrmPet.m2 (3.3.5 display 25750, model 4020) 4.72 yd at scale 1
+40034 frost wyrm                               Creature\UndeadDrake\NorthrendUndeadDrake.m2 (3.3.5 display 27066, model 4021) 22.87 yd at scale 1
+40035 riding frost wyrm, white                 Creature\RidingUndeadDrake\RidingUndeadDrake.m2 (3.3.5 display 25593, model 4022) 22.61 yd at scale 1
+40036 riding phoenix                           Creature\RidingPhoenix\RidingPhoenix.m2 (3.3.5 display 17890, model 4023) 21.64 yd at scale 1
+40037 riding drake, bronze                     Creature\DrakeMount\DrakeMount.m2 (3.3.5 display 25833, model 4024) 22.60 yd at scale 1
+
+Dalaran: Wrath's city over classic Dalaran (map 0), origin [314.25818, 372.29724, 52.02], heading -219
+  arrival 297.12 293.69 71.00 facing 1.663
+  91 groups, 454 doodads converted, 620 already in 1.12, 0 failed, 0 textures missing
+  World\Maps\Azeroth\Azeroth_30_30.adt: 0 placements removed, 0 chunks reshaped
+  World\Maps\Azeroth\Azeroth_30_31.adt: 52 placements removed, 67 chunks reshaped
+  World\Maps\Azeroth\Azeroth_30_32.adt: 0 placements removed, 0 chunks reshaped
+  World\Maps\Azeroth\Azeroth_31_30.adt: 10 placements removed, 16 chunks reshaped
+  World\Maps\Azeroth\Azeroth_31_31.adt: 472 placements removed, 237 chunks reshaped
+  World\Maps\Azeroth\Azeroth_31_32.adt: 0 placements removed, 0 chunks reshaped
+  World\Maps\Azeroth\Azeroth_32_30.adt: 0 placements removed, 0 chunks reshaped
+  World\Maps\Azeroth\Azeroth_32_31.adt: 0 placements removed, 0 chunks reshaped
+  World\Maps\Azeroth\Azeroth_32_32.adt: 0 placements removed, 0 chunks reshaped
+
+1136 files, 145.8 MB in C:\Projects\azeroth-warfare\client\..\private-assets\womw-patch\patch-9.MPQ

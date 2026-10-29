@@ -1,0 +1,144 @@
+[package]
+name = "benilla-mw2"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "Modern Warfare 2 style FPS mode for Classic WoW, built on top of the benilla 1.12.1 client"
+default-run = "benilla-mw2"
+
+[workspace]
+resolver = "2"
+members = [".", "third_party/iw4l/crates/*"]
+
+# The vendored IW4L crates (third_party/iw4l) read these.
+[workspace.package]
+edition = "2024"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+# benilla's Bevy: the vendored asset crates build their images and task pools on the same
+# Bevy the client renders with.
+bevy = { version = "0.18.1", default-features = false, features = ["bevy_asset", "bevy_image", "bevy_render", "bevy_log", "multi_threaded"] }
+miniz_oxide = "0.8"
+bcdec_rs = "0.2"
+flate2 = { version = "1.1", default-features = false, features = ["zlib-rs"] }
+zip = { version = "6", default-features = false, features = ["deflate"] }
+dotenvy = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Bevy 0.18's glam, so vendored math types are the client's (IW4L pins 0.32 for Bevy 0.19).
+glam = "0.30"
+anim_iw4 = { path = "third_party/iw4l/crates/anim_iw4" }
+asset_anim = { path = "third_party/iw4l/crates/asset_anim" }
+asset_audio = { path = "third_party/iw4l/crates/asset_audio" }
+asset_core = { path = "third_party/iw4l/crates/asset_core" }
+asset_iw4 = { path = "third_party/iw4l/crates/asset_iw4" }
+asset_material = { path = "third_party/iw4l/crates/asset_material" }
+asset_model = { path = "third_party/iw4l/crates/asset_model" }
+asset_transport = { path = "third_party/iw4l/crates/asset_transport" }
+d3d9_decl = { path = "third_party/iw4l/crates/d3d9_decl" }
+d3d9_sm3 = { path = "third_party/iw4l/crates/d3d9_sm3" }
+d3d9_state = { path = "third_party/iw4l/crates/d3d9_state" }
+diag = { path = "third_party/iw4l/crates/diag" }
+dpvs_iw4 = { path = "third_party/iw4l/crates/dpvs_iw4" }
+fastfile_iw4 = { path = "third_party/iw4l/crates/fastfile_iw4" }
+fastfile_iw5 = { path = "third_party/iw4l/crates/fastfile_iw5" }
+fastfile_t5 = { path = "third_party/iw4l/crates/fastfile_t5" }
+fx_iw4 = { path = "third_party/iw4l/crates/fx_iw4" }
+hud_iw4 = { path = "third_party/iw4l/crates/hud_iw4" }
+lighting_iw4 = { path = "third_party/iw4l/crates/lighting_iw4" }
+math_iw4 = { path = "third_party/iw4l/crates/math_iw4" }
+playerstate_iw4 = { path = "third_party/iw4l/crates/playerstate_iw4" }
+render_material = { path = "third_party/iw4l/crates/render_material" }
+weapon_iw4 = { path = "third_party/iw4l/crates/weapon_iw4" }
+xmodel_runtime = { path = "third_party/iw4l/crates/xmodel_runtime" }
+
+# IW4L's: retail constants keep their transcribed f32 bits.
+[workspace.lints.clippy]
+excessive_precision = "allow"
+approx_constant = "allow"
+assertions_on_constants = "deny"
+
+[features]
+default = ["dev"]
+# benilla's instruments; the player build is `--no-default-features`.
+dev = ["benilla-app/dev", "benilla-assets/dev", "benilla-formats/dev"]
+
+# As benilla's: a Bevy system's parameter list is its dependency declaration, and its queries
+# carry their filters inline.
+[lints.clippy]
+too_many_arguments = "allow"
+type_complexity = "allow"
+
+[dependencies]
+# The benilla fork beside this crate in the repository (../benilla): it carries the Azeroth
+# Warfare fusion packets (benilla_app::fusion), and the two change together.
+# `default-features = false`, or `--no-default-features` still builds benilla-app with `dev`.
+benilla-app = { path = "../benilla/crates/benilla-app", default-features = false }
+benilla-ui = { path = "../benilla/crates/benilla-ui" }
+benilla-world = { path = "../benilla/crates/benilla-world" }
+# The player's own arms in first person (crate::mw2::wow_arms): the character's mesh data, its
+# materials and the WoW axes. Without default features, as benilla takes them; `dev` forwards.
+benilla-assets = { path = "../benilla/crates/benilla-assets", default-features = false }
+benilla-formats = { path = "../benilla/crates/benilla-formats", default-features = false }
+# The patch layer (crate::wotlk): 3.3.5 archives read with benilla's own MPQ reader, converted
+# models checked with its M2 reader.
+anyhow = "1"
+benilla-mpq = { path = "../benilla/crates/benilla-mpq" }
+benilla-m2 = { path = "../benilla/crates/benilla-m2" }
+# benilla-ui's Lua, for the value types `UiScript::eval` returns; the same version and features
+# unify with benilla's, so this builds no second VM.
+mlua = { version = "0.11", features = ["lua51", "vendored"] }
+# MW2's asset layer, vendored from IW4L (third_party/iw4l).
+anim_iw4.workspace = true
+asset_anim.workspace = true
+asset_core.workspace = true
+asset_material.workspace = true
+asset_model.workspace = true
+asset_audio.workspace = true
+asset_transport.workspace = true
+fastfile_iw4.workspace = true
+dpvs_iw4.workspace = true
+playerstate_iw4.workspace = true
+weapon_iw4.workspace = true
+# The output for MW2's sounds (crate::mw2::audio), at the version benilla's own output uses.
+cpal = "0.17"
+# The shared content catalog (crate::catalog), at the versions already in the graph.
+serde = { version = "1", features = ["derive"] }
+# Building's colliders (crate::build), on benilla's physics world; the same version as benilla's.
+avian3d = "0.6"
+serde_json = "1"
+# benilla's version, adding no features: bevy's defaults bring its audio stack back.
+bevy = { version = "0.18.1", default-features = false, features = ["bevy_asset", "bevy_image", "bevy_render", "bevy_log", "multi_threaded"] }
+
+[dev-dependencies]
+# The patched Alterac tiles read back as benilla reads them (crate::wotlk::adt, ::dalaran tests).
+benilla-adt = { path = "../benilla/crates/benilla-adt" }
+
+[build-dependencies]
+benilla-buildstamp = { path = "../benilla/crates/benilla-buildstamp" }
+
+# Cargo reads `[patch]` and `[profile]` from the root manifest only, so benilla's are repeated:
+# without the patches the addon Lua and the mixer are not benilla's.
+[patch.crates-io]
+lua-src = { path = "../benilla/third_party/lua-src" }
+kira = { path = "../benilla/third_party/kira" }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.play]
+inherits = "release"
+incremental = true
+lto = "off"
+
+[profile.ship]
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+# File and line numbers for crash reports, in the PDB only (the exe players get is no bigger):
+# package/build.ps1 keeps the PDB out of the download, publish.py archives it per version.
+debug = "line-tables-only"

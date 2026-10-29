@@ -1,0 +1,17 @@
+[package]
+name = "casc-read"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Read-only reader for a local CASC (modern WoW) install: idx + data archives, encoding, root by FileDataID, BLTE"
+publish = false
+
+# Standalone tool, outside the client and benilla workspaces. It never writes into the install.
+[workspace]
+
+[dependencies]
+anyhow = "1.0.102"
+flate2 = "1.1.9"
+
+[profile.release]
+debug = false

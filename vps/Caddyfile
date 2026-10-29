@@ -1,0 +1,37 @@
+# Azeroth Warfare on the VPS: HTTPS (Let's Encrypt) for the launcher.
+#   /api/*    the gate: sign-up, the public status, legal-access attestations (and /api/auth,
+#             below)
+#   /api/crash  the gate too: crash reports from the launcher (the gate checks the account), with
+#             the body capped here at the gate's own limit, 12 MiB
+#   /files/WorldOfModernWarfare.exe   the launcher, public: a new player has only an invite code
+#   /files/*  everything else (the manifest and the game files): only with a game account's name
+#             and password (HTTP Basic), which the gate checks against realmd before Caddy serves
+# AW_SITES (gate.env): every name the site answers to, e.g. "play.example.net, old.example.net"
+# (an old name keeps launchers built for it working); ship-server.sh writes it from
+# AW_PUBLIC_HOST and AW_EXTRA_SITES in vps/deploy.env.local.
+{$AW_SITES} {
+	handle /api/crash {
+		request_body {
+			max_size 12MiB
+		}
+		reverse_proxy 127.0.0.1:8090
+	}
+	handle /api/* {
+		reverse_proxy 127.0.0.1:8090
+	}
+	# Exactly this one path; the file is /srv/aw/files/WorldOfModernWarfare.exe.
+	handle /files/WorldOfModernWarfare.exe {
+		root * /srv/aw
+		file_server
+	}
+	handle_path /files/* {
+		# A 2xx from the gate lets the request through; its 401 (with WWW-Authenticate, so a
+		# browser asks for the account) or 429 goes back to the player as it is.
+		forward_auth 127.0.0.1:8090 {
+			uri /api/auth
+		}
+		root * /srv/aw/files
+		file_server
+	}
+	respond 404
+}

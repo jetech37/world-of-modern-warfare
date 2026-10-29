@@ -1,0 +1,67 @@
+## Per archive (files where the archive is the top copy)
+
+| archive | on disk GB | files | top classes |
+|---|---:|---:|---|
+| patch-A.MPQ | 1.75 | 9647 | other textures 9309 (3.04 GB), character models 21 (0.37 GB), character textures 310 (0.01 GB), tables 7 (0.00 GB) |
+| patch-B.MPQ | 1.61 | 4486 | other textures 4486 (2.37 GB) |
+| patch-C.MPQ | 2.08 | 4968 | creature textures 4367 (2.41 GB), creature models 318 (0.94 GB), sound 218 (0.02 GB), other 61 (0.01 GB) |
+| patch-D.MPQ | 1.65 | 7268 | world textures 6168 (2.68 GB), WMOs 171 (0.05 GB), world doodads 917 (0.05 GB), other 11 (0.00 GB) |
+| patch-E.MPQ | 0.72 | 1685 | terrain textures 1335 (0.88 GB), other textures 275 (0.13 GB), spell textures 61 (0.01 GB), creature textures 5 (0.00 GB) |
+| patch-G.MPQ | 0.77 | 4156 | item textures 3676 (1.28 GB), item models 478 (0.02 GB), tables 1 (0.00 GB), other 1 (0.00 GB) |
+| patch-I.MPQ | 0.16 | 31707 | UI textures 31678 (0.27 GB), UI other 27 (0.01 GB), other textures 2 (0.00 GB) |
+| patch-L.MPQ | 0.04 | 2 | character models 2 (0.04 GB) |
+| patch-M.MPQ | 0.44 | 3563 | UI textures 3562 (1.14 GB), UI other 1 (0.00 GB) |
+| patch-T.MPQ | 0.54 | 6751 | other textures 6118 (0.41 GB), character textures 628 (0.04 GB), other 5 (0.00 GB) |
+| patch-U.MPQ | 1.66 | 21861 | item textures 15297 (4.09 GB), character textures 6562 (1.14 GB), other 2 (0.00 GB) |
+| patch-Y.MPQ | 0.00 | 3 | UI code 3 (0.00 GB) |
+
+## Per class
+
+| class | files | GB | kept | kept GB | our layer wins | other reasons out |
+|---|---:|---:|---:|---:|---:|---|
+| UI code | 3 | 0.00 | 0 | 0.00 | 0 | UI code 3 |
+| UI other | 28 | 0.01 | 0 | 0.00 | 0 | unused kind 28 |
+| UI textures | 35240 | 1.40 | 3428 | 0.14 | 2831 | new and unreferenced 28981 |
+| WMOs | 171 | 0.05 | 0 | 0.00 | 5 | WMO geometry 166 |
+| character models | 23 | 0.41 | 8 | 0.13 | 2 | new and unreferenced 1, texture overridden or missing 12 |
+| character textures | 7500 | 1.20 | 111 | 0.02 | 3 | new and unreferenced 3365, skin composite size 4021 |
+| creature models | 318 | 0.94 | 164 | 0.31 | 10 | does not decode 2, new and unreferenced 104, texture overridden or missing 38 |
+| creature textures | 4372 | 2.41 | 1866 | 0.90 | 226 | new and unreferenced 2280 |
+| item models | 478 | 0.02 | 285 | 0.01 | 0 | does not decode 3, new and unreferenced 142, texture overridden or missing 48 |
+| item textures | 18976 | 5.36 | 2531 | 0.66 | 835 | new and unreferenced 5652, skin composite size 9958 |
+| other | 81 | 0.01 | 0 | 0.00 | 0 | unused kind 81 |
+| other models | 3 | 0.00 | 3 | 0.00 | 0 |  |
+| other textures | 20190 | 5.95 | 8898 | 2.27 | 1289 | does not decode 4, new and unreferenced 9999 |
+| sound | 218 | 0.02 | 216 | 0.02 | 0 | new and unreferenced 2 |
+| spell models | 1 | 0.00 | 0 | 0.00 | 0 | new and unreferenced 1 |
+| spell textures | 62 | 0.01 | 55 | 0.01 | 2 | does not decode 1, new and unreferenced 4 |
+| tables | 12 | 0.01 | 0 | 0.00 | 6 | client table 6 |
+| terrain textures | 1335 | 0.88 | 1047 | 0.63 | 25 | new and unreferenced 263 |
+| world doodads | 918 | 0.05 | 354 | 0.01 | 6 | does not decode 7, doodad collision differs 346, new and unreferenced 198, texture overridden or missing 7 |
+| world textures | 6168 | 2.68 | 4097 | 1.63 | 443 | new and unreferenced 1628 |
+
+## Against our side
+
+- new: 53616
+- patch-9 (WotLK): 153
+- patch-A (community): 5530
+- stock: 36798
+
+## Decode failures by reason
+
+- 5 x BLP mip level 8 out of bounds
+- 9 x M2 version 264, not 1.12's 256
+- 3 x not an MD20 model
+
+## Kept textures by largest side
+
+- 8: 2
+- 16: 6
+- 32: 105
+- 64: 3026
+- 128: 325
+- 256: 7550
+- 512: 5239
+- 1024: 5780
+
+Total: 96097 files listed (21.42 GB); kept 23063 files (6.75 GB)

@@ -1,0 +1,69 @@
+# Azeroth Warfare: database, login server and world server.
+#   1. ./scripts/extract-data.sh /path/to/WoW-1.12.1   (once; writes ./data)
+#   2. docker compose up -d db && docker compose run --rm setup   (once; loads the databases)
+#   3. docker compose up -d realmd mangosd
+#   4. docker compose run --rm realmd /opt/aw/scripts/create-account.sh NAME PASSWORD [gmlevel]
+services:
+  db:
+    image: mariadb:11
+    environment:
+      MARIADB_ROOT_PASSWORD: ${AW_DB_ROOT_PASSWORD:-change-me}
+      MARIADB_USER: mangos
+      MARIADB_PASSWORD: ${AW_DB_PASSWORD:-mangos}
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 30
+
+  setup:
+    image: azeroth-warfare
+    build:
+      context: ..
+      dockerfile: azeroth-warfare/Dockerfile
+      args:
+        AW_BUILD_JOBS: ${AW_BUILD_JOBS:-}
+    profiles: ["setup"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment: &dbenv
+      AW_DB_HOST: db
+      AW_DB_ROOT_PASSWORD: ${AW_DB_ROOT_PASSWORD:-change-me}
+      AW_DB_PASSWORD: ${AW_DB_PASSWORD:-mangos}
+      AW_PUBLIC_ADDRESS: ${AW_PUBLIC_ADDRESS:-127.0.0.1}
+      AW_REALM_NAME: ${AW_REALM_NAME:-Azeroth Warfare}
+      AW_WORLD_DUMP: ${AW_WORLD_DUMP:-}
+    volumes:
+      - ./:/work:ro
+    command: /opt/aw/scripts/setup-db.sh
+
+  realmd:
+    image: azeroth-warfare
+    depends_on:
+      db:
+        condition: service_healthy
+    environment: *dbenv
+    command: /opt/aw/scripts/run.sh realmd
+    ports:
+      - "3724:3724"
+    restart: unless-stopped
+
+  mangosd:
+    image: azeroth-warfare
+    depends_on:
+      db:
+        condition: service_healthy
+    environment: *dbenv
+    command: /opt/aw/scripts/run.sh mangosd
+    volumes:
+      - ./data:/opt/aw/data
+    ports:
+      - "8085:8085"
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  db:

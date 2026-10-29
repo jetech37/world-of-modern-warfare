@@ -1,0 +1,6219 @@
+{
+ "version": 2,
+ "source": "MW2 multiplayer weapon definitions (make_seed_catalog.py)",
+ "weapons": [
+  {
+   "id": 1,
+   "name": "famas_mp",
+   "class": "assault_rifle",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 55.56,
+   "min_damage_range": 69.44,
+   "pellets": 1,
+   "fire_time": 0.06,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.76,
+   "reload_empty_time": 3.3,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 3,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "famas_acog_mp",
+    "acog+fmj": "famas_acog_fmj_mp",
+    "acog+gl": "famas_acog_gl_mp",
+    "acog+heartbeat": "famas_acog_heartbeat_mp",
+    "acog+shotgun": "famas_acog_shotgun_mp",
+    "acog+xmags": "famas_acog_xmags_mp",
+    "eotech": "famas_eotech_mp",
+    "eotech+heartbeat": "famas_eotech_heartbeat_mp",
+    "eotech+xmags": "famas_eotech_xmags_mp",
+    "fmj": "famas_fmj_mp",
+    "fmj+eotech": "famas_eotech_fmj_mp",
+    "fmj+heartbeat": "famas_fmj_heartbeat_mp",
+    "fmj+shotgun": "famas_fmj_shotgun_mp",
+    "fmj+thermal": "famas_fmj_thermal_mp",
+    "fmj+xmags": "famas_fmj_xmags_mp",
+    "gl": "famas_gl_mp",
+    "gl+eotech": "famas_eotech_gl_mp",
+    "gl+fmj": "famas_fmj_gl_mp",
+    "gl+heartbeat": "famas_gl_heartbeat_mp",
+    "gl+thermal": "famas_gl_thermal_mp",
+    "gl+xmags": "famas_gl_xmags_mp",
+    "heartbeat": "famas_heartbeat_mp",
+    "heartbeat+xmags": "famas_heartbeat_xmags_mp",
+    "reflex": "famas_reflex_mp",
+    "reflex+fmj": "famas_fmj_reflex_mp",
+    "reflex+gl": "famas_gl_reflex_mp",
+    "reflex+heartbeat": "famas_heartbeat_reflex_mp",
+    "reflex+shotgun": "famas_reflex_shotgun_mp",
+    "reflex+silencer": "famas_reflex_silencer_mp",
+    "reflex+xmags": "famas_reflex_xmags_mp",
+    "shotgun": "famas_shotgun_mp",
+    "shotgun+eotech": "famas_eotech_shotgun_mp",
+    "shotgun+heartbeat": "famas_heartbeat_shotgun_mp",
+    "shotgun+thermal": "famas_shotgun_thermal_mp",
+    "shotgun+xmags": "famas_shotgun_xmags_mp",
+    "silencer": "famas_silencer_mp",
+    "silencer+acog": "famas_acog_silencer_mp",
+    "silencer+eotech": "famas_eotech_silencer_mp",
+    "silencer+fmj": "famas_fmj_silencer_mp",
+    "silencer+gl": "famas_gl_silencer_mp",
+    "silencer+heartbeat": "famas_heartbeat_silencer_mp",
+    "silencer+shotgun": "famas_shotgun_silencer_mp",
+    "silencer+thermal": "famas_silencer_thermal_mp",
+    "silencer+xmags": "famas_silencer_xmags_mp",
+    "thermal": "famas_thermal_mp",
+    "thermal+heartbeat": "famas_heartbeat_thermal_mp",
+    "thermal+xmags": "famas_thermal_xmags_mp",
+    "xmags": "famas_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45,
+     "reload_empty_time": 3.367
+    },
+    "reflex+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "reflex+silencer": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+acog": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+eotech": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+fmj": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+gl": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33,
+     "reload_empty_time": 3.367
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+thermal": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33
+    },
+    "silencer+xmags": {
+     "max_damage_range": 22.22,
+     "min_damage_range": 33.33,
+     "mag_size": 45
+    },
+    "thermal+heartbeat": {
+     "reload_empty_time": 3.367
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_famas"
+  },
+  {
+   "id": 2,
+   "name": "m4_mp",
+   "class": "assault_rifle",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.07,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.03,
+   "reload_empty_time": 2.36,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 4,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "m4_acog_mp",
+    "acog+fmj": "m4_acog_fmj_mp",
+    "acog+gl": "m4_acog_gl_mp",
+    "acog+heartbeat": "m4_acog_heartbeat_mp",
+    "acog+shotgun": "m4_acog_shotgun_mp",
+    "acog+xmags": "m4_acog_xmags_mp",
+    "eotech": "m4_eotech_mp",
+    "eotech+heartbeat": "m4_eotech_heartbeat_mp",
+    "eotech+xmags": "m4_eotech_xmags_mp",
+    "fmj": "m4_fmj_mp",
+    "fmj+eotech": "m4_eotech_fmj_mp",
+    "fmj+heartbeat": "m4_fmj_heartbeat_mp",
+    "fmj+shotgun": "m4_fmj_shotgun_mp",
+    "fmj+thermal": "m4_fmj_thermal_mp",
+    "fmj+xmags": "m4_fmj_xmags_mp",
+    "gl": "m4_gl_mp",
+    "gl+eotech": "m4_eotech_gl_mp",
+    "gl+fmj": "m4_fmj_gl_mp",
+    "gl+heartbeat": "m4_gl_heartbeat_mp",
+    "gl+thermal": "m4_gl_thermal_mp",
+    "gl+xmags": "m4_gl_xmags_mp",
+    "heartbeat": "m4_heartbeat_mp",
+    "heartbeat+xmags": "m4_heartbeat_xmags_mp",
+    "reflex": "m4_reflex_mp",
+    "reflex+fmj": "m4_fmj_reflex_mp",
+    "reflex+gl": "m4_gl_reflex_mp",
+    "reflex+heartbeat": "m4_heartbeat_reflex_mp",
+    "reflex+shotgun": "m4_reflex_shotgun_mp",
+    "reflex+silencer": "m4_reflex_silencer_mp",
+    "reflex+xmags": "m4_reflex_xmags_mp",
+    "shotgun": "m4_shotgun_mp",
+    "shotgun+eotech": "m4_eotech_shotgun_mp",
+    "shotgun+heartbeat": "m4_heartbeat_shotgun_mp",
+    "shotgun+thermal": "m4_shotgun_thermal_mp",
+    "shotgun+xmags": "m4_shotgun_xmags_mp",
+    "silencer": "m4_silencer_mp",
+    "silencer+acog": "m4_acog_silencer_mp",
+    "silencer+eotech": "m4_eotech_silencer_mp",
+    "silencer+fmj": "m4_fmj_silencer_mp",
+    "silencer+gl": "m4_gl_silencer_mp",
+    "silencer+heartbeat": "m4_heartbeat_silencer_mp",
+    "silencer+shotgun": "m4_shotgun_silencer_mp",
+    "silencer+thermal": "m4_silencer_thermal_mp",
+    "silencer+xmags": "m4_silencer_xmags_mp",
+    "thermal": "m4_thermal_mp",
+    "thermal+heartbeat": "m4_heartbeat_thermal_mp",
+    "thermal+xmags": "m4_thermal_xmags_mp",
+    "xmags": "m4_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_m4"
+  },
+  {
+   "id": 3,
+   "name": "scar_mp",
+   "class": "assault_rifle",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.093,
+   "mag_size": 20,
+   "max_reserve": 120,
+   "reload_time": 2.833,
+   "reload_empty_time": 2.833,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 8,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "scar_acog_mp",
+    "acog+fmj": "scar_acog_fmj_mp",
+    "acog+gl": "scar_acog_gl_mp",
+    "acog+heartbeat": "scar_acog_heartbeat_mp",
+    "acog+shotgun": "scar_acog_shotgun_mp",
+    "acog+xmags": "scar_acog_xmags_mp",
+    "eotech": "scar_eotech_mp",
+    "eotech+heartbeat": "scar_eotech_heartbeat_mp",
+    "eotech+xmags": "scar_eotech_xmags_mp",
+    "fmj": "scar_fmj_mp",
+    "fmj+eotech": "scar_eotech_fmj_mp",
+    "fmj+heartbeat": "scar_fmj_heartbeat_mp",
+    "fmj+shotgun": "scar_fmj_shotgun_mp",
+    "fmj+thermal": "scar_fmj_thermal_mp",
+    "fmj+xmags": "scar_fmj_xmags_mp",
+    "gl": "scar_gl_mp",
+    "gl+eotech": "scar_eotech_gl_mp",
+    "gl+fmj": "scar_fmj_gl_mp",
+    "gl+heartbeat": "scar_gl_heartbeat_mp",
+    "gl+thermal": "scar_gl_thermal_mp",
+    "gl+xmags": "scar_gl_xmags_mp",
+    "heartbeat": "scar_heartbeat_mp",
+    "heartbeat+xmags": "scar_heartbeat_xmags_mp",
+    "reflex": "scar_reflex_mp",
+    "reflex+fmj": "scar_fmj_reflex_mp",
+    "reflex+gl": "scar_gl_reflex_mp",
+    "reflex+heartbeat": "scar_heartbeat_reflex_mp",
+    "reflex+shotgun": "scar_reflex_shotgun_mp",
+    "reflex+silencer": "scar_reflex_silencer_mp",
+    "reflex+xmags": "scar_reflex_xmags_mp",
+    "shotgun": "scar_shotgun_mp",
+    "shotgun+eotech": "scar_eotech_shotgun_mp",
+    "shotgun+heartbeat": "scar_heartbeat_shotgun_mp",
+    "shotgun+thermal": "scar_shotgun_thermal_mp",
+    "shotgun+xmags": "scar_shotgun_xmags_mp",
+    "silencer": "scar_silencer_mp",
+    "silencer+acog": "scar_acog_silencer_mp",
+    "silencer+eotech": "scar_eotech_silencer_mp",
+    "silencer+fmj": "scar_fmj_silencer_mp",
+    "silencer+gl": "scar_gl_silencer_mp",
+    "silencer+heartbeat": "scar_heartbeat_silencer_mp",
+    "silencer+shotgun": "scar_shotgun_silencer_mp",
+    "silencer+thermal": "scar_silencer_thermal_mp",
+    "silencer+xmags": "scar_silencer_xmags_mp",
+    "thermal": "scar_thermal_mp",
+    "thermal+heartbeat": "scar_heartbeat_thermal_mp",
+    "thermal+xmags": "scar_thermal_xmags_mp",
+    "xmags": "scar_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 30
+    },
+    "eotech+xmags": {
+     "mag_size": 30
+    },
+    "fmj+xmags": {
+     "mag_size": 30
+    },
+    "gl+xmags": {
+     "mag_size": 30
+    },
+    "heartbeat+xmags": {
+     "mag_size": 30
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 30
+    },
+    "shotgun+xmags": {
+     "mag_size": 30
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 30
+    },
+    "thermal+xmags": {
+     "mag_size": 30
+    },
+    "xmags": {
+     "mag_size": 30
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_scar_h"
+  },
+  {
+   "id": 4,
+   "name": "tavor_mp",
+   "class": "assault_rifle",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.08,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.5,
+   "reload_empty_time": 2.93,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 20,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "tavor_acog_mp",
+    "acog+fmj": "tavor_acog_fmj_mp",
+    "acog+gl": "tavor_acog_gl_mp",
+    "acog+heartbeat": "tavor_acog_heartbeat_mp",
+    "acog+shotgun": "tavor_acog_shotgun_mp",
+    "acog+xmags": "tavor_acog_xmags_mp",
+    "eotech": "tavor_eotech_mp",
+    "eotech+heartbeat": "tavor_eotech_heartbeat_mp",
+    "eotech+xmags": "tavor_eotech_xmags_mp",
+    "fmj": "tavor_fmj_mp",
+    "fmj+eotech": "tavor_eotech_fmj_mp",
+    "fmj+heartbeat": "tavor_fmj_heartbeat_mp",
+    "fmj+shotgun": "tavor_fmj_shotgun_mp",
+    "fmj+thermal": "tavor_fmj_thermal_mp",
+    "fmj+xmags": "tavor_fmj_xmags_mp",
+    "gl": "tavor_gl_mp",
+    "gl+eotech": "tavor_eotech_gl_mp",
+    "gl+fmj": "tavor_fmj_gl_mp",
+    "gl+heartbeat": "tavor_gl_heartbeat_mp",
+    "gl+thermal": "tavor_gl_thermal_mp",
+    "gl+xmags": "tavor_gl_xmags_mp",
+    "heartbeat": "tavor_heartbeat_mp",
+    "heartbeat+xmags": "tavor_heartbeat_xmags_mp",
+    "reflex": "tavor_reflex_mp",
+    "reflex+fmj": "tavor_fmj_reflex_mp",
+    "reflex+gl": "tavor_gl_reflex_mp",
+    "reflex+heartbeat": "tavor_heartbeat_reflex_mp",
+    "reflex+shotgun": "tavor_reflex_shotgun_mp",
+    "reflex+silencer": "tavor_reflex_silencer_mp",
+    "reflex+xmags": "tavor_reflex_xmags_mp",
+    "shotgun": "tavor_shotgun_mp",
+    "shotgun+eotech": "tavor_eotech_shotgun_mp",
+    "shotgun+heartbeat": "tavor_heartbeat_shotgun_mp",
+    "shotgun+thermal": "tavor_shotgun_thermal_mp",
+    "shotgun+xmags": "tavor_shotgun_xmags_mp",
+    "silencer": "tavor_silencer_mp",
+    "silencer+acog": "tavor_acog_silencer_mp",
+    "silencer+eotech": "tavor_eotech_silencer_mp",
+    "silencer+fmj": "tavor_fmj_silencer_mp",
+    "silencer+gl": "tavor_gl_silencer_mp",
+    "silencer+heartbeat": "tavor_heartbeat_silencer_mp",
+    "silencer+shotgun": "tavor_shotgun_silencer_mp",
+    "silencer+thermal": "tavor_silencer_thermal_mp",
+    "silencer+xmags": "tavor_silencer_xmags_mp",
+    "thermal": "tavor_thermal_mp",
+    "thermal+heartbeat": "tavor_heartbeat_thermal_mp",
+    "thermal+xmags": "tavor_thermal_xmags_mp",
+    "xmags": "tavor_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_tavor"
+  },
+  {
+   "id": 5,
+   "name": "fal_mp",
+   "class": "assault_rifle",
+   "damage": 55,
+   "min_damage": 35,
+   "max_damage_range": 27.78,
+   "min_damage_range": 41.67,
+   "pellets": 1,
+   "fire_time": 0.1,
+   "mag_size": 20,
+   "max_reserve": 120,
+   "reload_time": 2.7,
+   "reload_empty_time": 3.267,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 28,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 9.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "fal_acog_mp",
+    "acog+fmj": "fal_acog_fmj_mp",
+    "acog+gl": "fal_acog_gl_mp",
+    "acog+heartbeat": "fal_acog_heartbeat_mp",
+    "acog+shotgun": "fal_acog_shotgun_mp",
+    "acog+xmags": "fal_acog_xmags_mp",
+    "eotech": "fal_eotech_mp",
+    "eotech+heartbeat": "fal_eotech_heartbeat_mp",
+    "eotech+xmags": "fal_eotech_xmags_mp",
+    "fmj": "fal_fmj_mp",
+    "fmj+eotech": "fal_eotech_fmj_mp",
+    "fmj+heartbeat": "fal_fmj_heartbeat_mp",
+    "fmj+shotgun": "fal_fmj_shotgun_mp",
+    "fmj+thermal": "fal_fmj_thermal_mp",
+    "fmj+xmags": "fal_fmj_xmags_mp",
+    "gl": "fal_gl_mp",
+    "gl+eotech": "fal_eotech_gl_mp",
+    "gl+fmj": "fal_fmj_gl_mp",
+    "gl+heartbeat": "fal_gl_heartbeat_mp",
+    "gl+thermal": "fal_gl_thermal_mp",
+    "gl+xmags": "fal_gl_xmags_mp",
+    "heartbeat": "fal_heartbeat_mp",
+    "heartbeat+xmags": "fal_heartbeat_xmags_mp",
+    "reflex": "fal_reflex_mp",
+    "reflex+fmj": "fal_fmj_reflex_mp",
+    "reflex+gl": "fal_gl_reflex_mp",
+    "reflex+heartbeat": "fal_heartbeat_reflex_mp",
+    "reflex+shotgun": "fal_reflex_shotgun_mp",
+    "reflex+silencer": "fal_reflex_silencer_mp",
+    "reflex+xmags": "fal_reflex_xmags_mp",
+    "shotgun": "fal_shotgun_mp",
+    "shotgun+eotech": "fal_eotech_shotgun_mp",
+    "shotgun+heartbeat": "fal_heartbeat_shotgun_mp",
+    "shotgun+thermal": "fal_shotgun_thermal_mp",
+    "shotgun+xmags": "fal_shotgun_xmags_mp",
+    "silencer": "fal_silencer_mp",
+    "silencer+acog": "fal_acog_silencer_mp",
+    "silencer+eotech": "fal_eotech_silencer_mp",
+    "silencer+fmj": "fal_fmj_silencer_mp",
+    "silencer+gl": "fal_gl_silencer_mp",
+    "silencer+heartbeat": "fal_heartbeat_silencer_mp",
+    "silencer+shotgun": "fal_shotgun_silencer_mp",
+    "silencer+thermal": "fal_silencer_thermal_mp",
+    "silencer+xmags": "fal_silencer_xmags_mp",
+    "thermal": "fal_thermal_mp",
+    "thermal+heartbeat": "fal_heartbeat_thermal_mp",
+    "thermal+xmags": "fal_thermal_xmags_mp",
+    "xmags": "fal_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 30
+    },
+    "eotech": {
+     "min_damage": 40
+    },
+    "eotech+heartbeat": {
+     "min_damage": 40
+    },
+    "eotech+xmags": {
+     "min_damage": 40,
+     "mag_size": 30
+    },
+    "fmj+eotech": {
+     "min_damage": 40
+    },
+    "fmj+xmags": {
+     "mag_size": 30
+    },
+    "gl+eotech": {
+     "min_damage": 40
+    },
+    "gl+xmags": {
+     "mag_size": 30
+    },
+    "heartbeat+xmags": {
+     "mag_size": 30
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 30
+    },
+    "shotgun+eotech": {
+     "min_damage": 40
+    },
+    "shotgun+xmags": {
+     "mag_size": 30
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "min_damage": 40,
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 30
+    },
+    "thermal+xmags": {
+     "mag_size": 30
+    },
+    "xmags": {
+     "mag_size": 30
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_fn_fal"
+  },
+  {
+   "id": 6,
+   "name": "m16_mp",
+   "class": "assault_rifle",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.065,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.03,
+   "reload_empty_time": 2.36,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 40,
+   "starter": false,
+   "fire_type": 3,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "m16_acog_mp",
+    "acog+fmj": "m16_acog_fmj_mp",
+    "acog+gl": "m16_acog_gl_mp",
+    "acog+heartbeat": "m16_acog_heartbeat_mp",
+    "acog+shotgun": "m16_acog_shotgun_mp",
+    "acog+xmags": "m16_acog_xmags_mp",
+    "eotech": "m16_eotech_mp",
+    "eotech+heartbeat": "m16_eotech_heartbeat_mp",
+    "eotech+xmags": "m16_eotech_xmags_mp",
+    "fmj": "m16_fmj_mp",
+    "fmj+eotech": "m16_eotech_fmj_mp",
+    "fmj+heartbeat": "m16_fmj_heartbeat_mp",
+    "fmj+shotgun": "m16_fmj_shotgun_mp",
+    "fmj+thermal": "m16_fmj_thermal_mp",
+    "fmj+xmags": "m16_fmj_xmags_mp",
+    "gl": "m16_gl_mp",
+    "gl+eotech": "m16_eotech_gl_mp",
+    "gl+fmj": "m16_fmj_gl_mp",
+    "gl+heartbeat": "m16_gl_heartbeat_mp",
+    "gl+thermal": "m16_gl_thermal_mp",
+    "gl+xmags": "m16_gl_xmags_mp",
+    "heartbeat": "m16_heartbeat_mp",
+    "heartbeat+xmags": "m16_heartbeat_xmags_mp",
+    "reflex": "m16_reflex_mp",
+    "reflex+fmj": "m16_fmj_reflex_mp",
+    "reflex+gl": "m16_gl_reflex_mp",
+    "reflex+heartbeat": "m16_heartbeat_reflex_mp",
+    "reflex+shotgun": "m16_reflex_shotgun_mp",
+    "reflex+silencer": "m16_reflex_silencer_mp",
+    "reflex+xmags": "m16_reflex_xmags_mp",
+    "shotgun": "m16_shotgun_mp",
+    "shotgun+eotech": "m16_eotech_shotgun_mp",
+    "shotgun+heartbeat": "m16_heartbeat_shotgun_mp",
+    "shotgun+thermal": "m16_shotgun_thermal_mp",
+    "shotgun+xmags": "m16_shotgun_xmags_mp",
+    "silencer": "m16_silencer_mp",
+    "silencer+acog": "m16_acog_silencer_mp",
+    "silencer+eotech": "m16_eotech_silencer_mp",
+    "silencer+fmj": "m16_fmj_silencer_mp",
+    "silencer+gl": "m16_gl_silencer_mp",
+    "silencer+heartbeat": "m16_heartbeat_silencer_mp",
+    "silencer+shotgun": "m16_shotgun_silencer_mp",
+    "silencer+thermal": "m16_silencer_thermal_mp",
+    "silencer+xmags": "m16_silencer_xmags_mp",
+    "thermal": "m16_thermal_mp",
+    "thermal+heartbeat": "m16_heartbeat_thermal_mp",
+    "thermal+xmags": "m16_thermal_xmags_mp",
+    "xmags": "m16_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_m16"
+  },
+  {
+   "id": 7,
+   "name": "masada_mp",
+   "class": "assault_rifle",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 50.0,
+   "min_damage_range": 63.89,
+   "pellets": 1,
+   "fire_time": 0.077,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.03,
+   "reload_empty_time": 2.36,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 48,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "masada_acog_mp",
+    "acog+fmj": "masada_acog_fmj_mp",
+    "acog+gl": "masada_acog_gl_mp",
+    "acog+heartbeat": "masada_acog_heartbeat_mp",
+    "acog+shotgun": "masada_acog_shotgun_mp",
+    "acog+xmags": "masada_acog_xmags_mp",
+    "eotech": "masada_eotech_mp",
+    "eotech+heartbeat": "masada_eotech_heartbeat_mp",
+    "eotech+xmags": "masada_eotech_xmags_mp",
+    "fmj": "masada_fmj_mp",
+    "fmj+eotech": "masada_eotech_fmj_mp",
+    "fmj+heartbeat": "masada_fmj_heartbeat_mp",
+    "fmj+shotgun": "masada_fmj_shotgun_mp",
+    "fmj+thermal": "masada_fmj_thermal_mp",
+    "fmj+xmags": "masada_fmj_xmags_mp",
+    "gl": "masada_gl_mp",
+    "gl+eotech": "masada_eotech_gl_mp",
+    "gl+fmj": "masada_fmj_gl_mp",
+    "gl+heartbeat": "masada_gl_heartbeat_mp",
+    "gl+thermal": "masada_gl_thermal_mp",
+    "gl+xmags": "masada_gl_xmags_mp",
+    "heartbeat": "masada_heartbeat_mp",
+    "heartbeat+xmags": "masada_heartbeat_xmags_mp",
+    "reflex": "masada_reflex_mp",
+    "reflex+fmj": "masada_fmj_reflex_mp",
+    "reflex+gl": "masada_gl_reflex_mp",
+    "reflex+heartbeat": "masada_heartbeat_reflex_mp",
+    "reflex+shotgun": "masada_reflex_shotgun_mp",
+    "reflex+silencer": "masada_reflex_silencer_mp",
+    "reflex+xmags": "masada_reflex_xmags_mp",
+    "shotgun": "masada_shotgun_mp",
+    "shotgun+eotech": "masada_eotech_shotgun_mp",
+    "shotgun+heartbeat": "masada_heartbeat_shotgun_mp",
+    "shotgun+thermal": "masada_shotgun_thermal_mp",
+    "shotgun+xmags": "masada_shotgun_xmags_mp",
+    "silencer": "masada_silencer_mp",
+    "silencer+acog": "masada_acog_silencer_mp",
+    "silencer+eotech": "masada_eotech_silencer_mp",
+    "silencer+fmj": "masada_fmj_silencer_mp",
+    "silencer+gl": "masada_gl_silencer_mp",
+    "silencer+heartbeat": "masada_heartbeat_silencer_mp",
+    "silencer+shotgun": "masada_shotgun_silencer_mp",
+    "silencer+thermal": "masada_silencer_thermal_mp",
+    "silencer+xmags": "masada_silencer_xmags_mp",
+    "thermal": "masada_thermal_mp",
+    "thermal+heartbeat": "masada_heartbeat_thermal_mp",
+    "thermal+xmags": "masada_thermal_xmags_mp",
+    "xmags": "masada_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+acog": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+eotech": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+fmj": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+gl": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+thermal": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33
+    },
+    "silencer+xmags": {
+     "max_damage_range": 18.06,
+     "min_damage_range": 33.33,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_magpul_masada"
+  },
+  {
+   "id": 8,
+   "name": "fn2000_mp",
+   "class": "assault_rifle",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.066,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 3.0,
+   "reload_empty_time": 3.43,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 60,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "fn2000_acog_mp",
+    "acog+fmj": "fn2000_acog_fmj_mp",
+    "acog+gl": "fn2000_acog_gl_mp",
+    "acog+heartbeat": "fn2000_acog_heartbeat_mp",
+    "acog+shotgun": "fn2000_acog_shotgun_mp",
+    "acog+xmags": "fn2000_acog_xmags_mp",
+    "eotech": "fn2000_eotech_mp",
+    "eotech+heartbeat": "fn2000_eotech_heartbeat_mp",
+    "eotech+xmags": "fn2000_eotech_xmags_mp",
+    "fmj": "fn2000_fmj_mp",
+    "fmj+eotech": "fn2000_eotech_fmj_mp",
+    "fmj+heartbeat": "fn2000_fmj_heartbeat_mp",
+    "fmj+shotgun": "fn2000_fmj_shotgun_mp",
+    "fmj+thermal": "fn2000_fmj_thermal_mp",
+    "fmj+xmags": "fn2000_fmj_xmags_mp",
+    "gl": "fn2000_gl_mp",
+    "gl+eotech": "fn2000_eotech_gl_mp",
+    "gl+fmj": "fn2000_fmj_gl_mp",
+    "gl+heartbeat": "fn2000_gl_heartbeat_mp",
+    "gl+thermal": "fn2000_gl_thermal_mp",
+    "gl+xmags": "fn2000_gl_xmags_mp",
+    "heartbeat": "fn2000_heartbeat_mp",
+    "heartbeat+xmags": "fn2000_heartbeat_xmags_mp",
+    "reflex": "fn2000_reflex_mp",
+    "reflex+fmj": "fn2000_fmj_reflex_mp",
+    "reflex+gl": "fn2000_gl_reflex_mp",
+    "reflex+heartbeat": "fn2000_heartbeat_reflex_mp",
+    "reflex+shotgun": "fn2000_reflex_shotgun_mp",
+    "reflex+silencer": "fn2000_reflex_silencer_mp",
+    "reflex+xmags": "fn2000_reflex_xmags_mp",
+    "shotgun": "fn2000_shotgun_mp",
+    "shotgun+eotech": "fn2000_eotech_shotgun_mp",
+    "shotgun+heartbeat": "fn2000_heartbeat_shotgun_mp",
+    "shotgun+thermal": "fn2000_shotgun_thermal_mp",
+    "shotgun+xmags": "fn2000_shotgun_xmags_mp",
+    "silencer": "fn2000_silencer_mp",
+    "silencer+acog": "fn2000_acog_silencer_mp",
+    "silencer+eotech": "fn2000_eotech_silencer_mp",
+    "silencer+fmj": "fn2000_fmj_silencer_mp",
+    "silencer+gl": "fn2000_gl_silencer_mp",
+    "silencer+heartbeat": "fn2000_heartbeat_silencer_mp",
+    "silencer+shotgun": "fn2000_shotgun_silencer_mp",
+    "silencer+thermal": "fn2000_silencer_thermal_mp",
+    "silencer+xmags": "fn2000_silencer_xmags_mp",
+    "thermal": "fn2000_thermal_mp",
+    "thermal+heartbeat": "fn2000_heartbeat_thermal_mp",
+    "thermal+xmags": "fn2000_thermal_xmags_mp",
+    "xmags": "fn2000_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_fn2000"
+  },
+  {
+   "id": 9,
+   "name": "ak47_mp",
+   "class": "assault_rifle",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.085,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.5,
+   "reload_empty_time": 3.25,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 70,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "gl",
+    "fmj",
+    "shotgun",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "ak47_acog_mp",
+    "acog+fmj": "ak47_acog_fmj_mp",
+    "acog+gl": "ak47_acog_gl_mp",
+    "acog+heartbeat": "ak47_acog_heartbeat_mp",
+    "acog+shotgun": "ak47_acog_shotgun_mp",
+    "acog+xmags": "ak47_acog_xmags_mp",
+    "eotech": "ak47_eotech_mp",
+    "eotech+heartbeat": "ak47_eotech_heartbeat_mp",
+    "eotech+xmags": "ak47_eotech_xmags_mp",
+    "fmj": "ak47_fmj_mp",
+    "fmj+eotech": "ak47_eotech_fmj_mp",
+    "fmj+heartbeat": "ak47_fmj_heartbeat_mp",
+    "fmj+shotgun": "ak47_fmj_shotgun_mp",
+    "fmj+thermal": "ak47_fmj_thermal_mp",
+    "fmj+xmags": "ak47_fmj_xmags_mp",
+    "gl": "ak47_gl_mp",
+    "gl+eotech": "ak47_eotech_gl_mp",
+    "gl+fmj": "ak47_fmj_gl_mp",
+    "gl+heartbeat": "ak47_gl_heartbeat_mp",
+    "gl+thermal": "ak47_gl_thermal_mp",
+    "gl+xmags": "ak47_gl_xmags_mp",
+    "heartbeat": "ak47_heartbeat_mp",
+    "heartbeat+xmags": "ak47_heartbeat_xmags_mp",
+    "reflex": "ak47_reflex_mp",
+    "reflex+fmj": "ak47_fmj_reflex_mp",
+    "reflex+gl": "ak47_gl_reflex_mp",
+    "reflex+heartbeat": "ak47_heartbeat_reflex_mp",
+    "reflex+shotgun": "ak47_reflex_shotgun_mp",
+    "reflex+silencer": "ak47_reflex_silencer_mp",
+    "reflex+xmags": "ak47_reflex_xmags_mp",
+    "shotgun": "ak47_shotgun_mp",
+    "shotgun+eotech": "ak47_eotech_shotgun_mp",
+    "shotgun+heartbeat": "ak47_heartbeat_shotgun_mp",
+    "shotgun+thermal": "ak47_shotgun_thermal_mp",
+    "shotgun+xmags": "ak47_shotgun_xmags_mp",
+    "silencer": "ak47_silencer_mp",
+    "silencer+acog": "ak47_acog_silencer_mp",
+    "silencer+eotech": "ak47_eotech_silencer_mp",
+    "silencer+fmj": "ak47_fmj_silencer_mp",
+    "silencer+gl": "ak47_gl_silencer_mp",
+    "silencer+heartbeat": "ak47_heartbeat_silencer_mp",
+    "silencer+shotgun": "ak47_shotgun_silencer_mp",
+    "silencer+thermal": "ak47_silencer_thermal_mp",
+    "silencer+xmags": "ak47_silencer_xmags_mp",
+    "thermal": "ak47_thermal_mp",
+    "thermal+heartbeat": "ak47_heartbeat_thermal_mp",
+    "thermal+xmags": "ak47_thermal_xmags_mp",
+    "xmags": "ak47_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "gl+xmags": {
+     "mag_size": 45
+    },
+    "heartbeat+xmags": {
+     "mag_size": 45
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "shotgun+xmags": {
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+gl": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+heartbeat": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+shotgun": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 27.78,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_ak47_tactical"
+  },
+  {
+   "id": 10,
+   "name": "ump45_mp",
+   "class": "smg",
+   "damage": 40,
+   "min_damage": 35,
+   "max_damage_range": 16.67,
+   "min_damage_range": 23.61,
+   "pellets": 1,
+   "fire_time": 0.09,
+   "mag_size": 32,
+   "max_reserve": 192,
+   "reload_time": 2.5,
+   "reload_empty_time": 3.03,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "ump45_acog_mp",
+    "acog+fmj": "ump45_acog_fmj_mp",
+    "acog+rof": "ump45_acog_rof_mp",
+    "acog+xmags": "ump45_acog_xmags_mp",
+    "akimbo": "ump45_akimbo_mp",
+    "akimbo+xmags": "ump45_akimbo_xmags_mp",
+    "eotech": "ump45_eotech_mp",
+    "eotech+xmags": "ump45_eotech_xmags_mp",
+    "fmj": "ump45_fmj_mp",
+    "fmj+akimbo": "ump45_akimbo_fmj_mp",
+    "fmj+eotech": "ump45_eotech_fmj_mp",
+    "fmj+rof": "ump45_fmj_rof_mp",
+    "fmj+thermal": "ump45_fmj_thermal_mp",
+    "fmj+xmags": "ump45_fmj_xmags_mp",
+    "reflex": "ump45_reflex_mp",
+    "reflex+fmj": "ump45_fmj_reflex_mp",
+    "reflex+rof": "ump45_reflex_rof_mp",
+    "reflex+silencer": "ump45_reflex_silencer_mp",
+    "reflex+xmags": "ump45_reflex_xmags_mp",
+    "rof": "ump45_rof_mp",
+    "rof+akimbo": "ump45_akimbo_rof_mp",
+    "rof+eotech": "ump45_eotech_rof_mp",
+    "rof+thermal": "ump45_rof_thermal_mp",
+    "rof+xmags": "ump45_rof_xmags_mp",
+    "silencer": "ump45_silencer_mp",
+    "silencer+acog": "ump45_acog_silencer_mp",
+    "silencer+akimbo": "ump45_akimbo_silencer_mp",
+    "silencer+eotech": "ump45_eotech_silencer_mp",
+    "silencer+fmj": "ump45_fmj_silencer_mp",
+    "silencer+rof": "ump45_rof_silencer_mp",
+    "silencer+thermal": "ump45_silencer_thermal_mp",
+    "silencer+xmags": "ump45_silencer_xmags_mp",
+    "thermal": "ump45_thermal_mp",
+    "thermal+xmags": "ump45_thermal_xmags_mp",
+    "xmags": "ump45_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+rof": {
+     "fire_time": 0.072
+    },
+    "acog+xmags": {
+     "mag_size": 48
+    },
+    "akimbo": {
+     "max_reserve": 384
+    },
+    "akimbo+xmags": {
+     "mag_size": 48,
+     "max_reserve": 384
+    },
+    "eotech+xmags": {
+     "mag_size": 48
+    },
+    "fmj+akimbo": {
+     "max_reserve": 384
+    },
+    "fmj+rof": {
+     "fire_time": 0.072
+    },
+    "fmj+xmags": {
+     "mag_size": 48
+    },
+    "reflex+rof": {
+     "fire_time": 0.072
+    },
+    "reflex+silencer": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "reflex+xmags": {
+     "mag_size": 48
+    },
+    "rof": {
+     "fire_time": 0.072
+    },
+    "rof+akimbo": {
+     "fire_time": 0.072,
+     "max_reserve": 384
+    },
+    "rof+eotech": {
+     "fire_time": 0.072
+    },
+    "rof+thermal": {
+     "fire_time": 0.072
+    },
+    "rof+xmags": {
+     "fire_time": 0.072,
+     "mag_size": 48
+    },
+    "silencer": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "silencer+acog": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67,
+     "max_reserve": 384
+    },
+    "silencer+eotech": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "silencer+fmj": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "silencer+rof": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67,
+     "fire_time": 0.072
+    },
+    "silencer+thermal": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67
+    },
+    "silencer+xmags": {
+     "max_damage_range": 11.11,
+     "min_damage_range": 16.67,
+     "mag_size": 48
+    },
+    "thermal+xmags": {
+     "mag_size": 48
+    },
+    "xmags": {
+     "mag_size": 48
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_ump45"
+  },
+  {
+   "id": 11,
+   "name": "mp5k_mp",
+   "class": "smg",
+   "damage": 40,
+   "min_damage": 20,
+   "max_damage_range": 20.83,
+   "min_damage_range": 27.78,
+   "pellets": 1,
+   "fire_time": 0.067,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.53,
+   "reload_empty_time": 3.03,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 4,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "mp5k_acog_mp",
+    "acog+fmj": "mp5k_acog_fmj_mp",
+    "acog+rof": "mp5k_acog_rof_mp",
+    "acog+xmags": "mp5k_acog_xmags_mp",
+    "akimbo": "mp5k_akimbo_mp",
+    "akimbo+xmags": "mp5k_akimbo_xmags_mp",
+    "eotech": "mp5k_eotech_mp",
+    "eotech+xmags": "mp5k_eotech_xmags_mp",
+    "fmj": "mp5k_fmj_mp",
+    "fmj+akimbo": "mp5k_akimbo_fmj_mp",
+    "fmj+eotech": "mp5k_eotech_fmj_mp",
+    "fmj+rof": "mp5k_fmj_rof_mp",
+    "fmj+thermal": "mp5k_fmj_thermal_mp",
+    "fmj+xmags": "mp5k_fmj_xmags_mp",
+    "reflex": "mp5k_reflex_mp",
+    "reflex+fmj": "mp5k_fmj_reflex_mp",
+    "reflex+rof": "mp5k_reflex_rof_mp",
+    "reflex+silencer": "mp5k_reflex_silencer_mp",
+    "reflex+xmags": "mp5k_reflex_xmags_mp",
+    "rof": "mp5k_rof_mp",
+    "rof+akimbo": "mp5k_akimbo_rof_mp",
+    "rof+eotech": "mp5k_eotech_rof_mp",
+    "rof+thermal": "mp5k_rof_thermal_mp",
+    "rof+xmags": "mp5k_rof_xmags_mp",
+    "silencer": "mp5k_silencer_mp",
+    "silencer+acog": "mp5k_acog_silencer_mp",
+    "silencer+akimbo": "mp5k_akimbo_silencer_mp",
+    "silencer+eotech": "mp5k_eotech_silencer_mp",
+    "silencer+fmj": "mp5k_fmj_silencer_mp",
+    "silencer+rof": "mp5k_rof_silencer_mp",
+    "silencer+thermal": "mp5k_silencer_thermal_mp",
+    "silencer+xmags": "mp5k_silencer_xmags_mp",
+    "thermal": "mp5k_thermal_mp",
+    "thermal+xmags": "mp5k_thermal_xmags_mp",
+    "xmags": "mp5k_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+rof": {
+     "fire_time": 0.053
+    },
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "akimbo": {
+     "max_reserve": 360
+    },
+    "akimbo+xmags": {
+     "mag_size": 45,
+     "max_reserve": 360
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+akimbo": {
+     "max_reserve": 360
+    },
+    "fmj+rof": {
+     "fire_time": 0.053
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "reflex+rof": {
+     "fire_time": 0.053
+    },
+    "reflex+silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "rof": {
+     "fire_time": 0.053
+    },
+    "rof+akimbo": {
+     "fire_time": 0.053,
+     "max_reserve": 360
+    },
+    "rof+eotech": {
+     "fire_time": 0.053
+    },
+    "rof+thermal": {
+     "fire_time": 0.053
+    },
+    "rof+xmags": {
+     "fire_time": 0.053,
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+acog": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "max_reserve": 360
+    },
+    "silencer+eotech": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+fmj": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+rof": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "fire_time": 0.053
+    },
+    "silencer+thermal": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+xmags": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_mp5k"
+  },
+  {
+   "id": 12,
+   "name": "kriss_mp",
+   "class": "smg",
+   "damage": 25,
+   "min_damage": 20,
+   "max_damage_range": 20.83,
+   "min_damage_range": 27.78,
+   "pellets": 1,
+   "fire_time": 0.055,
+   "mag_size": 30,
+   "max_reserve": 180,
+   "reload_time": 2.2,
+   "reload_empty_time": 2.76,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 12,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "kriss_acog_mp",
+    "acog+fmj": "kriss_acog_fmj_mp",
+    "acog+rof": "kriss_acog_rof_mp",
+    "acog+xmags": "kriss_acog_xmags_mp",
+    "akimbo": "kriss_akimbo_mp",
+    "akimbo+xmags": "kriss_akimbo_xmags_mp",
+    "eotech": "kriss_eotech_mp",
+    "eotech+xmags": "kriss_eotech_xmags_mp",
+    "fmj": "kriss_fmj_mp",
+    "fmj+akimbo": "kriss_akimbo_fmj_mp",
+    "fmj+eotech": "kriss_eotech_fmj_mp",
+    "fmj+rof": "kriss_fmj_rof_mp",
+    "fmj+thermal": "kriss_fmj_thermal_mp",
+    "fmj+xmags": "kriss_fmj_xmags_mp",
+    "reflex": "kriss_reflex_mp",
+    "reflex+fmj": "kriss_fmj_reflex_mp",
+    "reflex+rof": "kriss_reflex_rof_mp",
+    "reflex+silencer": "kriss_reflex_silencer_mp",
+    "reflex+xmags": "kriss_reflex_xmags_mp",
+    "rof": "kriss_rof_mp",
+    "rof+akimbo": "kriss_akimbo_rof_mp",
+    "rof+eotech": "kriss_eotech_rof_mp",
+    "rof+thermal": "kriss_rof_thermal_mp",
+    "rof+xmags": "kriss_rof_xmags_mp",
+    "silencer": "kriss_silencer_mp",
+    "silencer+acog": "kriss_acog_silencer_mp",
+    "silencer+akimbo": "kriss_akimbo_silencer_mp",
+    "silencer+eotech": "kriss_eotech_silencer_mp",
+    "silencer+fmj": "kriss_fmj_silencer_mp",
+    "silencer+rof": "kriss_rof_silencer_mp",
+    "silencer+thermal": "kriss_silencer_thermal_mp",
+    "silencer+xmags": "kriss_silencer_xmags_mp",
+    "thermal": "kriss_thermal_mp",
+    "thermal+xmags": "kriss_thermal_xmags_mp",
+    "xmags": "kriss_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+rof": {
+     "fire_time": 0.044
+    },
+    "acog+xmags": {
+     "mag_size": 45
+    },
+    "akimbo": {
+     "max_reserve": 360
+    },
+    "akimbo+xmags": {
+     "mag_size": 45,
+     "max_reserve": 360
+    },
+    "eotech+xmags": {
+     "mag_size": 45
+    },
+    "fmj+akimbo": {
+     "max_reserve": 360
+    },
+    "fmj+rof": {
+     "fire_time": 0.044
+    },
+    "fmj+xmags": {
+     "mag_size": 45
+    },
+    "reflex+rof": {
+     "fire_time": 0.044
+    },
+    "reflex+silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "reflex+xmags": {
+     "mag_size": 45
+    },
+    "rof": {
+     "fire_time": 0.044
+    },
+    "rof+akimbo": {
+     "fire_time": 0.044,
+     "max_reserve": 360
+    },
+    "rof+eotech": {
+     "fire_time": 0.044
+    },
+    "rof+thermal": {
+     "fire_time": 0.044
+    },
+    "rof+xmags": {
+     "fire_time": 0.044,
+     "mag_size": 45
+    },
+    "silencer": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "silencer+acog": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83,
+     "max_reserve": 360
+    },
+    "silencer+eotech": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "silencer+fmj": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "silencer+rof": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83,
+     "fire_time": 0.044
+    },
+    "silencer+thermal": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83
+    },
+    "silencer+xmags": {
+     "max_damage_range": 13.89,
+     "min_damage_range": 20.83,
+     "mag_size": 45
+    },
+    "thermal+xmags": {
+     "mag_size": 45
+    },
+    "xmags": {
+     "mag_size": 45
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_kriss_super_v"
+  },
+  {
+   "id": 13,
+   "name": "p90_mp",
+   "class": "smg",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 20.83,
+   "min_damage_range": 27.78,
+   "pellets": 1,
+   "fire_time": 0.065,
+   "mag_size": 50,
+   "max_reserve": 300,
+   "reload_time": 2.76,
+   "reload_empty_time": 3.5,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 24,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "p90_acog_mp",
+    "acog+fmj": "p90_acog_fmj_mp",
+    "acog+rof": "p90_acog_rof_mp",
+    "acog+xmags": "p90_acog_xmags_mp",
+    "akimbo": "p90_akimbo_mp",
+    "akimbo+xmags": "p90_akimbo_xmags_mp",
+    "eotech": "p90_eotech_mp",
+    "eotech+xmags": "p90_eotech_xmags_mp",
+    "fmj": "p90_fmj_mp",
+    "fmj+akimbo": "p90_akimbo_fmj_mp",
+    "fmj+eotech": "p90_eotech_fmj_mp",
+    "fmj+rof": "p90_fmj_rof_mp",
+    "fmj+thermal": "p90_fmj_thermal_mp",
+    "fmj+xmags": "p90_fmj_xmags_mp",
+    "reflex": "p90_reflex_mp",
+    "reflex+fmj": "p90_fmj_reflex_mp",
+    "reflex+rof": "p90_reflex_rof_mp",
+    "reflex+silencer": "p90_reflex_silencer_mp",
+    "reflex+xmags": "p90_reflex_xmags_mp",
+    "rof": "p90_rof_mp",
+    "rof+akimbo": "p90_akimbo_rof_mp",
+    "rof+eotech": "p90_eotech_rof_mp",
+    "rof+thermal": "p90_rof_thermal_mp",
+    "rof+xmags": "p90_rof_xmags_mp",
+    "silencer": "p90_silencer_mp",
+    "silencer+acog": "p90_acog_silencer_mp",
+    "silencer+akimbo": "p90_akimbo_silencer_mp",
+    "silencer+eotech": "p90_eotech_silencer_mp",
+    "silencer+fmj": "p90_fmj_silencer_mp",
+    "silencer+rof": "p90_rof_silencer_mp",
+    "silencer+thermal": "p90_silencer_thermal_mp",
+    "silencer+xmags": "p90_silencer_xmags_mp",
+    "thermal": "p90_thermal_mp",
+    "thermal+xmags": "p90_thermal_xmags_mp",
+    "xmags": "p90_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+rof": {
+     "fire_time": 0.052
+    },
+    "acog+xmags": {
+     "mag_size": 75
+    },
+    "akimbo": {
+     "max_reserve": 600
+    },
+    "akimbo+xmags": {
+     "mag_size": 75,
+     "max_reserve": 600
+    },
+    "eotech+xmags": {
+     "mag_size": 75
+    },
+    "fmj+akimbo": {
+     "max_reserve": 600
+    },
+    "fmj+rof": {
+     "fire_time": 0.052
+    },
+    "fmj+xmags": {
+     "mag_size": 75
+    },
+    "reflex+rof": {
+     "fire_time": 0.052
+    },
+    "reflex+silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "reflex+xmags": {
+     "mag_size": 75
+    },
+    "rof": {
+     "fire_time": 0.052
+    },
+    "rof+akimbo": {
+     "fire_time": 0.052,
+     "max_reserve": 600
+    },
+    "rof+eotech": {
+     "fire_time": 0.052
+    },
+    "rof+thermal": {
+     "fire_time": 0.052
+    },
+    "rof+xmags": {
+     "fire_time": 0.052,
+     "mag_size": 75
+    },
+    "silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+acog": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "max_reserve": 600
+    },
+    "silencer+eotech": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+fmj": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+rof": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "fire_time": 0.052
+    },
+    "silencer+thermal": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+xmags": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "mag_size": 75
+    },
+    "thermal+xmags": {
+     "mag_size": 75
+    },
+    "xmags": {
+     "mag_size": 75
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_p90"
+  },
+  {
+   "id": 14,
+   "name": "uzi_mp",
+   "class": "smg",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 20.83,
+   "min_damage_range": 27.78,
+   "pellets": 1,
+   "fire_time": 0.063,
+   "mag_size": 32,
+   "max_reserve": 192,
+   "reload_time": 2.4,
+   "reload_empty_time": 3.5,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 44,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "uzi_acog_mp",
+    "acog+fmj": "uzi_acog_fmj_mp",
+    "acog+rof": "uzi_acog_rof_mp",
+    "acog+xmags": "uzi_acog_xmags_mp",
+    "akimbo": "uzi_akimbo_mp",
+    "akimbo+xmags": "uzi_akimbo_xmags_mp",
+    "eotech": "uzi_eotech_mp",
+    "eotech+xmags": "uzi_eotech_xmags_mp",
+    "fmj": "uzi_fmj_mp",
+    "fmj+akimbo": "uzi_akimbo_fmj_mp",
+    "fmj+eotech": "uzi_eotech_fmj_mp",
+    "fmj+rof": "uzi_fmj_rof_mp",
+    "fmj+thermal": "uzi_fmj_thermal_mp",
+    "fmj+xmags": "uzi_fmj_xmags_mp",
+    "reflex": "uzi_reflex_mp",
+    "reflex+fmj": "uzi_fmj_reflex_mp",
+    "reflex+rof": "uzi_reflex_rof_mp",
+    "reflex+silencer": "uzi_reflex_silencer_mp",
+    "reflex+xmags": "uzi_reflex_xmags_mp",
+    "rof": "uzi_rof_mp",
+    "rof+akimbo": "uzi_akimbo_rof_mp",
+    "rof+eotech": "uzi_eotech_rof_mp",
+    "rof+thermal": "uzi_rof_thermal_mp",
+    "rof+xmags": "uzi_rof_xmags_mp",
+    "silencer": "uzi_silencer_mp",
+    "silencer+acog": "uzi_acog_silencer_mp",
+    "silencer+akimbo": "uzi_akimbo_silencer_mp",
+    "silencer+eotech": "uzi_eotech_silencer_mp",
+    "silencer+fmj": "uzi_fmj_silencer_mp",
+    "silencer+rof": "uzi_rof_silencer_mp",
+    "silencer+thermal": "uzi_silencer_thermal_mp",
+    "silencer+xmags": "uzi_silencer_xmags_mp",
+    "thermal": "uzi_thermal_mp",
+    "thermal+xmags": "uzi_thermal_xmags_mp",
+    "xmags": "uzi_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+rof": {
+     "fire_time": 0.05
+    },
+    "acog+xmags": {
+     "mag_size": 48
+    },
+    "akimbo": {
+     "max_reserve": 384
+    },
+    "akimbo+xmags": {
+     "mag_size": 48,
+     "max_reserve": 384
+    },
+    "eotech+xmags": {
+     "mag_size": 48
+    },
+    "fmj+akimbo": {
+     "max_reserve": 384
+    },
+    "fmj+rof": {
+     "fire_time": 0.05
+    },
+    "fmj+xmags": {
+     "mag_size": 48
+    },
+    "reflex+rof": {
+     "fire_time": 0.05
+    },
+    "reflex+silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "reflex+xmags": {
+     "mag_size": 48
+    },
+    "rof": {
+     "fire_time": 0.05
+    },
+    "rof+akimbo": {
+     "fire_time": 0.05,
+     "max_reserve": 384
+    },
+    "rof+eotech": {
+     "fire_time": 0.05
+    },
+    "rof+thermal": {
+     "fire_time": 0.05
+    },
+    "rof+xmags": {
+     "fire_time": 0.05,
+     "mag_size": 48
+    },
+    "silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+acog": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "max_reserve": 384
+    },
+    "silencer+eotech": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+fmj": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+rof": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "fire_time": 0.05
+    },
+    "silencer+thermal": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44
+    },
+    "silencer+xmags": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 19.44,
+     "mag_size": 48
+    },
+    "thermal+xmags": {
+     "mag_size": 48
+    },
+    "xmags": {
+     "mag_size": 48
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_mini_uzi"
+  },
+  {
+   "id": 15,
+   "name": "sa80_mp",
+   "class": "lmg",
+   "damage": 40,
+   "min_damage": 40,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.075,
+   "mag_size": 100,
+   "max_reserve": 300,
+   "reload_time": 5.0,
+   "reload_empty_time": 5.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.4,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 0,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 10.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "grip",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "sa80_acog_mp",
+    "acog+fmj": "sa80_acog_fmj_mp",
+    "acog+grip": "sa80_acog_grip_mp",
+    "acog+heartbeat": "sa80_acog_heartbeat_mp",
+    "acog+xmags": "sa80_acog_xmags_mp",
+    "eotech": "sa80_eotech_mp",
+    "eotech+heartbeat": "sa80_eotech_heartbeat_mp",
+    "eotech+xmags": "sa80_eotech_xmags_mp",
+    "fmj": "sa80_fmj_mp",
+    "fmj+eotech": "sa80_eotech_fmj_mp",
+    "fmj+grip": "sa80_fmj_grip_mp",
+    "fmj+heartbeat": "sa80_fmj_heartbeat_mp",
+    "fmj+thermal": "sa80_fmj_thermal_mp",
+    "fmj+xmags": "sa80_fmj_xmags_mp",
+    "grip": "sa80_grip_mp",
+    "grip+eotech": "sa80_eotech_grip_mp",
+    "grip+heartbeat": "sa80_grip_heartbeat_mp",
+    "grip+thermal": "sa80_grip_thermal_mp",
+    "grip+xmags": "sa80_grip_xmags_mp",
+    "heartbeat": "sa80_heartbeat_mp",
+    "heartbeat+xmags": "sa80_heartbeat_xmags_mp",
+    "reflex": "sa80_reflex_mp",
+    "reflex+fmj": "sa80_fmj_reflex_mp",
+    "reflex+grip": "sa80_grip_reflex_mp",
+    "reflex+heartbeat": "sa80_heartbeat_reflex_mp",
+    "reflex+silencer": "sa80_reflex_silencer_mp",
+    "reflex+xmags": "sa80_reflex_xmags_mp",
+    "silencer": "sa80_silencer_mp",
+    "silencer+acog": "sa80_acog_silencer_mp",
+    "silencer+eotech": "sa80_eotech_silencer_mp",
+    "silencer+fmj": "sa80_fmj_silencer_mp",
+    "silencer+grip": "sa80_grip_silencer_mp",
+    "silencer+heartbeat": "sa80_heartbeat_silencer_mp",
+    "silencer+thermal": "sa80_silencer_thermal_mp",
+    "silencer+xmags": "sa80_silencer_xmags_mp",
+    "thermal": "sa80_thermal_mp",
+    "thermal+heartbeat": "sa80_heartbeat_thermal_mp",
+    "thermal+xmags": "sa80_thermal_xmags_mp",
+    "xmags": "sa80_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 200
+    },
+    "eotech+xmags": {
+     "mag_size": 200
+    },
+    "fmj+xmags": {
+     "mag_size": 200
+    },
+    "grip+xmags": {
+     "mag_size": 200
+    },
+    "heartbeat+xmags": {
+     "mag_size": 200
+    },
+    "reflex+silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "reflex+xmags": {
+     "mag_size": 200
+    },
+    "silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+acog": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+eotech": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+fmj": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+grip": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+heartbeat": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+thermal": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+xmags": {
+     "damage": 30,
+     "min_damage": 30,
+     "mag_size": 200
+    },
+    "thermal+xmags": {
+     "mag_size": 200
+    },
+    "xmags": {
+     "mag_size": 200
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_sa80_lmg"
+  },
+  {
+   "id": 16,
+   "name": "rpd_mp",
+   "class": "lmg",
+   "damage": 40,
+   "min_damage": 40,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.085,
+   "mag_size": 100,
+   "max_reserve": 300,
+   "reload_time": 9.7,
+   "reload_empty_time": 9.7,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.4,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 4,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 10.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "grip",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "rpd_acog_mp",
+    "acog+fmj": "rpd_acog_fmj_mp",
+    "acog+grip": "rpd_acog_grip_mp",
+    "acog+heartbeat": "rpd_acog_heartbeat_mp",
+    "acog+xmags": "rpd_acog_xmags_mp",
+    "eotech": "rpd_eotech_mp",
+    "eotech+heartbeat": "rpd_eotech_heartbeat_mp",
+    "eotech+xmags": "rpd_eotech_xmags_mp",
+    "fmj": "rpd_fmj_mp",
+    "fmj+eotech": "rpd_eotech_fmj_mp",
+    "fmj+grip": "rpd_fmj_grip_mp",
+    "fmj+heartbeat": "rpd_fmj_heartbeat_mp",
+    "fmj+thermal": "rpd_fmj_thermal_mp",
+    "fmj+xmags": "rpd_fmj_xmags_mp",
+    "grip": "rpd_grip_mp",
+    "grip+eotech": "rpd_eotech_grip_mp",
+    "grip+heartbeat": "rpd_grip_heartbeat_mp",
+    "grip+thermal": "rpd_grip_thermal_mp",
+    "grip+xmags": "rpd_grip_xmags_mp",
+    "heartbeat": "rpd_heartbeat_mp",
+    "heartbeat+xmags": "rpd_heartbeat_xmags_mp",
+    "reflex": "rpd_reflex_mp",
+    "reflex+fmj": "rpd_fmj_reflex_mp",
+    "reflex+grip": "rpd_grip_reflex_mp",
+    "reflex+heartbeat": "rpd_heartbeat_reflex_mp",
+    "reflex+silencer": "rpd_reflex_silencer_mp",
+    "reflex+xmags": "rpd_reflex_xmags_mp",
+    "silencer": "rpd_silencer_mp",
+    "silencer+acog": "rpd_acog_silencer_mp",
+    "silencer+eotech": "rpd_eotech_silencer_mp",
+    "silencer+fmj": "rpd_fmj_silencer_mp",
+    "silencer+grip": "rpd_grip_silencer_mp",
+    "silencer+heartbeat": "rpd_heartbeat_silencer_mp",
+    "silencer+thermal": "rpd_silencer_thermal_mp",
+    "silencer+xmags": "rpd_silencer_xmags_mp",
+    "thermal": "rpd_thermal_mp",
+    "thermal+heartbeat": "rpd_heartbeat_thermal_mp",
+    "thermal+xmags": "rpd_thermal_xmags_mp",
+    "xmags": "rpd_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 200
+    },
+    "eotech+xmags": {
+     "mag_size": 200
+    },
+    "fmj+xmags": {
+     "mag_size": 200
+    },
+    "grip+xmags": {
+     "mag_size": 200
+    },
+    "heartbeat+xmags": {
+     "mag_size": 200
+    },
+    "reflex+silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "reflex+xmags": {
+     "mag_size": 200
+    },
+    "silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+acog": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+eotech": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+fmj": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+grip": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+heartbeat": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+thermal": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+xmags": {
+     "damage": 30,
+     "min_damage": 30,
+     "mag_size": 200
+    },
+    "thermal+xmags": {
+     "mag_size": 200
+    },
+    "xmags": {
+     "mag_size": 200
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_rpd"
+  },
+  {
+   "id": 17,
+   "name": "mg4_mp",
+   "class": "lmg",
+   "damage": 30,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.07,
+   "mag_size": 100,
+   "max_reserve": 300,
+   "reload_time": 9.7,
+   "reload_empty_time": 9.7,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.4,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 16,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 10.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "grip",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "mg4_acog_mp",
+    "acog+fmj": "mg4_acog_fmj_mp",
+    "acog+grip": "mg4_acog_grip_mp",
+    "acog+heartbeat": "mg4_acog_heartbeat_mp",
+    "acog+xmags": "mg4_acog_xmags_mp",
+    "eotech": "mg4_eotech_mp",
+    "eotech+heartbeat": "mg4_eotech_heartbeat_mp",
+    "eotech+xmags": "mg4_eotech_xmags_mp",
+    "fmj": "mg4_fmj_mp",
+    "fmj+eotech": "mg4_eotech_fmj_mp",
+    "fmj+grip": "mg4_fmj_grip_mp",
+    "fmj+heartbeat": "mg4_fmj_heartbeat_mp",
+    "fmj+thermal": "mg4_fmj_thermal_mp",
+    "fmj+xmags": "mg4_fmj_xmags_mp",
+    "grip": "mg4_grip_mp",
+    "grip+eotech": "mg4_eotech_grip_mp",
+    "grip+heartbeat": "mg4_grip_heartbeat_mp",
+    "grip+thermal": "mg4_grip_thermal_mp",
+    "grip+xmags": "mg4_grip_xmags_mp",
+    "heartbeat": "mg4_heartbeat_mp",
+    "heartbeat+xmags": "mg4_heartbeat_xmags_mp",
+    "reflex": "mg4_reflex_mp",
+    "reflex+fmj": "mg4_fmj_reflex_mp",
+    "reflex+grip": "mg4_grip_reflex_mp",
+    "reflex+heartbeat": "mg4_heartbeat_reflex_mp",
+    "reflex+silencer": "mg4_reflex_silencer_mp",
+    "reflex+xmags": "mg4_reflex_xmags_mp",
+    "silencer": "mg4_silencer_mp",
+    "silencer+acog": "mg4_acog_silencer_mp",
+    "silencer+eotech": "mg4_eotech_silencer_mp",
+    "silencer+fmj": "mg4_fmj_silencer_mp",
+    "silencer+grip": "mg4_grip_silencer_mp",
+    "silencer+heartbeat": "mg4_heartbeat_silencer_mp",
+    "silencer+thermal": "mg4_silencer_thermal_mp",
+    "silencer+xmags": "mg4_silencer_xmags_mp",
+    "thermal": "mg4_thermal_mp",
+    "thermal+heartbeat": "mg4_heartbeat_thermal_mp",
+    "thermal+xmags": "mg4_thermal_xmags_mp",
+    "xmags": "mg4_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 200
+    },
+    "eotech+xmags": {
+     "mag_size": 200
+    },
+    "fmj+xmags": {
+     "mag_size": 200
+    },
+    "grip+xmags": {
+     "mag_size": 200
+    },
+    "heartbeat+xmags": {
+     "mag_size": 200
+    },
+    "reflex+silencer": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "reflex+xmags": {
+     "mag_size": 200
+    },
+    "silencer": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+acog": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+eotech": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+fmj": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+grip": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+heartbeat": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+thermal": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67
+    },
+    "silencer+xmags": {
+     "damage": 20,
+     "min_damage": 20,
+     "max_damage_range": 27.78,
+     "min_damage_range": 41.67,
+     "mag_size": 200
+    },
+    "thermal+xmags": {
+     "mag_size": 200
+    },
+    "xmags": {
+     "mag_size": 200
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_mg4"
+  },
+  {
+   "id": 18,
+   "name": "aug_mp",
+   "class": "lmg",
+   "damage": 40,
+   "min_damage": 40,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.088,
+   "mag_size": 42,
+   "max_reserve": 252,
+   "reload_time": 3.36,
+   "reload_empty_time": 4.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.4,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 32,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 10.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "grip",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "aug_acog_mp",
+    "acog+fmj": "aug_acog_fmj_mp",
+    "acog+grip": "aug_acog_grip_mp",
+    "acog+heartbeat": "aug_acog_heartbeat_mp",
+    "acog+xmags": "aug_acog_xmags_mp",
+    "eotech": "aug_eotech_mp",
+    "eotech+heartbeat": "aug_eotech_heartbeat_mp",
+    "eotech+xmags": "aug_eotech_xmags_mp",
+    "fmj": "aug_fmj_mp",
+    "fmj+eotech": "aug_eotech_fmj_mp",
+    "fmj+grip": "aug_fmj_grip_mp",
+    "fmj+heartbeat": "aug_fmj_heartbeat_mp",
+    "fmj+thermal": "aug_fmj_thermal_mp",
+    "fmj+xmags": "aug_fmj_xmags_mp",
+    "grip": "aug_grip_mp",
+    "grip+eotech": "aug_eotech_grip_mp",
+    "grip+heartbeat": "aug_grip_heartbeat_mp",
+    "grip+thermal": "aug_grip_thermal_mp",
+    "grip+xmags": "aug_grip_xmags_mp",
+    "heartbeat": "aug_heartbeat_mp",
+    "heartbeat+xmags": "aug_heartbeat_xmags_mp",
+    "reflex": "aug_reflex_mp",
+    "reflex+fmj": "aug_fmj_reflex_mp",
+    "reflex+grip": "aug_grip_reflex_mp",
+    "reflex+heartbeat": "aug_heartbeat_reflex_mp",
+    "reflex+silencer": "aug_reflex_silencer_mp",
+    "reflex+xmags": "aug_reflex_xmags_mp",
+    "silencer": "aug_silencer_mp",
+    "silencer+acog": "aug_acog_silencer_mp",
+    "silencer+eotech": "aug_eotech_silencer_mp",
+    "silencer+fmj": "aug_fmj_silencer_mp",
+    "silencer+grip": "aug_grip_silencer_mp",
+    "silencer+heartbeat": "aug_heartbeat_silencer_mp",
+    "silencer+thermal": "aug_silencer_thermal_mp",
+    "silencer+xmags": "aug_silencer_xmags_mp",
+    "thermal": "aug_thermal_mp",
+    "thermal+heartbeat": "aug_heartbeat_thermal_mp",
+    "thermal+xmags": "aug_thermal_xmags_mp",
+    "xmags": "aug_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 63
+    },
+    "eotech+xmags": {
+     "mag_size": 63
+    },
+    "fmj+xmags": {
+     "mag_size": 63
+    },
+    "grip+xmags": {
+     "mag_size": 63
+    },
+    "heartbeat+xmags": {
+     "mag_size": 63
+    },
+    "reflex+silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "reflex+xmags": {
+     "mag_size": 63
+    },
+    "silencer": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+acog": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+eotech": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+fmj": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+grip": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+heartbeat": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+thermal": {
+     "damage": 30,
+     "min_damage": 30
+    },
+    "silencer+xmags": {
+     "damage": 30,
+     "min_damage": 30,
+     "mag_size": 63
+    },
+    "thermal+xmags": {
+     "mag_size": 63
+    },
+    "xmags": {
+     "mag_size": 63
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_steyr"
+  },
+  {
+   "id": 19,
+   "name": "m240_mp",
+   "class": "lmg",
+   "damage": 30,
+   "min_damage": 30,
+   "max_damage_range": 41.67,
+   "min_damage_range": 55.56,
+   "pellets": 1,
+   "fire_time": 0.065,
+   "mag_size": 100,
+   "max_reserve": 300,
+   "reload_time": 7.75,
+   "reload_empty_time": 7.75,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.4,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 52,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 10.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "acog",
+    "fmj",
+    "grip",
+    "eotech",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "m240_acog_mp",
+    "acog+fmj": "m240_acog_fmj_mp",
+    "acog+grip": "m240_acog_grip_mp",
+    "acog+heartbeat": "m240_acog_heartbeat_mp",
+    "acog+xmags": "m240_acog_xmags_mp",
+    "eotech": "m240_eotech_mp",
+    "eotech+heartbeat": "m240_eotech_heartbeat_mp",
+    "eotech+xmags": "m240_eotech_xmags_mp",
+    "fmj": "m240_fmj_mp",
+    "fmj+eotech": "m240_eotech_fmj_mp",
+    "fmj+grip": "m240_fmj_grip_mp",
+    "fmj+heartbeat": "m240_fmj_heartbeat_mp",
+    "fmj+thermal": "m240_fmj_thermal_mp",
+    "fmj+xmags": "m240_fmj_xmags_mp",
+    "grip": "m240_grip_mp",
+    "grip+eotech": "m240_eotech_grip_mp",
+    "grip+heartbeat": "m240_grip_heartbeat_mp",
+    "grip+thermal": "m240_grip_thermal_mp",
+    "grip+xmags": "m240_grip_xmags_mp",
+    "heartbeat": "m240_heartbeat_mp",
+    "heartbeat+xmags": "m240_heartbeat_xmags_mp",
+    "reflex": "m240_reflex_mp",
+    "reflex+fmj": "m240_fmj_reflex_mp",
+    "reflex+grip": "m240_grip_reflex_mp",
+    "reflex+heartbeat": "m240_heartbeat_reflex_mp",
+    "reflex+silencer": "m240_reflex_silencer_mp",
+    "reflex+xmags": "m240_reflex_xmags_mp",
+    "silencer": "m240_silencer_mp",
+    "silencer+acog": "m240_acog_silencer_mp",
+    "silencer+eotech": "m240_eotech_silencer_mp",
+    "silencer+fmj": "m240_fmj_silencer_mp",
+    "silencer+grip": "m240_grip_silencer_mp",
+    "silencer+heartbeat": "m240_heartbeat_silencer_mp",
+    "silencer+thermal": "m240_silencer_thermal_mp",
+    "silencer+xmags": "m240_silencer_xmags_mp",
+    "thermal": "m240_thermal_mp",
+    "thermal+heartbeat": "m240_heartbeat_thermal_mp",
+    "thermal+xmags": "m240_thermal_xmags_mp",
+    "xmags": "m240_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 200
+    },
+    "eotech+xmags": {
+     "mag_size": 200
+    },
+    "fmj+xmags": {
+     "mag_size": 200
+    },
+    "grip+xmags": {
+     "mag_size": 200
+    },
+    "heartbeat+xmags": {
+     "mag_size": 200
+    },
+    "reflex+silencer": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "reflex+xmags": {
+     "mag_size": 200
+    },
+    "silencer": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+acog": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+eotech": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+fmj": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+grip": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+heartbeat": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+thermal": {
+     "damage": 20,
+     "min_damage": 20
+    },
+    "silencer+xmags": {
+     "damage": 20,
+     "min_damage": 20,
+     "mag_size": 200
+    },
+    "thermal+xmags": {
+     "mag_size": 200
+    },
+    "xmags": {
+     "mag_size": 200
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_m240"
+  },
+  {
+   "id": 20,
+   "name": "cheytac_mp",
+   "class": "sniper",
+   "damage": 70,
+   "min_damage": 70,
+   "max_damage_range": 111.11,
+   "min_damage_range": 138.89,
+   "pellets": 1,
+   "fire_time": 1.2,
+   "mag_size": 5,
+   "max_reserve": 40,
+   "reload_time": 2.268,
+   "reload_empty_time": 3.867,
+   "move_speed_scale": 0.9,
+   "ads_move_speed_scale": 0.3,
+   "location_multipliers": {
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.5,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 1,
+   "hip_spread_min": 10.0,
+   "hip_spread_max": 15.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "acog",
+    "fmj",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "cheytac_acog_mp",
+    "acog+fmj": "cheytac_acog_fmj_mp",
+    "acog+heartbeat": "cheytac_acog_heartbeat_mp",
+    "acog+xmags": "cheytac_acog_xmags_mp",
+    "fmj": "cheytac_fmj_mp",
+    "fmj+heartbeat": "cheytac_fmj_heartbeat_mp",
+    "fmj+thermal": "cheytac_fmj_thermal_mp",
+    "fmj+xmags": "cheytac_fmj_xmags_mp",
+    "heartbeat": "cheytac_heartbeat_mp",
+    "heartbeat+xmags": "cheytac_heartbeat_xmags_mp",
+    "silencer": "cheytac_silencer_mp",
+    "silencer+acog": "cheytac_acog_silencer_mp",
+    "silencer+fmj": "cheytac_fmj_silencer_mp",
+    "silencer+heartbeat": "cheytac_heartbeat_silencer_mp",
+    "silencer+thermal": "cheytac_silencer_thermal_mp",
+    "silencer+xmags": "cheytac_silencer_xmags_mp",
+    "thermal": "cheytac_thermal_mp",
+    "thermal+heartbeat": "cheytac_heartbeat_thermal_mp",
+    "thermal+xmags": "cheytac_thermal_xmags_mp",
+    "xmags": "cheytac_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 10
+    },
+    "fmj+xmags": {
+     "mag_size": 10
+    },
+    "heartbeat+xmags": {
+     "mag_size": 10
+    },
+    "silencer": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+acog": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+fmj": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+heartbeat": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+thermal": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+xmags": {
+     "damage": 50,
+     "min_damage": 50,
+     "mag_size": 10
+    },
+    "thermal+xmags": {
+     "mag_size": 10
+    },
+    "xmags": {
+     "mag_size": 10
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_cheytac"
+  },
+  {
+   "id": 21,
+   "name": "barrett_mp",
+   "class": "sniper",
+   "damage": 70,
+   "min_damage": 70,
+   "max_damage_range": 111.11,
+   "min_damage_range": 138.89,
+   "pellets": 1,
+   "fire_time": 0.3,
+   "mag_size": 10,
+   "max_reserve": 60,
+   "reload_time": 3.917,
+   "reload_empty_time": 4.25,
+   "move_speed_scale": 0.9,
+   "ads_move_speed_scale": 0.3,
+   "location_multipliers": {
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.5,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 4,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 10.0,
+   "hip_spread_max": 15.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "acog",
+    "fmj",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "barrett_acog_mp",
+    "acog+fmj": "barrett_acog_fmj_mp",
+    "acog+heartbeat": "barrett_acog_heartbeat_mp",
+    "acog+xmags": "barrett_acog_xmags_mp",
+    "fmj": "barrett_fmj_mp",
+    "fmj+heartbeat": "barrett_fmj_heartbeat_mp",
+    "fmj+thermal": "barrett_fmj_thermal_mp",
+    "fmj+xmags": "barrett_fmj_xmags_mp",
+    "heartbeat": "barrett_heartbeat_mp",
+    "heartbeat+xmags": "barrett_heartbeat_xmags_mp",
+    "silencer": "barrett_silencer_mp",
+    "silencer+acog": "barrett_acog_silencer_mp",
+    "silencer+fmj": "barrett_fmj_silencer_mp",
+    "silencer+heartbeat": "barrett_heartbeat_silencer_mp",
+    "silencer+thermal": "barrett_silencer_thermal_mp",
+    "silencer+xmags": "barrett_silencer_xmags_mp",
+    "thermal": "barrett_thermal_mp",
+    "thermal+heartbeat": "barrett_heartbeat_thermal_mp",
+    "thermal+xmags": "barrett_thermal_xmags_mp",
+    "xmags": "barrett_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 15
+    },
+    "fmj+xmags": {
+     "mag_size": 15
+    },
+    "heartbeat+xmags": {
+     "mag_size": 15
+    },
+    "silencer": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+acog": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+fmj": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+heartbeat": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+thermal": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+xmags": {
+     "damage": 50,
+     "min_damage": 50,
+     "mag_size": 15
+    },
+    "thermal+xmags": {
+     "mag_size": 15
+    },
+    "xmags": {
+     "mag_size": 15
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_m82"
+  },
+  {
+   "id": 22,
+   "name": "wa2000_mp",
+   "class": "sniper",
+   "damage": 70,
+   "min_damage": 70,
+   "max_damage_range": 111.11,
+   "min_damage_range": 138.89,
+   "pellets": 1,
+   "fire_time": 0.2308,
+   "mag_size": 6,
+   "max_reserve": 48,
+   "reload_time": 3.3,
+   "reload_empty_time": 3.9,
+   "move_speed_scale": 0.9,
+   "ads_move_speed_scale": 0.3,
+   "location_multipliers": {
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.5,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 36,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 10.0,
+   "hip_spread_max": 15.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "acog",
+    "fmj",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "wa2000_acog_mp",
+    "acog+fmj": "wa2000_acog_fmj_mp",
+    "acog+heartbeat": "wa2000_acog_heartbeat_mp",
+    "acog+xmags": "wa2000_acog_xmags_mp",
+    "fmj": "wa2000_fmj_mp",
+    "fmj+heartbeat": "wa2000_fmj_heartbeat_mp",
+    "fmj+thermal": "wa2000_fmj_thermal_mp",
+    "fmj+xmags": "wa2000_fmj_xmags_mp",
+    "heartbeat": "wa2000_heartbeat_mp",
+    "heartbeat+xmags": "wa2000_heartbeat_xmags_mp",
+    "silencer": "wa2000_silencer_mp",
+    "silencer+acog": "wa2000_acog_silencer_mp",
+    "silencer+fmj": "wa2000_fmj_silencer_mp",
+    "silencer+heartbeat": "wa2000_heartbeat_silencer_mp",
+    "silencer+thermal": "wa2000_silencer_thermal_mp",
+    "silencer+xmags": "wa2000_silencer_xmags_mp",
+    "thermal": "wa2000_thermal_mp",
+    "thermal+heartbeat": "wa2000_heartbeat_thermal_mp",
+    "thermal+xmags": "wa2000_thermal_xmags_mp",
+    "xmags": "wa2000_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 12
+    },
+    "fmj+xmags": {
+     "mag_size": 12
+    },
+    "heartbeat+xmags": {
+     "mag_size": 12
+    },
+    "silencer": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+acog": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+fmj": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+heartbeat": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+thermal": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+xmags": {
+     "damage": 50,
+     "min_damage": 50,
+     "mag_size": 12
+    },
+    "thermal+xmags": {
+     "mag_size": 12
+    },
+    "xmags": {
+     "mag_size": 12
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_wa2000"
+  },
+  {
+   "id": 23,
+   "name": "m21_mp",
+   "class": "sniper",
+   "damage": 70,
+   "min_damage": 70,
+   "max_damage_range": 111.11,
+   "min_damage_range": 138.89,
+   "pellets": 1,
+   "fire_time": 0.2,
+   "mag_size": 10,
+   "max_reserve": 60,
+   "reload_time": 2.67,
+   "reload_empty_time": 3.5,
+   "move_speed_scale": 0.9,
+   "ads_move_speed_scale": 0.3,
+   "location_multipliers": {
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.5,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 56,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 10.0,
+   "hip_spread_max": 15.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "acog",
+    "fmj",
+    "thermal",
+    "heartbeat",
+    "xmags"
+   ],
+   "variants": {
+    "acog": "m21_acog_mp",
+    "acog+fmj": "m21_acog_fmj_mp",
+    "acog+heartbeat": "m21_acog_heartbeat_mp",
+    "acog+xmags": "m21_acog_xmags_mp",
+    "fmj": "m21_fmj_mp",
+    "fmj+heartbeat": "m21_fmj_heartbeat_mp",
+    "fmj+thermal": "m21_fmj_thermal_mp",
+    "fmj+xmags": "m21_fmj_xmags_mp",
+    "heartbeat": "m21_heartbeat_mp",
+    "heartbeat+xmags": "m21_heartbeat_xmags_mp",
+    "silencer": "m21_silencer_mp",
+    "silencer+acog": "m21_acog_silencer_mp",
+    "silencer+fmj": "m21_fmj_silencer_mp",
+    "silencer+heartbeat": "m21_heartbeat_silencer_mp",
+    "silencer+thermal": "m21_silencer_thermal_mp",
+    "silencer+xmags": "m21_silencer_xmags_mp",
+    "thermal": "m21_thermal_mp",
+    "thermal+heartbeat": "m21_heartbeat_thermal_mp",
+    "thermal+xmags": "m21_thermal_xmags_mp",
+    "xmags": "m21_xmags_mp"
+   },
+   "variant_stats": {
+    "acog+xmags": {
+     "mag_size": 15
+    },
+    "fmj+xmags": {
+     "mag_size": 15
+    },
+    "heartbeat+xmags": {
+     "mag_size": 15
+    },
+    "silencer": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+acog": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+fmj": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+heartbeat": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+thermal": {
+     "damage": 50,
+     "min_damage": 50
+    },
+    "silencer+xmags": {
+     "damage": 50,
+     "min_damage": 50,
+     "mag_size": 15
+    },
+    "thermal+xmags": {
+     "mag_size": 15
+    },
+    "xmags": {
+     "mag_size": 15
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_m14_ebr"
+  },
+  {
+   "id": 24,
+   "name": "spas12_mp",
+   "class": "shotgun",
+   "damage": 40,
+   "min_damage": 20,
+   "max_damage_range": 11.11,
+   "min_damage_range": 19.44,
+   "pellets": 8,
+   "fire_time": 0.937,
+   "mag_size": 8,
+   "max_reserve": 64,
+   "reload_time": 0.667,
+   "reload_empty_time": 0.667,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 1,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "grip",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "eotech": "spas12_eotech_mp",
+    "eotech+xmags": "spas12_eotech_xmags_mp",
+    "fmj": "spas12_fmj_mp",
+    "fmj+eotech": "spas12_eotech_fmj_mp",
+    "fmj+grip": "spas12_fmj_grip_mp",
+    "fmj+xmags": "spas12_fmj_xmags_mp",
+    "grip": "spas12_grip_mp",
+    "grip+eotech": "spas12_eotech_grip_mp",
+    "grip+xmags": "spas12_grip_xmags_mp",
+    "reflex": "spas12_reflex_mp",
+    "reflex+fmj": "spas12_fmj_reflex_mp",
+    "reflex+grip": "spas12_grip_reflex_mp",
+    "reflex+silencer": "spas12_reflex_silencer_mp",
+    "reflex+xmags": "spas12_reflex_xmags_mp",
+    "silencer": "spas12_silencer_mp",
+    "silencer+eotech": "spas12_eotech_silencer_mp",
+    "silencer+fmj": "spas12_fmj_silencer_mp",
+    "silencer+grip": "spas12_grip_silencer_mp",
+    "silencer+xmags": "spas12_silencer_xmags_mp",
+    "xmags": "spas12_xmags_mp"
+   },
+   "variant_stats": {
+    "eotech+xmags": {
+     "mag_size": 16
+    },
+    "fmj+xmags": {
+     "mag_size": 16
+    },
+    "grip+xmags": {
+     "mag_size": 16
+    },
+    "reflex+silencer": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5
+    },
+    "reflex+xmags": {
+     "mag_size": 16
+    },
+    "silencer": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5
+    },
+    "silencer+eotech": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5
+    },
+    "silencer+fmj": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5
+    },
+    "silencer+grip": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5
+    },
+    "silencer+xmags": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 12.5,
+     "mag_size": 16
+    },
+    "xmags": {
+     "mag_size": 16
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_spas12"
+  },
+  {
+   "id": 25,
+   "name": "aa12_mp",
+   "class": "shotgun",
+   "damage": 20,
+   "min_damage": 15,
+   "max_damage_range": 8.33,
+   "min_damage_range": 13.89,
+   "pellets": 8,
+   "fire_time": 0.15,
+   "mag_size": 8,
+   "max_reserve": 32,
+   "reload_time": 2.75,
+   "reload_empty_time": 3.583,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 12,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 6.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "grip",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "eotech": "aa12_eotech_mp",
+    "eotech+xmags": "aa12_eotech_xmags_mp",
+    "fmj": "aa12_fmj_mp",
+    "fmj+eotech": "aa12_eotech_fmj_mp",
+    "fmj+grip": "aa12_fmj_grip_mp",
+    "fmj+xmags": "aa12_fmj_xmags_mp",
+    "grip": "aa12_grip_mp",
+    "grip+eotech": "aa12_eotech_grip_mp",
+    "grip+xmags": "aa12_grip_xmags_mp",
+    "reflex": "aa12_reflex_mp",
+    "reflex+fmj": "aa12_fmj_reflex_mp",
+    "reflex+grip": "aa12_grip_reflex_mp",
+    "reflex+silencer": "aa12_reflex_silencer_mp",
+    "reflex+xmags": "aa12_reflex_xmags_mp",
+    "silencer": "aa12_silencer_mp",
+    "silencer+eotech": "aa12_eotech_silencer_mp",
+    "silencer+fmj": "aa12_fmj_silencer_mp",
+    "silencer+grip": "aa12_grip_silencer_mp",
+    "silencer+xmags": "aa12_silencer_xmags_mp",
+    "xmags": "aa12_xmags_mp"
+   },
+   "variant_stats": {
+    "eotech+xmags": {
+     "mag_size": 16
+    },
+    "fmj+xmags": {
+     "mag_size": 16
+    },
+    "grip+xmags": {
+     "mag_size": 16
+    },
+    "reflex+silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "reflex+xmags": {
+     "mag_size": 16
+    },
+    "silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+eotech": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+fmj": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+grip": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+xmags": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33,
+     "mag_size": 16
+    },
+    "xmags": {
+     "mag_size": 16
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_aa12"
+  },
+  {
+   "id": 26,
+   "name": "striker_mp",
+   "class": "shotgun",
+   "damage": 25,
+   "min_damage": 15,
+   "max_damage_range": 8.33,
+   "min_damage_range": 16.67,
+   "pellets": 6,
+   "fire_time": 0.2308,
+   "mag_size": 12,
+   "max_reserve": 60,
+   "reload_time": 0.666,
+   "reload_empty_time": 0.666,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 34,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "grip",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "eotech": "striker_eotech_mp",
+    "eotech+xmags": "striker_eotech_xmags_mp",
+    "fmj": "striker_fmj_mp",
+    "fmj+eotech": "striker_eotech_fmj_mp",
+    "fmj+grip": "striker_fmj_grip_mp",
+    "fmj+xmags": "striker_fmj_xmags_mp",
+    "grip": "striker_grip_mp",
+    "grip+eotech": "striker_eotech_grip_mp",
+    "grip+xmags": "striker_grip_xmags_mp",
+    "reflex": "striker_reflex_mp",
+    "reflex+fmj": "striker_fmj_reflex_mp",
+    "reflex+grip": "striker_grip_reflex_mp",
+    "reflex+silencer": "striker_reflex_silencer_mp",
+    "reflex+xmags": "striker_reflex_xmags_mp",
+    "silencer": "striker_silencer_mp",
+    "silencer+eotech": "striker_eotech_silencer_mp",
+    "silencer+fmj": "striker_fmj_silencer_mp",
+    "silencer+grip": "striker_grip_silencer_mp",
+    "silencer+xmags": "striker_silencer_xmags_mp",
+    "xmags": "striker_xmags_mp"
+   },
+   "variant_stats": {
+    "eotech+xmags": {
+     "mag_size": 18
+    },
+    "fmj+xmags": {
+     "mag_size": 18
+    },
+    "grip+xmags": {
+     "mag_size": 18
+    },
+    "reflex+silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11
+    },
+    "reflex+xmags": {
+     "mag_size": 18
+    },
+    "silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11
+    },
+    "silencer+eotech": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11
+    },
+    "silencer+fmj": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11
+    },
+    "silencer+grip": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11
+    },
+    "silencer+xmags": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 11.11,
+     "mag_size": 18
+    },
+    "xmags": {
+     "mag_size": 18
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_striker"
+  },
+  {
+   "id": 27,
+   "name": "ranger_mp",
+   "class": "shotgun",
+   "damage": 75,
+   "min_damage": 35,
+   "max_damage_range": 5.56,
+   "min_damage_range": 11.11,
+   "pellets": 6,
+   "fire_time": 0.15,
+   "mag_size": 2,
+   "max_reserve": 40,
+   "reload_time": 2.53,
+   "reload_empty_time": 2.53,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 42,
+   "starter": false,
+   "fire_type": 5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "fmj",
+    "akimbo"
+   ],
+   "variants": {
+    "akimbo": "ranger_akimbo_mp",
+    "fmj": "ranger_fmj_mp",
+    "fmj+akimbo": "ranger_akimbo_fmj_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 80,
+     "reload_time": 4.0,
+     "reload_empty_time": 4.0
+    },
+    "fmj+akimbo": {
+     "max_reserve": 80,
+     "reload_time": 4.0,
+     "reload_empty_time": 4.0
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 28,
+   "name": "m1014_mp",
+   "class": "shotgun",
+   "damage": 40,
+   "min_damage": 20,
+   "max_damage_range": 8.33,
+   "min_damage_range": 13.89,
+   "pellets": 8,
+   "fire_time": 0.3,
+   "mag_size": 4,
+   "max_reserve": 40,
+   "reload_time": 0.567,
+   "reload_empty_time": 0.567,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 54,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "grip",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "eotech": "m1014_eotech_mp",
+    "eotech+xmags": "m1014_eotech_xmags_mp",
+    "fmj": "m1014_fmj_mp",
+    "fmj+eotech": "m1014_eotech_fmj_mp",
+    "fmj+grip": "m1014_fmj_grip_mp",
+    "fmj+xmags": "m1014_fmj_xmags_mp",
+    "grip": "m1014_grip_mp",
+    "grip+eotech": "m1014_eotech_grip_mp",
+    "grip+xmags": "m1014_grip_xmags_mp",
+    "reflex": "m1014_reflex_mp",
+    "reflex+fmj": "m1014_fmj_reflex_mp",
+    "reflex+grip": "m1014_grip_reflex_mp",
+    "reflex+silencer": "m1014_reflex_silencer_mp",
+    "reflex+xmags": "m1014_reflex_xmags_mp",
+    "silencer": "m1014_silencer_mp",
+    "silencer+eotech": "m1014_eotech_silencer_mp",
+    "silencer+fmj": "m1014_fmj_silencer_mp",
+    "silencer+grip": "m1014_grip_silencer_mp",
+    "silencer+xmags": "m1014_silencer_xmags_mp",
+    "xmags": "m1014_xmags_mp"
+   },
+   "variant_stats": {
+    "eotech+xmags": {
+     "mag_size": 6
+    },
+    "fmj+xmags": {
+     "mag_size": 6
+    },
+    "grip+xmags": {
+     "mag_size": 6
+    },
+    "reflex+silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "reflex+xmags": {
+     "mag_size": 6
+    },
+    "silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+eotech": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+fmj": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+grip": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+xmags": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33,
+     "mag_size": 6
+    },
+    "xmags": {
+     "mag_size": 6
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_benelli_m4"
+  },
+  {
+   "id": 29,
+   "name": "model1887_mp",
+   "class": "shotgun",
+   "damage": 35,
+   "min_damage": 20,
+   "max_damage_range": 5.56,
+   "min_damage_range": 16.67,
+   "pellets": 8,
+   "fire_time": 1.43,
+   "mag_size": 7,
+   "max_reserve": 56,
+   "reload_time": 0.85,
+   "reload_empty_time": 0.85,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.6,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 67,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 4.0,
+   "hip_spread_max": 4.0,
+   "ads_spread": 5.5,
+   "attachments": [
+    "fmj",
+    "akimbo"
+   ],
+   "variants": {
+    "akimbo": "model1887_akimbo_mp",
+    "fmj": "model1887_fmj_mp",
+    "fmj+akimbo": "model1887_akimbo_fmj_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "min_damage_range": 12.5,
+     "max_reserve": 112
+    },
+    "fmj+akimbo": {
+     "min_damage_range": 12.5,
+     "max_reserve": 112
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 30,
+   "name": "usp_mp",
+   "class": "pistol",
+   "damage": 40,
+   "min_damage": 25,
+   "max_damage_range": 12.5,
+   "min_damage_range": 27.78,
+   "pellets": 1,
+   "fire_time": 0.15,
+   "mag_size": 12,
+   "max_reserve": 72,
+   "reload_time": 1.625,
+   "reload_empty_time": 1.917,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.75,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 1,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "fmj",
+    "akimbo",
+    "tactical",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "usp_akimbo_mp",
+    "akimbo+xmags": "usp_akimbo_xmags_mp",
+    "fmj": "usp_fmj_mp",
+    "fmj+akimbo": "usp_akimbo_fmj_mp",
+    "fmj+tactical": "usp_fmj_tactical_mp",
+    "fmj+xmags": "usp_fmj_xmags_mp",
+    "silencer": "usp_silencer_mp",
+    "silencer+akimbo": "usp_akimbo_silencer_mp",
+    "silencer+fmj": "usp_fmj_silencer_mp",
+    "silencer+tactical": "usp_silencer_tactical_mp",
+    "silencer+xmags": "usp_silencer_xmags_mp",
+    "tactical": "usp_tactical_mp",
+    "tactical+xmags": "usp_tactical_xmags_mp",
+    "xmags": "usp_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 144
+    },
+    "akimbo+xmags": {
+     "mag_size": 18,
+     "max_reserve": 144
+    },
+    "fmj+akimbo": {
+     "max_reserve": 144
+    },
+    "fmj+xmags": {
+     "mag_size": 18
+    },
+    "silencer": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 18.06
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 18.06,
+     "max_reserve": 144
+    },
+    "silencer+fmj": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 18.06
+    },
+    "silencer+tactical": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 18.06
+    },
+    "silencer+xmags": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 18.06,
+     "mag_size": 18
+    },
+    "tactical+xmags": {
+     "mag_size": 18
+    },
+    "xmags": {
+     "mag_size": 18
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 31,
+   "name": "coltanaconda_mp",
+   "class": "pistol",
+   "damage": 50,
+   "min_damage": 35,
+   "max_damage_range": 13.89,
+   "min_damage_range": 34.72,
+   "pellets": 1,
+   "fire_time": 0.3333,
+   "mag_size": 6,
+   "max_reserve": 36,
+   "reload_time": 3.0,
+   "reload_empty_time": 3.0,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.75,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 26,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 4.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "fmj",
+    "akimbo",
+    "tactical"
+   ],
+   "variants": {
+    "akimbo": "coltanaconda_akimbo_mp",
+    "fmj": "coltanaconda_fmj_mp",
+    "fmj+akimbo": "coltanaconda_akimbo_fmj_mp",
+    "fmj+tactical": "coltanaconda_fmj_tactical_mp",
+    "tactical": "coltanaconda_tactical_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 72
+    },
+    "fmj+akimbo": {
+     "max_reserve": 72
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 32,
+   "name": "beretta_mp",
+   "class": "pistol",
+   "damage": 40,
+   "min_damage": 25,
+   "max_damage_range": 15.28,
+   "min_damage_range": 22.22,
+   "pellets": 1,
+   "fire_time": 0.1333,
+   "mag_size": 15,
+   "max_reserve": 90,
+   "reload_time": 1.63,
+   "reload_empty_time": 1.917,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.75,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 46,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "silencer",
+    "fmj",
+    "akimbo",
+    "tactical",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "beretta_akimbo_mp",
+    "akimbo+xmags": "beretta_akimbo_xmags_mp",
+    "fmj": "beretta_fmj_mp",
+    "fmj+akimbo": "beretta_akimbo_fmj_mp",
+    "fmj+tactical": "beretta_fmj_tactical_mp",
+    "fmj+xmags": "beretta_fmj_xmags_mp",
+    "silencer": "beretta_silencer_mp",
+    "silencer+akimbo": "beretta_akimbo_silencer_mp",
+    "silencer+fmj": "beretta_fmj_silencer_mp",
+    "silencer+tactical": "beretta_silencer_tactical_mp",
+    "silencer+xmags": "beretta_silencer_xmags_mp",
+    "tactical": "beretta_tactical_mp",
+    "tactical+xmags": "beretta_tactical_xmags_mp",
+    "xmags": "beretta_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 180
+    },
+    "akimbo+xmags": {
+     "mag_size": 25,
+     "max_reserve": 180
+    },
+    "fmj+akimbo": {
+     "max_reserve": 180
+    },
+    "fmj+tactical": {
+     "reload_time": 1.625
+    },
+    "fmj+xmags": {
+     "mag_size": 25
+    },
+    "silencer": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 15.28
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 15.28,
+     "max_reserve": 180
+    },
+    "silencer+fmj": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 15.28
+    },
+    "silencer+tactical": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 15.28,
+     "reload_time": 1.625
+    },
+    "silencer+xmags": {
+     "max_damage_range": 9.72,
+     "min_damage_range": 15.28,
+     "mag_size": 25
+    },
+    "tactical": {
+     "reload_time": 1.625
+    },
+    "tactical+xmags": {
+     "mag_size": 25,
+     "reload_time": 1.625
+    },
+    "xmags": {
+     "mag_size": 25
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 33,
+   "name": "deserteagle_mp",
+   "class": "pistol",
+   "damage": 50,
+   "min_damage": 30,
+   "max_damage_range": 9.72,
+   "min_damage_range": 33.33,
+   "pellets": 1,
+   "fire_time": 0.24,
+   "mag_size": 7,
+   "max_reserve": 42,
+   "reload_time": 1.96,
+   "reload_empty_time": 2.1,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.75,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 62,
+   "starter": false,
+   "fire_type": 1,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 4.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "fmj",
+    "akimbo",
+    "tactical"
+   ],
+   "variants": {
+    "akimbo": "deserteagle_akimbo_mp",
+    "fmj": "deserteagle_fmj_mp",
+    "fmj+akimbo": "deserteagle_akimbo_fmj_mp",
+    "fmj+tactical": "deserteagle_fmj_tactical_mp",
+    "tactical": "deserteagle_tactical_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 84
+    },
+    "fmj+akimbo": {
+     "max_reserve": 84
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 34,
+   "name": "pp2000_mp",
+   "class": "machine_pistol",
+   "damage": 40,
+   "min_damage": 20,
+   "max_damage_range": 13.89,
+   "min_damage_range": 20.83,
+   "pellets": 1,
+   "fire_time": 0.075,
+   "mag_size": 20,
+   "max_reserve": 120,
+   "reload_time": 1.85,
+   "reload_empty_time": 2.5,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.7,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "akimbo",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "pp2000_akimbo_mp",
+    "akimbo+xmags": "pp2000_akimbo_xmags_mp",
+    "eotech": "pp2000_eotech_mp",
+    "eotech+xmags": "pp2000_eotech_xmags_mp",
+    "fmj": "pp2000_fmj_mp",
+    "fmj+akimbo": "pp2000_akimbo_fmj_mp",
+    "fmj+eotech": "pp2000_eotech_fmj_mp",
+    "fmj+xmags": "pp2000_fmj_xmags_mp",
+    "reflex": "pp2000_reflex_mp",
+    "reflex+fmj": "pp2000_fmj_reflex_mp",
+    "reflex+silencer": "pp2000_reflex_silencer_mp",
+    "reflex+xmags": "pp2000_reflex_xmags_mp",
+    "silencer": "pp2000_silencer_mp",
+    "silencer+akimbo": "pp2000_akimbo_silencer_mp",
+    "silencer+eotech": "pp2000_eotech_silencer_mp",
+    "silencer+fmj": "pp2000_fmj_silencer_mp",
+    "silencer+xmags": "pp2000_silencer_xmags_mp",
+    "xmags": "pp2000_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 240
+    },
+    "akimbo+xmags": {
+     "mag_size": 30,
+     "max_reserve": 240
+    },
+    "eotech+xmags": {
+     "mag_size": 30
+    },
+    "fmj+akimbo": {
+     "max_reserve": 240
+    },
+    "fmj+xmags": {
+     "mag_size": 30
+    },
+    "reflex+silencer": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "reflex+xmags": {
+     "mag_size": 30
+    },
+    "silencer": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89,
+     "max_reserve": 240
+    },
+    "silencer+eotech": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+fmj": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+xmags": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89,
+     "mag_size": 30
+    },
+    "xmags": {
+     "mag_size": 30
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_pp2000"
+  },
+  {
+   "id": 35,
+   "name": "glock_mp",
+   "class": "machine_pistol",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 8.33,
+   "min_damage_range": 13.89,
+   "pellets": 1,
+   "fire_time": 0.055,
+   "mag_size": 33,
+   "max_reserve": 198,
+   "reload_time": 2.3,
+   "reload_empty_time": 2.76,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.7,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 22,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "akimbo",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "glock_akimbo_mp",
+    "akimbo+xmags": "glock_akimbo_xmags_mp",
+    "eotech": "glock_eotech_mp",
+    "eotech+xmags": "glock_eotech_xmags_mp",
+    "fmj": "glock_fmj_mp",
+    "fmj+akimbo": "glock_akimbo_fmj_mp",
+    "fmj+eotech": "glock_eotech_fmj_mp",
+    "fmj+xmags": "glock_fmj_xmags_mp",
+    "reflex": "glock_reflex_mp",
+    "reflex+fmj": "glock_fmj_reflex_mp",
+    "reflex+silencer": "glock_reflex_silencer_mp",
+    "reflex+xmags": "glock_reflex_xmags_mp",
+    "silencer": "glock_silencer_mp",
+    "silencer+akimbo": "glock_akimbo_silencer_mp",
+    "silencer+eotech": "glock_eotech_silencer_mp",
+    "silencer+fmj": "glock_fmj_silencer_mp",
+    "silencer+xmags": "glock_silencer_xmags_mp",
+    "xmags": "glock_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 396
+    },
+    "akimbo+xmags": {
+     "mag_size": 50,
+     "max_reserve": 396
+    },
+    "eotech+xmags": {
+     "mag_size": 50
+    },
+    "fmj+akimbo": {
+     "max_reserve": 396
+    },
+    "fmj+xmags": {
+     "mag_size": 50
+    },
+    "reflex+silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "reflex+xmags": {
+     "mag_size": 50
+    },
+    "silencer": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33,
+     "max_reserve": 396
+    },
+    "silencer+eotech": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+fmj": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33
+    },
+    "silencer+xmags": {
+     "max_damage_range": 4.17,
+     "min_damage_range": 8.33,
+     "mag_size": 50
+    },
+    "xmags": {
+     "mag_size": 50
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 36,
+   "name": "beretta393_mp",
+   "class": "machine_pistol",
+   "damage": 40,
+   "min_damage": 30,
+   "max_damage_range": 13.89,
+   "min_damage_range": 20.83,
+   "pellets": 1,
+   "fire_time": 0.065,
+   "mag_size": 20,
+   "max_reserve": 120,
+   "reload_time": 1.76,
+   "reload_empty_time": 1.93,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.7,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 38,
+   "starter": false,
+   "fire_type": 3,
+   "hip_spread_min": 3.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "akimbo",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "beretta393_akimbo_mp",
+    "akimbo+xmags": "beretta393_akimbo_xmags_mp",
+    "eotech": "beretta393_eotech_mp",
+    "eotech+xmags": "beretta393_eotech_xmags_mp",
+    "fmj": "beretta393_fmj_mp",
+    "fmj+akimbo": "beretta393_akimbo_fmj_mp",
+    "fmj+eotech": "beretta393_eotech_fmj_mp",
+    "fmj+xmags": "beretta393_fmj_xmags_mp",
+    "reflex": "beretta393_reflex_mp",
+    "reflex+fmj": "beretta393_fmj_reflex_mp",
+    "reflex+silencer": "beretta393_reflex_silencer_mp",
+    "reflex+xmags": "beretta393_reflex_xmags_mp",
+    "silencer": "beretta393_silencer_mp",
+    "silencer+akimbo": "beretta393_akimbo_silencer_mp",
+    "silencer+eotech": "beretta393_eotech_silencer_mp",
+    "silencer+fmj": "beretta393_fmj_silencer_mp",
+    "silencer+xmags": "beretta393_silencer_xmags_mp",
+    "xmags": "beretta393_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 240
+    },
+    "akimbo+xmags": {
+     "mag_size": 30,
+     "max_reserve": 240
+    },
+    "eotech+xmags": {
+     "mag_size": 30
+    },
+    "fmj+akimbo": {
+     "max_reserve": 240
+    },
+    "fmj+xmags": {
+     "mag_size": 30
+    },
+    "reflex+silencer": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89
+    },
+    "reflex+xmags": {
+     "mag_size": 30
+    },
+    "silencer": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89,
+     "max_reserve": 240
+    },
+    "silencer+eotech": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89
+    },
+    "silencer+fmj": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89
+    },
+    "silencer+xmags": {
+     "max_damage_range": 6.94,
+     "min_damage_range": 13.89,
+     "mag_size": 30
+    },
+    "xmags": {
+     "mag_size": 30
+    }
+   },
+   "camos": false
+  },
+  {
+   "id": 37,
+   "name": "tmp_mp",
+   "class": "machine_pistol",
+   "damage": 30,
+   "min_damage": 20,
+   "max_damage_range": 13.89,
+   "min_damage_range": 20.83,
+   "pellets": 1,
+   "fire_time": 0.067,
+   "mag_size": 15,
+   "max_reserve": 90,
+   "reload_time": 2.1,
+   "reload_empty_time": 2.933,
+   "move_speed_scale": 1.0,
+   "ads_move_speed_scale": 0.7,
+   "location_multipliers": {
+    "head": 1.4,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 58,
+   "starter": false,
+   "fire_type": 0,
+   "hip_spread_min": 2.0,
+   "hip_spread_max": 5.0,
+   "ads_spread": 0.0,
+   "attachments": [
+    "reflex",
+    "silencer",
+    "fmj",
+    "akimbo",
+    "eotech",
+    "xmags"
+   ],
+   "variants": {
+    "akimbo": "tmp_akimbo_mp",
+    "akimbo+xmags": "tmp_akimbo_xmags_mp",
+    "eotech": "tmp_eotech_mp",
+    "eotech+xmags": "tmp_eotech_xmags_mp",
+    "fmj": "tmp_fmj_mp",
+    "fmj+akimbo": "tmp_akimbo_fmj_mp",
+    "fmj+eotech": "tmp_eotech_fmj_mp",
+    "fmj+xmags": "tmp_fmj_xmags_mp",
+    "reflex": "tmp_reflex_mp",
+    "reflex+fmj": "tmp_fmj_reflex_mp",
+    "reflex+silencer": "tmp_reflex_silencer_mp",
+    "reflex+xmags": "tmp_reflex_xmags_mp",
+    "silencer": "tmp_silencer_mp",
+    "silencer+akimbo": "tmp_akimbo_silencer_mp",
+    "silencer+eotech": "tmp_eotech_silencer_mp",
+    "silencer+fmj": "tmp_fmj_silencer_mp",
+    "silencer+xmags": "tmp_silencer_xmags_mp",
+    "xmags": "tmp_xmags_mp"
+   },
+   "variant_stats": {
+    "akimbo": {
+     "max_reserve": 180,
+     "reload_time": 3.33,
+     "reload_empty_time": 3.33
+    },
+    "akimbo+xmags": {
+     "mag_size": 25,
+     "max_reserve": 180,
+     "reload_time": 3.33,
+     "reload_empty_time": 3.33
+    },
+    "eotech+xmags": {
+     "mag_size": 25
+    },
+    "fmj+akimbo": {
+     "max_reserve": 180,
+     "reload_time": 3.33,
+     "reload_empty_time": 3.33
+    },
+    "fmj+xmags": {
+     "mag_size": 25
+    },
+    "reflex+silencer": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "reflex+xmags": {
+     "mag_size": 25
+    },
+    "silencer": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+akimbo": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89,
+     "max_reserve": 180,
+     "reload_time": 3.33,
+     "reload_empty_time": 3.33
+    },
+    "silencer+eotech": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+fmj": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89
+    },
+    "silencer+xmags": {
+     "max_damage_range": 5.56,
+     "min_damage_range": 13.89,
+     "mag_size": 25
+    },
+    "xmags": {
+     "mag_size": 25
+    }
+   },
+   "camos": true,
+   "camo_model": "viewmodel_mp9"
+  },
+  {
+   "id": 38,
+   "name": "at4_mp",
+   "class": "launcher",
+   "damage": 150,
+   "min_damage": 150,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 3.0,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true,
+   "explosion_radius": 11.11,
+   "explosion_inner": 155,
+   "explosion_outer": 55
+  },
+  {
+   "id": 39,
+   "name": "m79_mp",
+   "class": "launcher",
+   "damage": 150,
+   "min_damage": 150,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 2,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.9,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 4,
+   "starter": false,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 40,
+   "name": "stinger_mp",
+   "class": "launcher",
+   "damage": 150,
+   "min_damage": 150,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 3.0,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 30,
+   "starter": false,
+   "explosion_radius": 11.11,
+   "explosion_inner": 155,
+   "explosion_outer": 55
+  },
+  {
+   "id": 41,
+   "name": "javelin_mp",
+   "class": "launcher",
+   "damage": 150,
+   "min_damage": 150,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 3.0,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 50,
+   "starter": false,
+   "explosion_radius": 25.0,
+   "explosion_inner": 300,
+   "explosion_outer": 50
+  },
+  {
+   "id": 42,
+   "name": "rpg_mp",
+   "class": "launcher",
+   "damage": 150,
+   "min_damage": 150,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 2,
+   "reload_time": 3.292,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.85,
+   "ads_move_speed_scale": 0.5,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 65,
+   "starter": false,
+   "explosion_radius": 11.11,
+   "explosion_inner": 160,
+   "explosion_outer": 60
+  },
+  {
+   "id": 43,
+   "name": "riotshield_mp",
+   "class": "riot_shield",
+   "damage": 50,
+   "min_damage": 50,
+   "max_damage_range": 1.39,
+   "min_damage_range": 1.39,
+   "pellets": 1,
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "reload_time": 0.0,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.8,
+   "ads_move_speed_scale": 0.8,
+   "location_multipliers": {
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "arm": 1.0,
+    "leg": 1.0
+   },
+   "unlock_rank": 1,
+   "starter": true
+  },
+  {
+   "id": 1001,
+   "name": "gl_famas_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 1,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 1,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2001,
+   "name": "famas_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 1,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 1
+  },
+  {
+   "id": 1002,
+   "name": "gl_m4_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 2,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 4,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2002,
+   "name": "m4_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 2,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 4
+  },
+  {
+   "id": 1003,
+   "name": "gl_scar_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 3,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 8,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2003,
+   "name": "scar_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 3,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 8
+  },
+  {
+   "id": 1004,
+   "name": "gl_tavor_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 4,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 20,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2004,
+   "name": "tavor_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 4,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 20
+  },
+  {
+   "id": 1005,
+   "name": "gl_fal_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 5,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 28,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2005,
+   "name": "fal_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 5,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 28
+  },
+  {
+   "id": 1006,
+   "name": "gl_m16_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 6,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 40,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2006,
+   "name": "m16_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 6,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 40
+  },
+  {
+   "id": 1007,
+   "name": "gl_masada_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 7,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 48,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2007,
+   "name": "masada_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 7,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 48
+  },
+  {
+   "id": 1008,
+   "name": "gl_fn2000_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 8,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.3,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 2.6,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 60,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2008,
+   "name": "fn2000_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 8,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 60
+  },
+  {
+   "id": 1009,
+   "name": "gl_ak47_mp",
+   "class": "launcher",
+   "slot": "alternate",
+   "alternate_of": 9,
+   "attachment": "gl",
+   "damage": 135,
+   "min_damage": 0,
+   "max_damage_range": 277.78,
+   "min_damage_range": 277.78,
+   "fire_time": 0.5,
+   "pellets": 1,
+   "fire_type": 0,
+   "mag_size": 1,
+   "max_reserve": 1,
+   "reload_time": 3.13,
+   "reload_empty_time": 0.0,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 6.0,
+   "ads_spread": 1.7,
+   "unlock_rank": 70,
+   "explosion_radius": 8.33,
+   "explosion_inner": 155,
+   "explosion_outer": 25
+  },
+  {
+   "id": 2009,
+   "name": "ak47_shotgun_attach_mp",
+   "class": "shotgun",
+   "slot": "alternate",
+   "alternate_of": 9,
+   "attachment": "shotgun",
+   "damage": 25,
+   "min_damage": 0,
+   "max_damage_range": 13.89,
+   "min_damage_range": 48.61,
+   "fire_time": 0.33,
+   "pellets": 6,
+   "fire_type": 1,
+   "mag_size": 4,
+   "max_reserve": 24,
+   "reload_time": 0.75,
+   "reload_empty_time": 0.75,
+   "move_speed_scale": 0.95,
+   "ads_move_speed_scale": 0.5,
+   "hip_spread_min": 5.0,
+   "hip_spread_max": 7.0,
+   "ads_spread": 5.5,
+   "unlock_rank": 70
+  },
+  {
+   "id": 4001,
+   "name": "frag_grenade_mp",
+   "class": "lethal",
+   "slot": "lethal",
+   "damage": 15,
+   "min_damage": 15,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 1,
+   "explosion_radius": 7.11,
+   "explosion_inner": 150,
+   "explosion_outer": 55,
+   "effect": "Cook it, throw it; it bounces and goes off on a timer."
+  },
+  {
+   "id": 4002,
+   "name": "semtex_mp",
+   "class": "lethal",
+   "slot": "lethal",
+   "damage": 15,
+   "min_damage": 15,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 1,
+   "explosion_radius": 7.11,
+   "explosion_inner": 200,
+   "explosion_outer": 55,
+   "effect": "Sticks to whatever it hits, then goes off."
+  },
+  {
+   "id": 4003,
+   "name": "throwingknife_mp",
+   "class": "lethal",
+   "slot": "lethal",
+   "damage": 135,
+   "min_damage": 135,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 7,
+   "effect": "Kills in one hit; walk over it to pick it back up."
+  },
+  {
+   "id": 4004,
+   "name": "claymore_mp",
+   "class": "lethal",
+   "slot": "lethal",
+   "damage": 0,
+   "min_damage": 0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 31,
+   "explosion_radius": 7.11,
+   "explosion_inner": 200,
+   "explosion_outer": 50,
+   "effect": "A tripwire mine that blasts forward when an enemy walks by."
+  },
+  {
+   "id": 4005,
+   "name": "c4_mp",
+   "class": "lethal",
+   "slot": "lethal",
+   "damage": 0,
+   "min_damage": 0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 43,
+   "explosion_radius": 7.11,
+   "explosion_inner": 200,
+   "explosion_outer": 50,
+   "effect": "A charge you place, then set off yourself."
+  },
+  {
+   "id": 4101,
+   "name": "flash_grenade_mp",
+   "class": "tactical",
+   "slot": "tactical",
+   "damage": 15,
+   "min_damage": 15,
+   "mag_size": 2,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 1,
+   "explosion_radius": 22.22,
+   "explosion_inner": 1,
+   "explosion_outer": 1,
+   "effect": "Blinds and deafens anyone caught near it."
+  },
+  {
+   "id": 4102,
+   "name": "concussion_grenade_mp",
+   "class": "tactical",
+   "slot": "tactical",
+   "damage": 40,
+   "min_damage": 40,
+   "mag_size": 2,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 1,
+   "explosion_radius": 14.22,
+   "explosion_inner": 1,
+   "explosion_outer": 1,
+   "effect": "Slows and staggers anyone caught near it."
+  },
+  {
+   "id": 4103,
+   "name": "smoke_grenade_mp",
+   "class": "tactical",
+   "slot": "tactical",
+   "damage": 15,
+   "min_damage": 15,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "fire_time": 1.0,
+   "unlock_rank": 1,
+   "effect": "A thick smoke screen that blocks sight."
+  },
+  {
+   "id": 3001,
+   "name": "uav_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1
+  },
+  {
+   "id": 3004,
+   "name": "sentry_gun_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1
+  },
+  {
+   "id": 3005,
+   "name": "remotemissile_projectile_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1,
+   "explosion_radius": 12.0,
+   "explosion_inner": 600,
+   "explosion_outer": 300
+  },
+  {
+   "id": 3007,
+   "name": "harrier_ffar_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1,
+   "explosion_radius": 8.0,
+   "explosion_inner": 300,
+   "explosion_outer": 80
+  },
+  {
+   "id": 3008,
+   "name": "cobra_player_minigun_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1
+  },
+  {
+   "id": 3011,
+   "name": "stealth_bomb_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1,
+   "explosion_radius": 12.0,
+   "explosion_inner": 500,
+   "explosion_outer": 150
+  },
+  {
+   "id": 3012,
+   "name": "cobra_20mm_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1,
+   "explosion_radius": 3.0,
+   "explosion_inner": 120,
+   "explosion_outer": 60
+  },
+  {
+   "id": 3015,
+   "name": "nuke_mp",
+   "class": "killstreak",
+   "slot": "killstreak",
+   "fire_time": 1.0,
+   "mag_size": 1,
+   "max_reserve": 0,
+   "unlock_rank": 1
+  }
+ ],
+ "attachments": [
+  {
+   "id": "reflex",
+   "name": "Red Dot Sight",
+   "icon": "weapon_attachment_reflex",
+   "unlock_rank": 4,
+   "incompatible": [
+    "acog",
+    "akimbo",
+    "tactical",
+    "eotech",
+    "thermal"
+   ],
+   "effect": "A red-dot sight: a cleaner sight picture, no zoom."
+  },
+  {
+   "id": "silencer",
+   "name": "Silencer",
+   "icon": "weapon_attachment_suppressor",
+   "unlock_rank": 10,
+   "incompatible": [],
+   "effect": "Firing keeps you off enemy maps and carries less far; shorter damage range."
+  },
+  {
+   "id": "acog",
+   "name": "ACOG Scope",
+   "icon": "weapon_attachment_acog",
+   "unlock_rank": 16,
+   "incompatible": [
+    "reflex",
+    "akimbo",
+    "tactical",
+    "eotech",
+    "thermal"
+   ],
+   "effect": "A 4x scope for longer shots."
+  },
+  {
+   "id": "gl",
+   "name": "Grenade Launcher",
+   "icon": "weapon_attachment_m203",
+   "unlock_rank": 20,
+   "incompatible": [
+    "shotgun",
+    "grip",
+    "rof",
+    "akimbo",
+    "tactical"
+   ],
+   "effect": "An underbarrel grenade launcher: raise it with the alternate weapon key."
+  },
+  {
+   "id": "fmj",
+   "name": "FMJ",
+   "icon": "weapon_attachment_fmj",
+   "unlock_rank": 24,
+   "incompatible": [],
+   "effect": "Full metal jacket rounds punch through cover."
+  },
+  {
+   "id": "shotgun",
+   "name": "Shotgun",
+   "icon": "weapon_attachment_shotgun",
+   "unlock_rank": 28,
+   "incompatible": [
+    "gl",
+    "grip",
+    "rof",
+    "akimbo",
+    "tactical"
+   ],
+   "effect": "An underbarrel shotgun: raise it with the alternate weapon key."
+  },
+  {
+   "id": "grip",
+   "name": "Grip",
+   "icon": "weapon_attachment_grip",
+   "unlock_rank": 30,
+   "incompatible": [
+    "gl",
+    "shotgun",
+    "rof",
+    "akimbo",
+    "tactical"
+   ],
+   "effect": "A foregrip that steadies the recoil."
+  },
+  {
+   "id": "rof",
+   "name": "Rapid Fire",
+   "icon": "weapon_attachment_rof",
+   "unlock_rank": 34,
+   "incompatible": [
+    "gl",
+    "shotgun",
+    "grip",
+    "tactical",
+    "heartbeat"
+   ],
+   "effect": "Rapid fire: the gun cycles faster."
+  },
+  {
+   "id": "akimbo",
+   "name": "Akimbo",
+   "icon": "weapon_attachment_akimbo",
+   "unlock_rank": 38,
+   "incompatible": [
+    "reflex",
+    "acog",
+    "gl",
+    "shotgun",
+    "grip",
+    "tactical",
+    "eotech",
+    "thermal",
+    "heartbeat"
+   ],
+   "effect": "A gun in each hand: twice the magazine and the fire rate, but no aiming down the sights."
+  },
+  {
+   "id": "tactical",
+   "name": "Tactical Knife",
+   "icon": "weapon_attachment_tactical",
+   "unlock_rank": 40,
+   "incompatible": [
+    "reflex",
+    "acog",
+    "gl",
+    "shotgun",
+    "grip",
+    "rof",
+    "akimbo",
+    "eotech",
+    "thermal",
+    "heartbeat"
+   ],
+   "effect": "A tactical knife in the off hand for quicker knife strikes."
+  },
+  {
+   "id": "eotech",
+   "name": "Holographic Sight",
+   "icon": "weapon_attachment_eotech",
+   "unlock_rank": 44,
+   "incompatible": [
+    "reflex",
+    "acog",
+    "akimbo",
+    "tactical",
+    "thermal"
+   ],
+   "effect": "A holographic sight: a clear sight picture, no zoom."
+  },
+  {
+   "id": "thermal",
+   "name": "Thermal",
+   "icon": "weapon_attachment_thermal",
+   "unlock_rank": 50,
+   "incompatible": [
+    "reflex",
+    "acog",
+    "akimbo",
+    "tactical",
+    "eotech"
+   ],
+   "effect": "A thermal scope: warm bodies glow, even through smoke."
+  },
+  {
+   "id": "heartbeat",
+   "name": "Heartbeat Sensor",
+   "icon": "weapon_attachment_heartbeat",
+   "unlock_rank": 56,
+   "incompatible": [
+    "rof",
+    "akimbo",
+    "tactical"
+   ],
+   "effect": "A heartbeat sensor that shows nearby enemies while you hold the gun."
+  },
+  {
+   "id": "xmags",
+   "name": "Extended Mags",
+   "icon": "weapon_attachment_xmags",
+   "unlock_rank": 62,
+   "incompatible": [],
+   "effect": "Extended magazines: more rounds before a reload."
+  }
+ ],
+ "camos": [
+  {
+   "id": 1,
+   "name": "Woodland",
+   "suffix": "_woodland"
+  },
+  {
+   "id": 2,
+   "name": "Desert",
+   "suffix": "_desert"
+  },
+  {
+   "id": 3,
+   "name": "Arctic",
+   "suffix": "_arctic"
+  },
+  {
+   "id": 4,
+   "name": "Digital",
+   "suffix": "_digital"
+  },
+  {
+   "id": 5,
+   "name": "Urban",
+   "suffix": "_red_urban"
+  },
+  {
+   "id": 6,
+   "name": "Red Tiger",
+   "suffix": "_red_tiger"
+  },
+  {
+   "id": 7,
+   "name": "Blue Tiger",
+   "suffix": "_blue_tiger"
+  },
+  {
+   "id": 8,
+   "name": "Fall",
+   "suffix": "_orange_fall"
+  }
+ ],
+ "perks": [
+  {
+   "id": 1,
+   "tier": 1,
+   "name": "Marathon",
+   "icon": "specialty_marathon",
+   "unlock_rank": 4,
+   "stack": "additive",
+   "max_stack": 3,
+   "pro_kills": 150,
+   "effect": "Sprint without tiring. Out of combat you run 5% faster.",
+   "pro_effect": "Out of combat you run another 5% faster.",
+   "stack_effect": "Additive: each copy makes you 5% faster out of combat (up to 15%)."
+  },
+  {
+   "id": 2,
+   "tier": 1,
+   "name": "Sleight of Hand",
+   "icon": "specialty_fastreload",
+   "unlock_rank": 1,
+   "stack": "diminishing",
+   "max_stack": 3,
+   "pro_kills": 150,
+   "effect": "Reload in half the time; spells in your hands cast 15% quicker.",
+   "pro_effect": "Aim down the sights 20% faster.",
+   "stack_effect": "Diminishing: spells cast 15%, 22% then 26% quicker. Reloads stay at half."
+  },
+  {
+   "id": 3,
+   "tier": 1,
+   "name": "Scavenger",
+   "icon": "specialty_scavenger",
+   "unlock_rank": 7,
+   "stack": "additive",
+   "max_stack": 3,
+   "pro_kills": 150,
+   "effect": "Every kill worth experience brings a magazine back for every gun; 25% more gold from bodies you loot.",
+   "pro_effect": "Another 25% more gold from bodies you loot.",
+   "stack_effect": "Additive: each copy adds 25% more gold. Magazines come back once a kill."
+  },
+  {
+   "id": 4,
+   "tier": 1,
+   "name": "Bling",
+   "icon": "specialty_bling",
+   "unlock_rank": 21,
+   "stack": "special",
+   "max_stack": 3,
+   "pro_kills": 200,
+   "effect": "Rails for one more attachment: two on your primary (MW2's Bling).",
+   "pro_effect": "Your secondary takes a second attachment too.",
+   "stack_effect": "Special: each copy adds an attachment to the primary, up to four with three Rails; never two of one kind (two sights, two underbarrels)."
+  },
+  {
+   "id": 5,
+   "tier": 1,
+   "name": "One Man Army",
+   "icon": "specialty_onemanarmy",
+   "unlock_rank": 45,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 120,
+   "effect": "Switch kits even in combat; others wait until combat ends.",
+   "pro_effect": "The field editor is ready again in 30 minutes instead of an hour.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 6,
+   "tier": 2,
+   "name": "Stopping Power",
+   "icon": "specialty_bulletdamage",
+   "unlock_rank": 1,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 300,
+   "effect": "Bullets hit 40% harder (not explosives); the weapon in your hands hits 20% harder.",
+   "pro_effect": "The weapon in your hands hits 35% harder.",
+   "stack_effect": "Does not stack: guns are everyone's baseline."
+  },
+  {
+   "id": 7,
+   "tier": 2,
+   "name": "Lightweight",
+   "icon": "specialty_lightweight",
+   "unlock_rank": 1,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 150,
+   "effect": "Move 12% faster; falls hurt half as much.",
+   "pro_effect": "Fire sooner after a sprint (30% quicker).",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 8,
+   "tier": 2,
+   "name": "Hardline",
+   "icon": "specialty_hardline",
+   "unlock_rank": 9,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 150,
+   "effect": "Killstreaks need one kill fewer; 10% more experience from kills.",
+   "pro_effect": "Deathstreaks need one death fewer.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 9,
+   "tier": 2,
+   "name": "Cold-Blooded",
+   "icon": "specialty_coldblooded",
+   "unlock_rank": 13,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 150,
+   "effect": "Creatures never call their friends to help against you, and hear your gunfire from less far.",
+   "pro_effect": "Creatures notice you 15% later.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 10,
+   "tier": 2,
+   "name": "Danger Close",
+   "icon": "specialty_dangerclose",
+   "unlock_rank": 29,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 150,
+   "effect": "Your explosives hit 25% harder.",
+   "pro_effect": "Your killstreaks' air support hits 25% harder too.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 11,
+   "tier": 3,
+   "name": "Commando",
+   "icon": "specialty_commando",
+   "unlock_rank": 1,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 100,
+   "effect": "Your knife lunge reaches 40 yards instead of 20.",
+   "pro_effect": "No falling damage at all.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 12,
+   "tier": 3,
+   "name": "Steady Aim",
+   "icon": "specialty_steadyaim",
+   "unlock_rank": 1,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 150,
+   "effect": "Hip fire spreads 35% less.",
+   "pro_effect": "Jumping no longer widens your hip fire.",
+   "stack_effect": "Does not stack."
+  },
+  {
+   "id": 13,
+   "tier": 3,
+   "name": "Scrambler",
+   "icon": "specialty_localjammer",
+   "unlock_rank": 25,
+   "stack": "diminishing",
+   "max_stack": 3,
+   "pro_kills": 120,
+   "effect": "Creatures' spells at you cast 20% slower.",
+   "pro_effect": "Another 10% slower.",
+   "stack_effect": "Diminishing: 20%, 30% then 35% slower."
+  },
+  {
+   "id": 14,
+   "tier": 3,
+   "name": "Ninja",
+   "icon": "specialty_quieter",
+   "unlock_rank": 33,
+   "stack": "diminishing",
+   "max_stack": 3,
+   "pro_kills": 120,
+   "effect": "Creatures notice you at 70% of the distance; your stealth is 3 yards harder to see through.",
+   "pro_effect": "Your stealth is 2 more yards harder to see through.",
+   "stack_effect": "Diminishing: stealth 3, 4.5 then 5.25 yards harder to see. Notice distance does not stack."
+  },
+  {
+   "id": 15,
+   "tier": 3,
+   "name": "SitRep",
+   "icon": "specialty_bombsquad",
+   "unlock_rank": 37,
+   "stack": "additive",
+   "max_stack": 3,
+   "pro_kills": 120,
+   "effect": "See stealthed enemies from 5 yards farther.",
+   "pro_effect": "3 yards farther again.",
+   "stack_effect": "Additive: each copy adds 5 yards."
+  },
+  {
+   "id": 16,
+   "tier": 3,
+   "name": "Last Stand",
+   "icon": "specialty_pistoldeath",
+   "unlock_rank": 41,
+   "stack": "none",
+   "max_stack": 1,
+   "pro_kills": 100,
+   "effect": "A fatal hit leaves you down with your pistol drawn: fight on while you wait to be revived.",
+   "pro_effect": "You bleed out 10 seconds later.",
+   "stack_effect": "Does not stack."
+  }
+ ],
+ "deathstreaks": [
+  {
+   "id": 21,
+   "tier": 0,
+   "name": "Copycat",
+   "icon": "specialty_copycat",
+   "deaths": 4,
+   "unlock_rank": 1,
+   "effect": "After 4 deaths without a kill, your next life starts with your killer's kit."
+  },
+  {
+   "id": 22,
+   "tier": 0,
+   "name": "Painkiller",
+   "icon": "specialty_painkiller",
+   "deaths": 3,
+   "unlock_rank": 1,
+   "effect": "After 3 deaths without a kill, you take a third of the damage for 10 seconds after you return."
+  },
+  {
+   "id": 23,
+   "tier": 0,
+   "name": "Martyrdom",
+   "icon": "specialty_grenadepulldeath",
+   "deaths": 4,
+   "unlock_rank": 7,
+   "effect": "After 4 deaths without a kill, you drop a live grenade where you fall."
+  },
+  {
+   "id": 24,
+   "tier": 0,
+   "name": "Final Stand",
+   "icon": "specialty_finalstand",
+   "deaths": 4,
+   "unlock_rank": 50,
+   "effect": "After 4 deaths without a kill, a fatal hit leaves you down with a pistol; hold on 10 seconds and you get back up at half health."
+  }
+ ]
+}

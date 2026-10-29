@@ -1,0 +1,13 @@
+/target/
+# Your own WoW 1.12.1 install (or a link to it). Never commit Blizzard content.
+/WoW
+# benilla's local state: settings, addons, screenshots.
+/benilla-config
+# The account a scripted run logs in as. A credential.
+/.probe-identity
+.DS_Store
+*.swp
+/.idea/
+scripts/play.local.json
+# Local exports from the MW2 install (numbers, screenshots): never committed.
+/iw4l-artifacts/

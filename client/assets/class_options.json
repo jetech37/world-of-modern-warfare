@@ -1,0 +1,1365 @@
+{
+"101": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "Usable in combat. Roots the target 1 s as vanilla Charge stuns it.",
+"route": "A",
+"status": "working",
+"text": "Rush a target 8-30 yd away, root it 1 s, +15 rage; cd 15 s. Out of combat only in vanilla: tweaked to work in combat.",
+"type": "ability"
+},
+"102": {
+"note": "Costs no health: heals 15% over 6 s instead.",
+"route": "A",
+"status": "working",
+"text": "+20 rage and regain 15% HP over 6 s; cd 45 s. The universal \"get back up\" button.",
+"type": "ability"
+},
+"103": {
+"note": "4 s on NPCs, 3 s on players; no shot or swing while disarmed (an NPC gunner's too).",
+"route": "A",
+"status": "working",
+"text": "Melee range: the target's weapon is knocked aside: it cannot fire or swing for 4 s / 3 s; cd 40 s. Guns are weapons, so this is the warrior's answer to a gunner at arm's length.",
+"type": "ability"
+},
+"1101": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "10 s: 30% less damage taken, usable while stunned, not affected by forms; cd 60 s.",
+"type": "ability"
+},
+"1102": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Instant, 30 yd: root 8 s / 4 s, damage after 2 s may break it; cd 20 s.",
+"type": "ability"
+},
+"1103": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Become a cheetah: +40% speed, usable in combat and indoors; firing is impossible in form; cd 5 s.",
+"type": "ability"
+},
+"111": {
+"note": "A hit has a 20% chance to send the Berserker into a Frenzy.",
+"route": "A",
+"status": "working",
+"text": "Strike for 18 %EH, heal 10% HP; a 20% chance of Frenzy; cd 6 s.",
+"type": "ability"
+},
+"1111": {
+"note": "No energy or combo points.",
+"route": "A",
+"status": "working",
+"text": "Prowl (stealth), Pounce (stun 3 s from stealth), Rake (10 %EH + bleed). Momentum: +30% speed and next attack crits.",
+"type": "form"
+},
+"1112": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "40 yd: heal 30% HP over 12 s, +1 Bloom; cd 3 s.",
+"type": "ability"
+},
+"1113": {
+"identity": "Hits 1.8x as hard as its spell says. Its bolts home on the target while it is in the kit.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Instant, 40 yd: 8 %EH and 1 %EH/s for 9 s; +1 Solar; cd 4 s.",
+"type": "ability"
+},
+"112": {
+"note": "Needs a shield.",
+"route": "B",
+"status": "working",
+"text": "Raise the shield for up to 6 s: 100% of bullet damage in a 100° frontal cone is blocked, you move at 60%; blocked damage gives rage; cd 15 s. Needs a shield.",
+"type": "ability"
+},
+"1121": {
+"note": "No rage.",
+"route": "A",
+"status": "working",
+"text": "Maul (12 %EH), Bash (stun 4 s / 3 s, cd 45 s), Growl (taunt). +60% armor in form. Momentum: absorb 15% HP for 6 s.",
+"type": "form"
+},
+"1122": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast: heal 20% HP and 20% more over 15 s, +1 Bloom; cd 4 s.",
+"type": "ability"
+},
+"1123": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Melee strike with moonlight: 12 %EH arcane and a 5 yd knockback; a 20% chance of Eclipse; cd 6 s.",
+"type": "ability"
+},
+"113": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Plant a banner for 30 s (one at a time): allies within 15 yd regenerate 1.5% HP/s and recover from flinch 50% faster; cd 45 s.",
+"type": "ability"
+},
+"1131": {
+"note": "Travel Form in the stag's look; no passenger seat.",
+"route": "B",
+"status": "partial",
+"text": "+50% speed; Stag Charge (20 yd, knock the target back 6 yd); Carry (an ally may mount you, as a two-seat mount, and keep firing). Momentum: 4 s immune to slows.",
+"type": "form"
+},
+"1132": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Consume a HoT on an ally: instantly heal 25% HP, +25% per Bloom; cd 12 s.",
+"type": "ability"
+},
+"1133": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "40 yd: the target is outlined for your party and cannot stealth or camouflage for 40 s; +1 Solar; cd 10 s.",
+"type": "ability"
+},
+"1141": {
+"note": "Owl look, slow fall and spotting below; no lift.",
+"route": "B",
+"status": "partial",
+"text": "Glide from heights, flap up a little (3 short lifts), Spotting from above (enemies below within 40 yd are outlined for the party). Cannot capture or carry objectives. Momentum: 6 s invisible to radar.",
+"type": "form"
+},
+"1142": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "2 s cast, in combat: revive a dead or downed ally at 40% HP; cd 600 s.",
+"type": "ability (battle resurrection)"
+},
+"1143": {
+"identity": "Hits 1.4x as hard as its spell says.",
+"note": "Centred on you (no ground cursor).",
+"route": "A",
+"status": "partial",
+"text": "Channel 6 s, 30 yd: a 10 yd storm, 2 %EH/s, 40% slow, spread +50% for enemies inside; cd 60 s.",
+"type": "ability"
+},
+"1151": {
+"note": "Mar'li's look and Web Spray; no wall crawl or Venom Bite.",
+"route": "B",
+"status": "partial",
+"text": "Web Spray (10 yd cone, root 4 s / 2 s), Wall Crawl (climb steep surfaces for 6 s), Venom Bite (12 %EH poison over 6 s, 30% slow). Momentum: next Web Spray is instant and longer.",
+"type": "form"
+},
+"1152": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Channel 8 s: allies within 40 yd heal 6% HP per second, +1% per Bloom on them; cd 180 s.",
+"type": "ability"
+},
+"1153": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Eclipse lasts 15 s; during it 30% of bullets miss you, and killing blows extend it by 3 s.",
+"type": "passive"
+},
+"1161": {
+"note": "Health, lifesteal, Rending Leap's hit, momentum; no Frenzy yet.",
+"route": "B",
+"status": "partial",
+"text": "Frenzy (+40% melee speed 10 s), Rending Leap (25 yd leap, 10 %EH), every melee hit heals 30% of its damage; +30% max HP in form. Momentum: 6 s immune to stun and fear.",
+"type": "form (capstone, transformation)"
+},
+"1162": {
+"note": "Regrowth still stops to cast.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "30 s: become a treant: HoTs +50%, cast while moving, 20% less damage taken, every HoT you cast also lands on the lowest-health ally within 20 yd; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"1163": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "10 s: stars strike up to 2 enemies within 30 yd every second (6 %EH each); Eclipse starts at once; cd 120 s.",
+"type": "ability (capstone)"
+},
+"121": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "A Frenzy refunds it.",
+"route": "A",
+"status": "working",
+"text": "Dash to an enemy up to 30 yd away and stun it 3 s / 2 s; usable in any stance; a Frenzy refunds the cooldown; cd 20 s.",
+"type": "ability"
+},
+"122": {
+"note": "30 yd, Magnetic Pull's look.",
+"route": "B",
+"status": "working",
+"text": "Throw a chain at an enemy up to 25 yd away and yank it to your shield (stops 2 yd in front), stunned 1 s; cd 20 s. Pulls snipers out of cover.",
+"type": "ability"
+},
+"123": {
+"note": "A downed ally in range gets 10 s more to be revived instead of the heal.",
+"route": "B",
+"status": "working",
+"text": "Allies within 30 yd heal 15% HP instantly and gain an absorb of 10% HP for 8 s; downed allies in range gain 10 s of bleed-out time; cd 60 s.",
+"type": "ability"
+},
+"131": {
+"note": "Needs a melee weapon.",
+"route": "A",
+"status": "working",
+"text": "Spin: 14 %EH to every enemy within 8 yd; among 3 or more, Frenzy; cd 10 s.",
+"type": "ability"
+},
+"132": {
+"note": "NPCs are taunted 6 s (vanilla); players are marked 4 s.",
+"route": "B",
+"status": "working",
+"text": "Taunt every enemy within 25 yd for 4 s. NPCs must attack you; players who damage anyone else during it deal 30% less damage to those targets (the \"marked\" debuff shows on their screen). cd 30 s.",
+"type": "ability"
+},
+"133": {
+"note": "Its cut replaces vanilla's attack power cut, on NPCs and players.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "Enemies within 20 yd deal 20% less damage and have +50% weapon spread for 10 s; cd 30 s. (Debuffs enemies; never buffs your guns.)",
+"type": "ability"
+},
+"141": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Killing blows reset Intercept and heal 10% HP; Frenzy also makes you immune to slows.",
+"type": "passive"
+},
+"142": {
+"note": "Needs a shield; lasts 10 s.",
+"route": "A",
+"status": "working",
+"text": "All damage taken -60% for 8 s; Bulwark can be held during it; cd 120 s.",
+"type": "ability"
+},
+"143": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "The target cowers 8 s / 4 s and up to 5 enemies within 10 yd flee 8 s / 4 s; cd 90 s. The \"demoralizing fear\".",
+"type": "ability"
+},
+"151": {
+"note": "No armor cut: +30% in melee, no fear, 20% fewer bullets hurt.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "15 s: melee and Berserker abilities +30% damage, immune to fear, and 20% less bullet damage (instead of vanilla's armor penalty); cd 120 s.",
+"type": "ability"
+},
+"152": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "The vanilla charge and knockback; enemies within 2.5 yd of its path are swept.",
+"route": "B",
+"status": "working",
+"text": "Charge 20 yd behind a raised Bulwark; enemies in the path are knocked down 2 s and take 8 %EH; cd 25 s.",
+"type": "ability"
+},
+"153": {
+"note": "Banners take turns: Rally, Ward, Pursuit.",
+"route": "B",
+"status": "working",
+"text": "Up to 3 banners at once, each a different type chosen when planted: Rally (as Battle Standard), Ward (allies inside take 15% less bullet damage), Pursuit (allies inside move 15% faster and sprint 50% longer).",
+"type": "passive"
+},
+"161": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: grow 30%, immune to stun, fear and knockback, Frenzy for all of it, Charge and Intercept have no cooldown, every melee kill heals 30% HP; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"162": {
+"note": "+50% health on Last Stand's buff.",
+"route": "B",
+"status": "working",
+"text": "12 s: +50% max HP, and Bulwark becomes a 360° bubble 6 yd wide that blocks all bullets fired from outside for every ally inside; cd 180 s.",
+"type": "ability (capstone)"
+},
+"163": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: all allies within 40 yd are immune to fear and stun, regenerate 3% HP/s, and downed allies within 15 yd are revived at 30% HP when it starts; cd 300 s.",
+"type": "ability (capstone)"
+},
+"201": {
+"note": "Half damage taken, not immunity.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "8 s: all damage taken -50%; cd 120 s.",
+"type": "ability"
+},
+"202": {
+"note": "5 s on NPCs, 3 s on players.",
+"route": "A",
+"status": "working",
+"text": "Thrown hammer, 20 yd: stun 5 s / 3 s; cd 45 s.",
+"type": "ability"
+},
+"203": {
+"note": "Lasts 10 s.",
+"route": "A",
+"status": "working",
+"text": "Self or ally: remove roots and slows, immune to them for 6 s; cd 25 s.",
+"type": "ability"
+},
+"211": {
+"note": "Needs a melee weapon; ranks at 10, 22, 34, 46 and 58.",
+"route": "A",
+"status": "working",
+"text": "Holy strike for 15 %EH, +1 Holy Power; cd 5 s.",
+"type": "ability"
+},
+"212": {
+"note": "Needs no shield.",
+"route": "B",
+"status": "working",
+"text": "Self or ally within 30 yd: absorbs bullets up to 20% of your HP for 10 s (Aegis); cd 15 s.",
+"type": "ability"
+},
+"213": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1 s cast, 40 yd: heal 20% HP; a 10% chance of Zenith; cd 2 s.",
+"type": "ability"
+},
+"221": {
+"identity": "Hits 1.25x as hard as its spell says.",
+"note": "Needs no seal.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "20 yd: holy blast for 8 %EH per Holy Power; at 3 it also stuns 1.5 s; cd 8 s.",
+"type": "ability (finisher)"
+},
+"222": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Consecrate 8 yd around you for 8 s: enemies inside take 2 %EH/s and move 30% slower; cd 20 s.",
+"type": "ability"
+},
+"223": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast: heal 45% HP; a 20% chance of Zenith; cd 4 s.",
+"type": "ability"
+},
+"231": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Holy Power cap 5; melee kills grant 2 Holy Power; each Holy Power held gives 4% move speed.",
+"type": "passive"
+},
+"232": {
+"note": "Lasts 6 s; the ally cannot fire or swing.",
+"route": "A",
+"status": "working",
+"text": "An ally is immune to physical damage, bullets included, for 6 s but cannot fire or swing; cd 180 s.",
+"type": "ability"
+},
+"233": {
+"identity": "Hits 1.5x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Instant, 30 yd: heal an ally 20% HP or smite an enemy for 12 %EH; a 15% chance of Zenith; cd 10 s.",
+"type": "ability"
+},
+"241": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Spin: 10 %EH per Holy Power to every enemy within 8 yd; allies within 8 yd heal 5% HP per Holy Power; cd 12 s.",
+"type": "ability (finisher)"
+},
+"242": {
+"note": "No buff icon on the ally (a message says it).",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "12 s: 50% of the damage an ally takes is moved to you (Aegis absorbs apply); cd 30 s.",
+"type": "ability"
+},
+"243": {
+"note": "Out of combat it is Redemption, with no cooldown.",
+"route": "A",
+"status": "working",
+"text": "2 s cast, in combat: revive a dead or downed ally at 40% HP; cd 600 s.",
+"type": "ability (battle resurrection)"
+},
+"251": {
+"note": "Humanoids only (vanilla).",
+"route": "A",
+"status": "working",
+"text": "Incapacitate a target 6 s / 4 s (breaks on damage) and gain 2 Holy Power; cd 45 s.",
+"type": "ability"
+},
+"252": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Your Consecrations (cast or from Aegis) also give allies inside 20% less bullet damage and stop flinch.",
+"type": "passive"
+},
+"253": {
+"note": "Stands a downed ally up at full health; drains no mana.",
+"route": "A",
+"status": "working",
+"text": "Heal an ally to full; a downed ally stands up at full health; cd 300 s.",
+"type": "ability"
+},
+"261": {
+"note": "Divine Favor's glow, not wings.",
+"route": "B",
+"status": "working",
+"text": "20 s: golden wings; Holy Power gain doubled, finishers cost nothing and keep it, immune to slows, 20% less bullet damage; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"262": {
+"note": "",
+"route": "C",
+"status": "working",
+"text": "8 s: an 8 yd dome around you stops every bullet fired from outside (allies may fire out); enemies inside are slowed 50%; cd 180 s.",
+"type": "ability (capstone)"
+},
+"263": {
+"note": "Its heals still stop to cast.",
+"route": "B",
+"status": "working",
+"text": "20 s: Zenith, every heal also heals 2 more allies within 15 yd for 50%, casts move-castable; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"301": {
+"note": "Spotting, speed and the kill reset; no trail yet.",
+"route": "B",
+"status": "partial",
+"text": "Mark one enemy (one at a time, 100 yd): you see it through walls and its trail of tracks for 30 s, and move 15% faster toward it. Killing your prey resets all your cooldowns. cd 10 s.",
+"type": "ability"
+},
+"302": {
+"note": "Moving ends it; the enemy players aiming at you see a kill.",
+"route": "A",
+"status": "working",
+"text": "Drop as if dead: NPCs lose you, players see a fake death (kill-feed entry, your corpse). Lasts up to 6 s or until you move; cd 30 s.",
+"type": "ability"
+},
+"303": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Leap 15 yd backward; next 2 s you take 30% less damage; cd 15 s.",
+"type": "ability"
+},
+"311": {
+"note": "Spots the enemies in a narrow cone ahead on each press; no zoom.",
+"route": "B",
+"status": "partial",
+"text": "Hold V to look through a field glass (x3 zoom): every enemy kept under the reticle for 0.5 s is outlined for your party for 8 s; you cannot fire while looking. No cd.",
+"type": "ability (signature)"
+},
+"312": {
+"identity": "Snap: going off on a player, it stuns them 1.5 s first.",
+"note": "Up to 4 traps (8 in a Killing Field); one going off sets off those within 6 yd.",
+"route": "A",
+"status": "working",
+"text": "Place a hidden trap (arms in 2 s, counts toward the 4): the first enemy freezes 10 s / 4 s (damage breaks it); chains to nearby traps; cd 15 s.",
+"type": "ability"
+},
+"313": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Mark the creature type of the target (or \"caster\" against a player with mana): for 60 s your melee and Slayer abilities deal +30% to that type. One Bane at a time; cd 20 s.",
+"type": "ability (signature)"
+},
+"321": {
+"note": "Lands on the crosshair's enemy or 30 yd ahead; its vanilla light shows at your feet.",
+"route": "A",
+"status": "working",
+"text": "Fire a flare to 40 yd: everything within 15 yd for 20 s is revealed (stealth, Camouflage) and spotted for the party; cd 20 s.",
+"type": "ability"
+},
+"322": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Fire a net up to 30 yd: the target is rooted 5 s / 3 s and cannot sprint for 8 s; cd 25 s.",
+"type": "ability"
+},
+"323": {
+"identity": "Hits 2x as hard as its spell says.",
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Throw an axe up to 30 yd for 8 %EH and a 30% slow for 3 s; cd 6 s (a Witchfire kill readies it).",
+"type": "ability"
+},
+"331": {
+"note": "Off again at a press; after it breaks it waits 10 s.",
+"route": "B",
+"status": "working",
+"text": "Stand still 2 s to fade into stealth; walking keeps it, firing or sprinting breaks it; spotting shows nothing on enemy radar while camouflaged. Toggle, cd 10 s after it breaks.",
+"type": "ability"
+},
+"332": {
+"identity": "Snap: going off on a player, it stuns them 1.5 s first.",
+"note": "Jumping is not locked.",
+"route": "A",
+"status": "working",
+"text": "Hidden trap: 10 yd of tar for 15 s, enemies inside move 50% slower and cannot sprint or jump; chains; cd 15 s.",
+"type": "ability"
+},
+"333": {
+"note": "",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "30 yd: remove 2 magic buffs (class shields and wards included) from the target and silence it 1 s; cd 15 s.",
+"type": "ability"
+},
+"341": {
+"note": "Reels you to the target, or to the ground 30 yd ahead.",
+"route": "C",
+"status": "working",
+"text": "Fire a hook at a surface up to 35 yd away and reel yourself to it (roofs, cliffs); cd 20 s.",
+"type": "ability"
+},
+"342": {
+"identity": "Hits 2x as hard as its spell says. Snap: going off on a player, it stuns them 1.5 s first.",
+"note": "The vanilla bear trap, with the bleed and the sprint lock.",
+"route": "B",
+"status": "working",
+"text": "Hidden trap: root 4 s, 3 %EH/s bleed for 6 s, no sprint for 10 s; chains; cd 15 s.",
+"type": "ability"
+},
+"343": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "20 yd: the target is disoriented 4 s and silenced 4 s (no class abilities); cd 30 s.",
+"type": "ability"
+},
+"351": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Drop a smoke cloud, 8 yd, 10 s: blocks sight both ways, breaks target locks and spotting outlines; cd 40 s.",
+"type": "ability"
+},
+"352": {
+"note": "The vanilla target dummy NPCs attack; no radar ping.",
+"route": "B",
+"status": "partial",
+"text": "Throw a decoy up to 30 yd: for 12 s it plays gunfire and shows as a red dot on enemy radar; NPCs within 30 yd attack it; cd 40 s. Can be placed as a trap (counts toward the 4).",
+"type": "ability"
+},
+"353": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "You and allies within 10 yd: absorb 30% HP of class-ability (non-bullet) damage and immunity to the next control effect, 8 s; cd 45 s.",
+"type": "ability"
+},
+"361": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: every enemy within 100 yd in your field of view is spotted for the party continuously, Mark Prey can hold 3 prey, and each prey kill refreshes Overwatch by 5 s; cd 180 s.",
+"type": "ability (capstone)"
+},
+"362": {
+"note": "The ring is Freezing, Tar and Bear Traps as bought; Freezing for the rest.",
+"route": "B",
+"status": "working",
+"text": "Instantly place 4 armed traps in a 10 yd ring (Freezing, Tar, Bear and Net, if known; otherwise Freezing); for 60 s the trap limit is 8 and chain radius 12 yd; cd 180 s.",
+"type": "ability (capstone)"
+},
+"363": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "30 s: your blade and axes burn (3 %EH/s for 4 s), Bane counts every target, attacks on targets below 25% HP kill them, and each kill readies the axes and heals 15% HP; cd 180 s.",
+"type": "ability (capstone)"
+},
+"401": {
+"note": "Not usable in combat (Vanish is).",
+"route": "A",
+"status": "working",
+"text": "Go invisible, move at 70%; firing, being hit or sprinting breaks it; off radar; cd 6 s after it breaks.",
+"type": "ability"
+},
+"402": {
+"note": "Lasts 15 s.",
+"route": "A",
+"status": "working",
+"text": "+70% move speed for 8 s, can fire while sprinting this way; cd 60 s.",
+"type": "ability"
+},
+"403": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Instantly enter Stealth, drop all targeting and slows; cd 120 s.",
+"type": "ability"
+},
+"411": {
+"identity": "Sunders: a player it lands on is disarmed 2 s (no gun, no weapon).",
+"note": "An opener: from stealth or the opening, from behind (Distract lifts that); any weapon.",
+"route": "A",
+"status": "working",
+"text": "From stealth or the opening, from behind the target (a Distract lifts that): vanilla Ambush's heavy blow, doubled by the opening; any melee weapon; cd 8 s.",
+"type": "ability (opener)"
+},
+"412": {
+"note": "Blows stack a poison (up to 3), 1.5 %EH/s each, 12 s.",
+"route": "B",
+"status": "working",
+"text": "Coat your blades for 60 s: melee blows stack a poison up to 3 times, 1.5 %EH/s each for 12 s; cd 15 s.",
+"type": "ability"
+},
+"413": {
+"note": "A second blow from the off hand; 2 Momentum.",
+"route": "A",
+"status": "working",
+"text": "A quick blow with the main hand and a second from the off hand (6 %EH): 2 Momentum; cd 5 s.",
+"type": "ability"
+},
+"421": {
+"note": "An opener; 4 s / 2.5 s, a second more from behind.",
+"route": "A",
+"status": "working",
+"text": "From stealth or the opening: stun 4 s / 2.5 s, a second longer from behind; cd 20 s.",
+"type": "ability (opener)"
+},
+"422": {
+"note": "You restealth in the smoke, even in combat; untargetable 1 s.",
+"route": "B",
+"status": "working",
+"text": "8 yd smoke cloud for 8 s at your feet: blocks sight, breaks target locks; you vanish into it (back into Stealth even in combat, attacks on you stop) and are untargetable 1 s; cd 40 s.",
+"type": "ability"
+},
+"423": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "A dash at the crosshair's enemy, then a blow (the Duelist's only lunge).",
+"route": "B",
+"status": "working",
+"text": "Dash at the enemy in the crosshair up to 30 yd away and strike it as you land (12 %EH, 1 Momentum); cd 12 s. The Duelist's only lunge.",
+"type": "ability"
+},
+"431": {
+"note": "An opener, from any side; the silence a second longer from behind.",
+"route": "A",
+"status": "working",
+"text": "From stealth or the opening, any side: silence 3 s (4 s from behind) and bleed 2 %EH/s for 18 s; cd 20 s.",
+"type": "ability (opener)"
+},
+"432": {
+"note": "Pressed again it switches: Crippling, Mind-numbing, Wound.",
+"route": "B",
+"status": "working",
+"text": "Coat your blades for 60 s with Crippling Poison (blows slow 50%); pressed again while coated it switches to Mind-numbing Poison (casts take longer) and then Wound Poison (healing taken less); cd 3 s.",
+"type": "ability"
+},
+"433": {
+"note": "Melee blows on you while it holds are parried and struck back.",
+"route": "B",
+"status": "working",
+"text": "Raise your guard for 1.5 s: every melee blow from in front is parried (no damage) and struck back for 12 %EH and 2 Momentum. Bullets are no blows; cd 10 s.",
+"type": "ability"
+},
+"441": {
+"note": "Creatures near the point turn to it; your openers count as from behind for 8 s.",
+"route": "B",
+"status": "working",
+"text": "Throw a distraction 20 yd ahead: creatures within 10 yd of it that are not fighting turn to it for 10 s; for 8 s your openers count as from behind (Ambush from the front). Does not break stealth; cd 30 s.",
+"type": "ability"
+},
+"442": {
+"note": "Pickpocket loot straight to your bags, in combat too; Pick Lock instant and +50 skill.",
+"route": "B",
+"status": "working",
+"text": "Lift a hostile humanoid's purse in melee range, in or out of combat, from any side and unstealthed: its pickpocket loot (vanilla's table and coin) goes straight to your bags, once per creature; never from players. While in the kit Pick Lock is instant and Lockpicking counts 50 higher; cd 20 s.",
+"type": "ability"
+},
+"443": {
+"note": "Each blow also strikes another enemy within 8 yd for half.",
+"route": "B",
+"status": "working",
+"text": "12 s: each of your melee blows also strikes the nearest other enemy within 8 yd for half; cd 30 s.",
+"type": "ability"
+},
+"451": {
+"note": "Readies Stealth, Vanish, Sprint and every Assassin ability.",
+"route": "B",
+"status": "working",
+"text": "Stealth, Vanish, Sprint and every Assassin ability ready again: vanish, open again; cd 3 min.",
+"type": "ability"
+},
+"452": {
+"note": "The copy runs; you are unseen 3 s.",
+"route": "B",
+"status": "partial",
+"text": "Leave a running copy of yourself that sprints forward for 6 s (enemies see your name and gun) while you go invisible for 3 s; cd 45 s.",
+"type": "ability"
+},
+"453": {
+"note": "Momentum holds 8; at 5 or more, 15% fewer bullets hurt.",
+"route": "B",
+"status": "working",
+"text": "Momentum holds up to 8; at 5 or more, 15% fewer bullets hurt you (keep swinging, keep living).",
+"type": "passive"
+},
+"461": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Mark a target for 10 s; when it ends, the target takes again 50% of all damage you dealt it during the mark; if it dies while marked you Vanish and all your cooldowns reset; cd 120 s.",
+"type": "ability (capstone)"
+},
+"462": {
+"note": "The copies follow you and fire nothing; the button swaps.",
+"route": "B",
+"status": "working",
+"text": "Create 3 illusions of you for 12 s that mimic your movement and fire blanks; you can swap places with any of them by pressing V again (3 swaps); cd 120 s.",
+"type": "ability (capstone)"
+},
+"463": {
+"note": "Momentum full and held; Lunge has no cooldown.",
+"route": "B",
+"status": "working",
+"text": "15 s: Momentum full and held there, and Lunge has no cooldown; cd 120 s.",
+"type": "ability (capstone)"
+},
+"501": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Self or ally, 40 yd: absorb 20% of the target's HP for 15 s; Weakened Soul 15 s; cd 6 s.",
+"type": "ability"
+},
+"502": {
+"note": "Usable while downed: stands you up.",
+"route": "A",
+"status": "working",
+"text": "Heal yourself 30% HP instantly; usable while downed (stands you up at 30%); cd 120 s.",
+"type": "ability"
+},
+"503": {
+"note": "Vanilla Fade; no radar hide yet.",
+"route": "A",
+"status": "partial",
+"text": "6 s: NPCs drop you, you vanish from enemy radar and become faintly translucent; cd 30 s.",
+"type": "ability"
+},
+"511": {
+"identity": "Hits 1.4x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "40 yd: 1.5 %EH/s for 18 s; cd 3 s.",
+"type": "ability"
+},
+"512": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1 s cast: heal 25% HP; cd 2 s.",
+"type": "ability"
+},
+"513": {
+"note": "Breaks after taking half your health in rounds.",
+"route": "C",
+"status": "working",
+"text": "Raise a wall of light up to 20 yd away, 6 yd wide, 3 yd high, for 8 s: stops bullets from the enemy side (allies fire through); it has 50% of your HP; cd 25 s.",
+"type": "ability (signature)"
+},
+"521": {
+"identity": "Hits 1.25x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast, 40 yd: 20 %EH; cd 8 s.",
+"type": "ability"
+},
+"522": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "15 s: heal 30% HP over time; cd 4 s.",
+"type": "ability"
+},
+"523": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "An ally takes 40% less damage and no flinch for 8 s; cd 60 s.",
+"type": "ability"
+},
+"531": {
+"note": "On the priest, not a debuff on the target.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "20 s: 25% of your shadow damage heals your party; cd 30 s.",
+"type": "ability"
+},
+"532": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "2 s cast: party within 30 yd heal 25% HP, 20% more; cd 10 s.",
+"type": "ability"
+},
+"533": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Up to 5 enemies within 8 yd flee 8 s / 4 s; cd 30 s.",
+"type": "ability"
+},
+"541": {
+"identity": "Hits 1.4x as hard as its spell says.",
+"note": "Jumps when you land the killing blow.",
+"route": "A",
+"status": "working",
+"text": "40 yd: 2 %EH/s for 24 s, healing you for all of it; jumps to an enemy within 10 yd if the target dies; cd 60 s.",
+"type": "ability"
+},
+"542": {
+"note": "Heals by itself its first minute; clicking it works its vanilla 3 min.",
+"route": "A",
+"status": "working",
+"text": "Place a Lightwell for 60 s: 5 charges, an ally clicking it (or below 35% HP within 5 yd) heals 30% HP over 6 s; cd 60 s.",
+"type": "ability"
+},
+"543": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "An ally within 30 yd who would drop below 15% HP instead gets an absorb of 20% of their HP (once per ally per 60 s).",
+"type": "passive"
+},
+"551": {
+"note": "A player is held 5 s and cannot fire; an NPC 30 s.",
+"route": "A",
+"status": "working",
+"text": "2 s cast, 30 yd: control an NPC for 30 s, or a player for 5 s (they walk where you steer and cannot fire); cd 90 s.",
+"type": "ability"
+},
+"552": {
+"note": "Once every 2 min.",
+"route": "A",
+"status": "working",
+"text": "When you would go down, become a spirit of light for 12 s: you keep healing at full power and cannot be harmed, then you go down.",
+"type": "passive"
+},
+"553": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "30 yd: silence 5 s / 4 s; cd 40 s.",
+"type": "ability"
+},
+"561": {
+"note": "Spreads when you land the killing blow.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "25 s: become shadow; 30% less damage taken, every DoT also slows 30%, each kill on an afflicted target spreads its DoTs to 2 nearby enemies; cd 120 s.",
+"type": "ability (capstone, transformation)"
+},
+"562": {
+"note": "Not a channel: moving does not stop it.",
+"route": "B",
+"status": "working",
+"text": "Channel 8 s: allies within 40 yd heal 8% HP per second; downed allies inside at the end stand up at 50%; cd 180 s.",
+"type": "ability (capstone)"
+},
+"563": {
+"note": "",
+"route": "C",
+"status": "working",
+"text": "10 s: a 10 yd dome around you; bullets from outside are stopped, allies inside take 50% less of every other damage and do not flinch; cd 180 s.",
+"type": "ability (capstone)"
+},
+"701": {
+"identity": "A spirit wolf is hard to hit: 35% fewer bullets in the form.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Become a spirit wolf: +40% speed, usable in combat and indoors, firing breaks it; cd 5 s.",
+"type": "ability"
+},
+"702": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "30 yd: remove 2 magic buffs from an enemy; cd 8 s.",
+"type": "ability"
+},
+"703": {
+"note": "Stands you up 2 s after going down; the vanilla one (an Ankh) still works on death.",
+"route": "A",
+"status": "working",
+"text": "When downed, you may stand back up at 40% HP (cd 20 min). No ankh.",
+"type": "passive"
+},
+"711": {
+"note": "Every shaman knows Lightning Bolt; this adds Static and Overload.",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast, 40 yd: 15 %EH, +1 Static; cd 2 s.",
+"type": "ability"
+},
+"712": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Imbue for 60 s: melee hits deal +8 %EH, knock the target back 3 yd; cd 10 s.",
+"type": "ability"
+},
+"713": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Totem for 30 s: allies within 20 yd heal 2% HP/s; cd 20 s.",
+"type": "ability (totem)"
+},
+"721": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "2 s cast: 12 %EH to the target and 2 more within 10 yd, +1 Static per target; cd 8 s.",
+"type": "ability"
+},
+"722": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Two strikes for 2 x 10 %EH; the target takes 20% more from your abilities for 8 s; cd 10 s.",
+"type": "ability"
+},
+"723": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "30 s: enemies within 10 yd move 50% slower and cannot sprint; cd 20 s.",
+"type": "ability (totem)"
+},
+"731": {
+"identity": "Hits 1.2x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "30 yd: 10 %EH and a 50% slow for 8 s, +1 Static; cd 8 s.",
+"type": "ability"
+},
+"732": {
+"identity": "Hits 1.3x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "20 yd: 10 %EH, interrupts and locks class abilities 3 s; cd 12 s.",
+"type": "ability"
+},
+"733": {
+"note": "Catches one grenade or flash going off within 10 yd.",
+"route": "A",
+"status": "working",
+"text": "15 s: redirects the next hostile class spell aimed at an ally within 20 yd, then the next thrown grenade or flash within 10 yd lands on the totem; cd 25 s.",
+"type": "ability (totem)"
+},
+"741": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Your next spell is instant and crits; at 5 Static the Overload also hits 5 targets; cd 60 s.",
+"type": "ability"
+},
+"742": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Slam: enemies within 10 yd knocked down 2 s and take 15 %EH; cd 20 s.",
+"type": "ability"
+},
+"743": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "2 s cast: heals 30% / 20% / 10% HP over 3 allies, and refreshes the duration of any totem it bounces past; cd 4 s.",
+"type": "ability"
+},
+"751": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Static cap 8; Overload chains to 4 and leaves a 4 s static field (5 yd) that slows 40%.",
+"type": "passive"
+},
+"752": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "15% less bullet damage.",
+"type": "passive"
+},
+"753": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "20 s: allies within 8 yd take 30% less damage from bullets and projectiles; cd 30 s.",
+"type": "ability (totem)"
+},
+"761": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "2 s cast, 40 yd: a 15 yd quake for 10 s, enemies inside take 2 %EH/s and are knocked down every 3 s; cd 120 s.",
+"type": "ability (capstone)"
+},
+"762": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: become a stone giant (+30% size, +50% max HP), immune to knockback and slows, every melee hit is a Ground Smash with 1 charge; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"763": {
+"note": "One totem of each element, as in vanilla.",
+"route": "B",
+"status": "working",
+"text": "Place a great totem for 15 s: every totem you own has double effect, totem limit 5, and downed allies within 20 yd stand up at 30% HP when it lands; cd 180 s.",
+"type": "ability (capstone)"
+},
+"801": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Teleport 20 yd forward, break roots and stuns; cd 15 s.",
+"type": "ability"
+},
+"802": {
+"note": "Click the aura off to leave it early.",
+"route": "A",
+"status": "working",
+"text": "Frozen solid for up to 6 s: immune to everything, cannot act; cd 180 s.",
+"type": "ability"
+},
+"803": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast, 30 yd: a sheep for 20 s / 6 s, damage breaks it; cd 30 s.",
+"type": "ability"
+},
+"811": {
+"note": "Every mage knows Fireball; this adds Spellweave's switch bonus.",
+"route": "A",
+"status": "working",
+"text": "2 s cast, 40 yd: 18 %EH and 1 %EH/s for 6 s; cd 2 s.",
+"type": "ability (fire)"
+},
+"812": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Conjure a blade of fire for 60 s: melee hits deal 12 %EH fire; cd 10 s.",
+"type": "ability"
+},
+"813": {
+"note": "Breaks after taking 40% of your health in rounds.",
+"route": "C",
+"status": "working",
+"text": "Place a rune up to 20 yd away that raises a 4 yd wide arcane screen for 10 s; the screen stops bullets from the enemy side and has 40% of your HP; cd 20 s.",
+"type": "ability (construct)"
+},
+"821": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast: 14 %EH and a 40% slow for 6 s; cd 2 s.",
+"type": "ability (frost)"
+},
+"822": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Blink to an enemy up to 20 yd away and strike for 20 %EH; cd 15 s.",
+"type": "ability"
+},
+"823": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Draw a 6 yd glyph for 15 s: allies inside heal 2% HP/s and recover from flinch faster; cd 30 s.",
+"type": "ability (construct)"
+},
+"831": {
+"identity": "Its bolts home on the target while it is in the kit.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Channel 3 s: 5 missiles of 6 %EH; cd 6 s.",
+"type": "ability (arcane)"
+},
+"832": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Enemies within 10 yd frozen 6 s / 3 s, 2 s longer for the Spellsword; cd 20 s.",
+"type": "ability"
+},
+"833": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Place 2 linked pads up to 40 yd apart for 45 s: any ally stepping on one appears on the other (2 s cooldown per ally); cd 60 s. Counts as one construct.",
+"type": "ability (construct)"
+},
+"841": {
+"identity": "Hits 1.3x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "10 yd: 15 %EH, knockback 8 yd and a 50% slow 4 s; cd 30 s.",
+"type": "ability (fire)"
+},
+"842": {
+"note": "No shield glow.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "Absorb 25% of your HP for 15 s; each melee hit restores 5% of it; cd 25 s.",
+"type": "ability"
+},
+"843": {
+"note": "Up to four carried; a stim heals 25% and speeds you 20% for 4 s.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "Conjure 4 Arcane Stims for the squad (trade them): using one heals 25% HP and gives +20% speed for 4 s; max 4 in existence; cd 60 s.",
+"type": "ability"
+},
+"851": {
+"note": "Lasts up to 60 s.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "Your next 3 spells crit and count as a switch of school; cd 90 s.",
+"type": "ability"
+},
+"852": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "A blade blow (20%) or a melee kill readies Arcane Edge for 10 s: your next Wizard spell is instant and deals double.",
+"type": "passive"
+},
+"853": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Summon a floating familiar bound to an ally for 30 s: it takes 30% of the damage that ally receives, and has 50% of your HP; cd 45 s.",
+"type": "ability (construct)"
+},
+"861": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "2 s cast, 40 yd: a meteor lands after 1.5 s: 60 %EH split among enemies within 8 yd, the ground burns 3 %EH/s for 6 s; cd 90 s.",
+"type": "ability (capstone)"
+},
+"862": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: blade swings send an arcane wave 15 yd forward (10 %EH), Blink and Blade Blink have no cooldown, 25% less damage taken; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"863": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "30 s: construct limit 6, constructs placed during it have no cooldown, and every construct pulses an absorb of 8% HP to allies within 8 yd every 3 s; cd 180 s.",
+"type": "ability (capstone)"
+},
+"901": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "1.5 s cast, 30 yd: the target flees 15 s / 6 s (damage may break it); cd 20 s.",
+"type": "ability"
+},
+"902": {
+"note": "Also a soul shard (up to 5).",
+"route": "A",
+"status": "working",
+"text": "Trade 15% HP for 1 soul shard or a full mana bar; cd 10 s.",
+"type": "ability"
+},
+"903": {
+"note": "On the crosshair's ally or yourself; up 2 s after going down.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "Spend 1 shard to place a soulstone on yourself or an ally for 15 min: when they go down (or die) they may stand up at 40% HP. One active per warlock; cd 15 min.",
+"type": "ability"
+},
+"911": {
+"identity": "Hits 1.6x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "40 yd: 1.5 %EH/s for 18 s; a Malediction stack; cd 3 s.",
+"type": "ability"
+},
+"912": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "20 s: 20% less bullet damage; cd 30 s.",
+"type": "ability"
+},
+"913": {
+"note": "Needs a corpse within 30 yd.",
+"route": "B",
+"status": "working",
+"text": "Spend 20 Life Force: a corpse within 30 yd rises as a skeleton warrior for 60 s (max 3 minions; low damage, draws fire); cd 3 s.",
+"type": "ability"
+},
+"921": {
+"note": "Aiming is not slowed.",
+"route": "A",
+"status": "working",
+"text": "30 yd: 40% slower, no sprint, slower ADS for 12 s; a Malediction stack; cd 8 s.",
+"type": "ability"
+},
+"922": {
+"identity": "Charging through fire: 50% fewer bullets for 2.5 s after it.",
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Leap up to 25 yd; landing deals 10 %EH within 6 yd and stuns 1 s; cd 20 s.",
+"type": "ability"
+},
+"923": {
+"note": "Needs a corpse or a minion within 30 yd.",
+"route": "B",
+"status": "working",
+"text": "Spend 15 Life Force: a corpse or your own minion within 30 yd explodes, 20 %EH within 8 yd; cd 6 s.",
+"type": "ability"
+},
+"931": {
+"identity": "Hits 1.6x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Channel 5 s, 30 yd: 3 %EH/s and you heal 100% of it (200% if Doomed); cd 10 s.",
+"type": "ability"
+},
+"932": {
+"note": "The burn has no fire of its own to see.",
+"replaced": true,
+"route": "A",
+"status": "working",
+"text": "10 s: burn enemies within 10 yd for 3 %EH/s while you lose 1% HP/s; you can move; cd 20 s.",
+"type": "ability"
+},
+"933": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Spend 20 Life Force: absorb 25% of your HP for 20 s; each living minion adds 5%; cd 20 s.",
+"type": "ability"
+},
+"941": {
+"note": "",
+"route": "A",
+"status": "working",
+"text": "Up to 5 enemies within 10 yd flee 8 s / 4 s; cd 40 s.",
+"type": "ability"
+},
+"942": {
+"identity": "Hits 1.3x as hard as its spell says.",
+"note": "",
+"route": "A",
+"status": "working",
+"text": "30 yd: horror 3 s, 15 %EH, heal for the damage; cd 45 s.",
+"type": "ability"
+},
+"943": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Spend 30 Life Force: a corpse rises as a ghoul for 60 s that leaps 20 yd onto your target and claws (5 %EH/s); minion cap 5; cd 10 s.",
+"type": "ability"
+},
+"951": {
+"note": "Spreads when you land the killing blow.",
+"route": "B",
+"status": "working",
+"text": "When a target with your afflictions dies, all of them jump to the 2 nearest enemies within 15 yd and you gain a soul shard and 10% HP.",
+"type": "passive"
+},
+"952": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "You take 15% less damage of every kind.",
+"type": "passive"
+},
+"953": {
+"note": "",
+"route": "C",
+"status": "working",
+"text": "Life Force cap 150; minions explode for 10 %EH within 6 yd when they die; kills within 20 yd of a minion give +10 Life Force.",
+"type": "passive"
+},
+"961": {
+"note": "Spreads when you land the killing blow.",
+"route": "A",
+"status": "working",
+"text": "30 yd: after 10 s the target takes 60 %EH unless the curse is purged; if it dies, Doom spreads every affliction to all enemies within 15 yd; a Malediction stack; cd 60 s.",
+"type": "ability (capstone)"
+},
+"962": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Become a demon for 30 s: +50% max HP, claws cleave 15 %EH, Fel Leap has no cooldown, immune to fear and slows; cd 180 s.",
+"type": "ability (capstone, transformation)"
+},
+"963": {
+"note": "",
+"route": "B",
+"status": "working",
+"text": "Spend 80 Life Force: stitch an abomination from up to 3 corpses for 45 s: big, slow, tanky, with a Meat Hook (pull an enemy 30 yd, cd 12 s); does not count toward the minion cap; cd 120 s.",
+"type": "ability (capstone)"
+}
+}

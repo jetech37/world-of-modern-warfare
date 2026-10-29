@@ -1,0 +1,4 @@
+# Local state: secrets, extracted client data, downloaded dumps.
+.env
+data/
+*.zip

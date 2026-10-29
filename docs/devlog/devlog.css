@@ -1,0 +1,97 @@
+/* The devlog's pages (tools/build-devlog.py makes them): the landing page's tokens and type. */
+:root {
+  --bg: #f4f1ea;
+  --panel: #ffffff;
+  --ink: #1c1b18;
+  --muted: #6b665c;
+  --line: #e2ddd1;
+  --gold: #a8741a;
+  --gold-soft: #f3e6cc;
+  --green: #2f8a4a;
+  --red: #b8402f;
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e0f11;
+    --panel: #17191c;
+    --ink: #ecebe6;
+    --muted: #9a978f;
+    --line: #2a2d31;
+    --gold: #e0b25a;
+    --gold-soft: #2b2416;
+    --green: #4cc46e;
+    --red: #e2624f;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e0f11; --panel: #17191c; --ink: #ecebe6; --muted: #9a978f; --line: #2a2d31;
+  --gold: #e0b25a; --gold-soft: #2b2416; --green: #4cc46e; --red: #e2624f;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.65 Inter, system-ui, sans-serif;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--gold); }
+.crumbs { padding: 28px 0 0; font-size: 14px; color: var(--muted); }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--gold); text-decoration: underline; }
+.kicker {
+  font: 500 12px/1 "JetBrains Mono", monospace;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--gold);
+}
+h1 {
+  font-family: Cinzel, serif; font-weight: 800;
+  font-size: clamp(30px, 6vw, 46px); line-height: 1.1; margin: 14px 0 12px;
+}
+h2, h3, h4 { font-family: Cinzel, serif; font-weight: 600; line-height: 1.25; }
+h2 { font-size: 24px; margin: 36px 0 10px; }
+h3 { font-size: 19px; margin: 28px 0 8px; }
+header.top { padding: 40px 0 24px; }
+.tag { color: var(--muted); font-size: 18px; margin: 0; }
+article { padding: 28px 0 24px; }
+article header { margin-bottom: 20px; }
+article p, article li { font-size: 17px; }
+article ul, article ol { padding-left: 22px; }
+article li { margin: 0 0 6px; }
+article img { max-width: 100%; border-radius: 10px; box-shadow: var(--shadow); }
+blockquote {
+  margin: 18px 0; padding: 4px 16px; border-left: 3px solid var(--gold);
+  background: var(--gold-soft); border-radius: 0 10px 10px 0;
+}
+code {
+  font: 500 14px "JetBrains Mono", monospace; background: var(--gold-soft);
+  padding: 1px 6px; border-radius: 5px;
+}
+pre {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px; overflow-x: auto;
+}
+pre code { background: none; padding: 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+.draft {
+  margin: 20px 0 0; padding: 12px 16px; border: 1px solid var(--red); border-radius: 8px;
+  color: var(--red); font-weight: 700;
+}
+.posts { display: grid; gap: 16px; padding-bottom: 40px; }
+.post {
+  display: block; text-decoration: none; color: var(--ink);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: var(--shadow); padding: 20px 24px;
+}
+.post:hover { border-color: var(--gold); }
+.post .when { color: var(--muted); font-size: 14px; }
+.post .title { font-family: Cinzel, serif; font-weight: 600; font-size: 21px; margin: 4px 0 6px; }
+.post .summary { color: var(--muted); }
+.empty { color: var(--muted); }
+footer { padding: 24px 0 48px; color: var(--muted); font-size: 13px; text-align: center; border-top: 1px solid var(--line); }
+footer a { color: inherit; }
+@media (max-width: 640px) {
+  .post { padding: 16px 18px; }
+}

@@ -1,0 +1,16 @@
+name: Idea or feature request
+description: Suggest a feature or a change to the game.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you'd like, and what it would add to the game.
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: How it fits the design
+      description: Optional. Which part of design/GAME_DESIGN.md it touches, if you know.

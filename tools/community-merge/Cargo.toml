@@ -1,0 +1,28 @@
+﻿[package]
+name = "community-merge"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Builds World of Modern Warfare's private community-zone patch (patch-A.MPQ) from a 1.12-format community client's archives"
+publish = false
+
+# A standalone tool, outside the client and benilla workspaces: it reads archives with benilla's
+# readers and writes a private patch; nothing it makes is committed (private-assets.md).
+[workspace]
+
+[dependencies]
+anyhow = "1.0.102"
+benilla-adt = { path = "../../benilla/crates/benilla-adt" }
+benilla-bytes = { path = "../../benilla/crates/benilla-bytes" }
+benilla-blp = { path = "../../benilla/crates/benilla-blp" }
+benilla-formats = { path = "../../benilla/crates/benilla-formats", default-features = false }
+benilla-mpq = { path = "../../benilla/crates/benilla-mpq" }
+benilla-wdt = { path = "../../benilla/crates/benilla-wdt" }
+benilla-wmo = { path = "../../benilla/crates/benilla-wmo" }
+
+[profile.release]
+debug = false
+
+
+[dev-dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }

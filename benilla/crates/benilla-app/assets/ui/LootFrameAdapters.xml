@@ -1,0 +1,313 @@
+<!--
+    World of Modern Warfare's area loot on the stock LootFrame.xml and .lua; loaded after them, so
+    these win. When the server gathers several corpses into one loot window it says which corpse
+    each row came from, and `GetLootSections()` answers: the window then grows to eight compact
+    rows a page, lays its rows out in sections, one per corpse under a thin gold divider with its
+    creature's name, and shows "+N" on the portrait for the other corpses. A window with no
+    sections (`GetLootSections()` nil) runs the stock code, untouched.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script><![CDATA[
+        if LootFrame and GetLootSections then
+            -- The area window's geometry, in LootFrame units. Rows keep the stock left edge and
+            -- first-row top (LootFrame.xml: LootButton1 at 24, -80); the stock window is 256 tall.
+            local LEFT = 24
+            local TOP = 80
+            local BOTTOM = 52           -- the pager's strip (LootFrame.xml: the arrows at 16)
+            local SCALE = 0.85          -- a compact row: the 37 px item button at 31
+            local ROW_PITCH = 33
+            local HEADER_HEIGHT = 15
+            local DIVIDER_WIDTH = 150
+            local STOCK_HEIGHT = 256
+            -- The panel art (LootFrame.xml:88) in three pieces, so a taller window stretches only
+            -- its plain middle: the top 96 and the bottom 32 texture rows keep their size.
+            local ART = "Interface\\LootFrame\\UI-LootPanel"
+            local ART_TOP = 96
+            local ART_BOTTOM = 32
+
+            local stockUpdate = LootFrame_Update
+            local stockOnShow = LootFrame_OnShow
+            local stockOnEvent = LootFrame_OnEvent
+
+            local buttons = {}
+            local headers = {}
+            local art, artMiddle, artBottom, others
+
+            -- The stock panel texture: unnamed, so found among the window's regions.
+            local function PanelArt()
+                if art then
+                    return art
+                end
+                local regions = { LootFrame:GetRegions() }
+                for i = 1, table.getn(regions) do
+                    local r = regions[i]
+                    if r:GetObjectType() == "Texture" then
+                        local file = r:GetTexture()
+                        if file and string.find(string.lower(file), "ui%-lootpanel") then
+                            art = r
+                        end
+                    end
+                end
+                return art
+            end
+
+            -- Taller for an area window, or back to the stock shape with no height.
+            local function Shape(height)
+                local panel = PanelArt()
+                if not artMiddle then
+                    artMiddle = LootFrame:CreateTexture("BenillaLootFrameArtMiddle", "BACKGROUND")
+                    artMiddle:SetTexture(ART)
+                    artBottom = LootFrame:CreateTexture("BenillaLootFrameArtBottom", "BACKGROUND")
+                    artBottom:SetTexture(ART)
+                    others = LootFrame:CreateFontString("BenillaLootFrameOthers", "OVERLAY", "NumberFontNormal")
+                    others:SetPoint("BOTTOMRIGHT", LootFramePortraitOverlay, "BOTTOMRIGHT", -4, 4)
+                end
+                if not height then
+                    LootFrame:SetHeight(STOCK_HEIGHT)
+                    if panel then
+                        panel:ClearAllPoints()
+                        panel:SetAllPoints(LootFrame)
+                        panel:SetTexCoord(0, 1, 0, 1)
+                    end
+                    artMiddle:Hide()
+                    artBottom:Hide()
+                    others:Hide()
+                    return
+                end
+                LootFrame:SetHeight(height)
+                if panel then
+                    panel:ClearAllPoints()
+                    panel:SetPoint("TOPLEFT", LootFrame, "TOPLEFT", 0, 0)
+                    panel:SetWidth(256)
+                    panel:SetHeight(ART_TOP)
+                    panel:SetTexCoord(0, 1, 0, ART_TOP / 256)
+                end
+                artMiddle:ClearAllPoints()
+                artMiddle:SetPoint("TOPLEFT", LootFrame, "TOPLEFT", 0, -ART_TOP)
+                artMiddle:SetWidth(256)
+                artMiddle:SetHeight(height - ART_TOP - ART_BOTTOM)
+                artMiddle:SetTexCoord(0, 1, ART_TOP / 256, (256 - ART_BOTTOM) / 256)
+                artMiddle:Show()
+                artBottom:ClearAllPoints()
+                artBottom:SetPoint("BOTTOMLEFT", LootFrame, "BOTTOMLEFT", 0, 0)
+                artBottom:SetWidth(256)
+                artBottom:SetHeight(ART_BOTTOM)
+                artBottom:SetTexCoord(0, 1, (256 - ART_BOTTOM) / 256, 1)
+                artBottom:Show()
+            end
+
+            -- The stock row hover (LootFrame.xml:39-46) with the row's own slot, as a page here
+            -- holds rows the stock pager's arithmetic does not know.
+            local function RowOnEnter()
+                if LootSlotIsItem(this.slot) then
+                    GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
+                    GameTooltip:SetLootItem(this.slot)
+                    CursorUpdate()
+                end
+            end
+
+            local function Row(i)
+                if not buttons[i] then
+                    local b = CreateFrame("LootButton", "BenillaLootButton"..i, LootFrame, "LootButtonTemplate")
+                    b:SetScale(SCALE)
+                    b:SetScript("OnEnter", RowOnEnter)
+                    buttons[i] = b
+                end
+                return buttons[i]
+            end
+
+            local function Header(i)
+                if not headers[i] then
+                    local h = {}
+                    h.text = LootFrame:CreateFontString("BenillaLootHeader"..i, "OVERLAY", "GameFontNormalSmall")
+                    h.text:SetJustifyH("LEFT")
+                    h.text:SetWidth(DIVIDER_WIDTH)
+                    h.line = LootFrame:CreateTexture("BenillaLootHeader"..i.."Line", "OVERLAY")
+                    h.line:SetTexture(1.0, 0.82, 0.0, 0.6)
+                    h.line:SetWidth(DIVIDER_WIDTH)
+                    h.line:SetHeight(1)
+                    headers[i] = h
+                end
+                return headers[i]
+            end
+
+            local function Height(lines)
+                local h = 0
+                for i = 1, table.getn(lines) do
+                    if type(lines[i]) == "string" then
+                        h = h + HEADER_HEIGHT
+                    else
+                        h = h + ROW_PITCH
+                    end
+                end
+                return h
+            end
+
+            local function PageHasLoot(page)
+                local lines = LootFrame.benillaPages[page]
+                if not lines then
+                    return nil
+                end
+                for i = 1, table.getn(lines) do
+                    local slot = lines[i]
+                    if type(slot) == "number" and (LootSlotIsItem(slot) or LootSlotIsCoin(slot)) then
+                        return 1
+                    end
+                end
+                return nil
+            end
+
+            -- `LootFrame_Update` for an area window: the page's headers and rows top to bottom; a
+            -- taken row is a gap in place, as the stock window leaves one.
+            local function AreaUpdate()
+                local pages = LootFrame.benillaPages
+                local lines = pages[LootFrame.page] or {}
+                local y = -TOP
+                local rows, heads = 0, 0
+                for i = 1, table.getn(lines) do
+                    local line = lines[i]
+                    if type(line) == "string" then
+                        heads = heads + 1
+                        local h = Header(heads)
+                        h.text:ClearAllPoints()
+                        h.text:SetPoint("TOPLEFT", LootFrame, "TOPLEFT", LEFT, y)
+                        h.text:SetText(line)
+                        h.text:Show()
+                        h.line:ClearAllPoints()
+                        h.line:SetPoint("TOPLEFT", LootFrame, "TOPLEFT", LEFT, y - 11)
+                        h.line:Show()
+                        y = y - HEADER_HEIGHT
+                    else
+                        rows = rows + 1
+                        local b = Row(rows)
+                        local name = b:GetName()
+                        -- An anchor offset is in the button's own (scaled) units.
+                        b:ClearAllPoints()
+                        b:SetPoint("TOPLEFT", LootFrame, "TOPLEFT", LEFT / SCALE, y / SCALE)
+                        b.slot = line
+                        if LootSlotIsItem(line) or LootSlotIsCoin(line) then
+                            local texture, item, quantity, quality = GetLootSlotInfo(line)
+                            local color = ITEM_QUALITY_COLORS[quality]
+                            getglobal(name.."IconTexture"):SetTexture(texture)
+                            getglobal(name.."Text"):SetText(item)
+                            getglobal(name.."Text"):SetVertexColor(color.r, color.g, color.b)
+                            local count = getglobal(name.."Count")
+                            if quantity > 1 then
+                                count:SetText(quantity)
+                                count:Show()
+                            else
+                                count:Hide()
+                            end
+                            b:SetSlot(line)
+                            b.quality = quality
+                            b:Show()
+                        else
+                            b:Hide()
+                        end
+                        y = y - ROW_PITCH
+                    end
+                end
+                for i = rows + 1, table.getn(buttons) do
+                    buttons[i]:Hide()
+                end
+                for i = heads + 1, table.getn(headers) do
+                    headers[i].text:Hide()
+                    headers[i].line:Hide()
+                end
+                local n = GetLootSections()
+                if n and n > 0 then
+                    others:SetText("+"..n)
+                    others:Show()
+                else
+                    others:Hide()
+                end
+                if LootFrame.page > 1 then
+                    LootFrameUpButton:Show()
+                    LootFramePrev:Show()
+                else
+                    LootFrameUpButton:Hide()
+                    LootFramePrev:Hide()
+                end
+                if LootFrame.page < table.getn(pages) then
+                    LootFrameDownButton:Show()
+                    LootFrameNext:Show()
+                else
+                    LootFrameDownButton:Hide()
+                    LootFrameNext:Hide()
+                end
+            end
+
+            -- Leaves the area shape for the stock one.
+            local function Unshape()
+                LootFrame.benillaPages = nil
+                Shape(nil)
+                for i = 1, table.getn(buttons) do
+                    buttons[i]:Hide()
+                end
+                for i = 1, table.getn(headers) do
+                    headers[i].text:Hide()
+                    headers[i].line:Hide()
+                end
+            end
+
+            function LootFrame_Update()
+                if LootFrame.benillaPages then
+                    AreaUpdate()
+                else
+                    stockUpdate()
+                end
+            end
+
+            function LootFrame_OnShow()
+                local _, pages = GetLootSections()
+                if pages then
+                    LootFrame.benillaPages = pages
+                    local tallest = 0
+                    for p = 1, table.getn(pages) do
+                        local h = Height(pages[p])
+                        if h > tallest then
+                            tallest = h
+                        end
+                    end
+                    local height = TOP + tallest + BOTTOM
+                    if height < STOCK_HEIGHT then
+                        height = STOCK_HEIGHT
+                    end
+                    Shape(height)
+                    for i = 1, LOOTFRAME_NUMBUTTONS do
+                        getglobal("LootButton"..i):Hide()
+                    end
+                elseif LootFrame.benillaPages then
+                    Unshape()
+                end
+                stockOnShow()
+            end
+
+            function LootFrame_OnEvent(event)
+                if event == "LOOT_SLOT_CLEARED" and LootFrame.benillaPages then
+                    if not this:IsVisible() then
+                        return
+                    end
+                    AreaUpdate()
+                    -- An emptied page turns to the nearest page with loot left.
+                    if not PageHasLoot(LootFrame.page) then
+                        local count = table.getn(LootFrame.benillaPages)
+                        for d = 1, count do
+                            if PageHasLoot(LootFrame.page + d) then
+                                LootFrame.page = LootFrame.page + d
+                                AreaUpdate()
+                                return
+                            elseif PageHasLoot(LootFrame.page - d) then
+                                LootFrame.page = LootFrame.page - d
+                                AreaUpdate()
+                                return
+                            end
+                        end
+                    end
+                    return
+                end
+                stockOnEvent(event)
+            end
+        end
+    ]]></Script>
+</Ui>

@@ -1,0 +1,4 @@
+# Kept out of the image build context: secrets, extracted client data, downloaded dumps.
+azeroth-warfare/.env
+azeroth-warfare/data
+azeroth-warfare/*.zip

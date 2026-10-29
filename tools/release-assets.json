@@ -1,0 +1,14 @@
+{
+  "comment": "Large data files that are not in git (GitHub rejects files over 100 MB). They are downloaded from the project's site, not GitHub Releases: <baseUrl><asset>, fetched into private-assets/ by tools/fetch-release-assets.ps1 (-BaseUrl overrides baseUrl). 'path' is where each lands under private-assets/. Sizes in bytes; sha256 of the maintainer's copies (Oct 2026). The small files that are clean to publish ship in git under game-data/ and are copied into private-assets/ by the same script. The stock WoW 1.12 client and its MPQs are never shipped: players supply their own.",
+  "baseUrl": "https://womw.net/downloads/",
+  "files": [
+    { "asset": "patch-9.MPQ",      "path": "womw-patch/patch-9.MPQ",     "size": 145845577,  "sha256": "185a41f484809fa72c49d91580491b305b15ad2adeac0e32ff42b5f51e2850bc", "what": "WotLK model layer and Dalaran (optional)" },
+    { "asset": "patch-A.MPQ",      "path": "womw-community/patch-A.MPQ", "size": 2026562902, "sha256": "154d364ed3fa50c15784acc81ab5aad3872a11a95b0e6698d2b26bdb36aea99e", "what": "community zones layer (optional; needs patch-9 and womw-small-data.zip)" },
+    { "asset": "womw-hd-1.MPQ",    "path": "womw-hd/womw-hd-1.MPQ",      "size": 1611031250, "sha256": "7e97640860f9e51a33510c59657342b9052e3a384170f2142915b0394bff2c5b", "what": "HD pack part 1 (optional)" },
+    { "asset": "womw-hd-2.MPQ",    "path": "womw-hd/womw-hd-2.MPQ",      "size": 1610489396, "sha256": "1d3b710c10c10600a523f847ab6e42a51db97268c0e33da664096eb9fa59fb5e", "what": "HD pack part 2 (optional)" },
+    { "asset": "womw-hd-3.MPQ",    "path": "womw-hd/womw-hd-3.MPQ",      "size": 1611314626, "sha256": "3c82e4c56f0ff599a3cc5dc94908b5418f4a7991a07e4e2a1b199cc2251d6495", "what": "HD pack part 3 (optional)" },
+    { "asset": "womw-hd-4.MPQ",    "path": "womw-hd/womw-hd-4.MPQ",      "size": 1610903686, "sha256": "d09e8941e786069b51a1c8c507a6c3945865b13c856664bb68e62083946d85e3", "what": "HD pack part 4 (optional)" },
+    { "asset": "womw-hd-5.MPQ",    "path": "womw-hd/womw-hd-5.MPQ",      "size": 307038320,  "sha256": "79d552ee67fd45d561954693c0b5107ccc2630e58e9d7eac340fab6c9241270c", "what": "HD pack part 5 (optional)" },
+    { "asset": "womw-small-data.zip", "path": "", "size": 10780898, "sha256": "17ac565f6f2e692c3b270306cba8592fa0bee8c680053f1210ab6cfed90f9a31", "what": "the community layer's small files, unpacked at private-assets/: womw-community/{server-dbc/*.dbc,*.tsv,*.txt}, server/sql/custom/azeroth_warfare/80_community_zones.sql, womw-hd/survey.tsv (kept off GitHub: their text names the community project)" }
+  ]
+}

@@ -1,0 +1,6 @@
+# Azeroth Warfare: a small toolchain image for building and running the fusion rules' unit tests
+# alone (scripts/fusion-tests.sh), without compiling the whole server.
+FROM ubuntu:24.04
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+      build-essential cmake ninja-build \
+    && rm -rf /var/lib/apt/lists/*

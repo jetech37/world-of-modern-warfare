@@ -84,27 +84,25 @@ What is where:
 - **In this repository** (every file under 100 MB): all the code, the fusion catalog
   (`client/assets/fusion_catalog.json`), the first-person hand tracks (`client/assets/hand_anims/`),
   the custom SQL, and the small build data in `game-data/`.
-- **On the site** (`https://womw.net/downloads/`, about 8.5 GB in all, every file optional):
+- **Through the launcher** (about 8.5 GB in all, every file optional): make an account at
+  play.womw.net and install the game with the launcher; it downloads these into its install folder.
 
   | File | Size | What it adds |
   |---|---:|---|
   | `patch-9.MPQ` | 139 MB | WotLK models and Dalaran |
-  | `patch-A.MPQ` | 1.89 GiB | the community zones (needs `patch-9.MPQ` and `womw-small-data.zip`) |
-  | `womw-small-data.zip` | 10.3 MB | the community zones' server tables and SQL, the HD survey |
+  | `patch-A.MPQ` | 1.89 GiB | the community zones (needs `patch-9.MPQ`) |
   | `womw-hd-1.MPQ` ... `womw-hd-4.MPQ` | 1.50 GiB each | the optional HD pack |
   | `womw-hd-5.MPQ` | 293 MB | the HD pack, last part |
 
-Fetch them (and copy `game-data/`) into `private-assets/` (gitignored), where `package\build.ps1`
+Copy them (and `game-data/`) into `private-assets/` (gitignored), where `package\build.ps1`
 finds them:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\fetch-release-assets.ps1                    # everything
-powershell -ExecutionPolicy Bypass -File tools\fetch-release-assets.ps1 -Only patch-9.MPQ   # one file
-powershell -ExecutionPolicy Bypass -File tools\fetch-release-assets.ps1 -BaseUrl https://mirror.example/womw/
+powershell -ExecutionPolicy Bypass -File tools\fetch-release-assets.ps1 -FromInstall "<launcher install folder>"
 ```
 
-The list, sizes and SHA-256 hashes are in `tools/release-assets.json`; a mirror only needs the
-same files under one URL. [`private-assets.md`](private-assets.md) says what each one adds and how
+The list and sizes are in `tools/release-assets.json`. `-BaseUrl <url>` downloads them from a
+host that serves the same files instead. [`private-assets.md`](private-assets.md) says what each one adds and how
 to make it again from your own installs. Then build the parts below.
 
 ## Building

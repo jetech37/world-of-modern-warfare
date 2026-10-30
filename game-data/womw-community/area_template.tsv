@@ -1,0 +1,405 @@
+entry	map_id	zone_id	explore_flag	flags	area_level	name	team	liquid_type
+2038	0	0	796	64	0	UNUSEDShadowfang Keep 003	0	0
+2040	0	0	1182	312	10	Alah'Thalas	2	0
+2041	1	406	1183	64	10	Amani'Alor	0	0
+3434	509	3428	1072	0	0	Scarab Terrace	0	0
+3435	509	3428	1073	0	0	General's Terrace	0	0
+3436	509	3428	1074	0	0	The Reservoir	0	0
+3437	509	3428	1075	0	0	The Hatchery	0	0
+3438	509	3428	1076	0	0	The Comb	0	0
+3439	509	3428	1077	0	0	Watchers' Terrace	0	0
+3440	509	3429	1078	0	0	Scarab Terrace	0	0
+3441	509	3429	1079	0	0	General's Terrace	0	0
+3442	509	3429	1080	0	0	The Reservoir	0	0
+3443	509	3429	1081	0	0	The Hatchery	0	0
+3444	509	3429	1082	0	0	The Comb	0	0
+3445	509	3429	1083	0	0	Watchers' Terrace	0	0
+3457	814	0	1085	0	0	Tower of Karazhan	0	0
+3805	0	33	1184	64	40	Zul'Aman	0	0
+3881	0	5225	1185	64	0	Silver Sun Mine	0	0
+3882	0	2040	1186	64	0	Citadel of the Sun	0	0
+3883	0	2040	1187	64	10	Golden Dawn Institute	0	0
+3884	0	0	1188	64	16		0	0
+4010	1	15	1189	64	38	Mudsprocket	0	0
+4011	1	406	1190	64	0	Venture Company Camp	0	0
+4012	0	0	1191	0	55	Scarlet Enclave	0	0
+4013	28	0	1192	128	0	Lordaeron Arena	0	0
+4014	26	0	1193	128	0	Blood Ring	0	0
+4015	1	0	1194	64	0	Isle of the Spirits	0	0
+4016	816	0	1195	0	0	Kamio	0	0
+4017	816	4016	1196	0	0	Kontsuma	0	0
+4018	0	11	1197	64	20	Hawk's Vigil	0	0
+4019	0	11	1198	64	20	Dun Agrath	0	0
+4020	0	1	1199	64	10	Ironforge Airfields	0	0
+4021	1	14	1200	64	6	Sparkwater Port	0	0
+4046	1	15	1202	64	37	Direhorn Post	0	0
+4047	1	15	1203	64	35	Nat's Landing	0	0
+4067	0	139	1446	64	55	Plaguewood Tower	0	0
+4298	0	139	1204	64	0	Plaguelands	2	0
+4343	0	4012	1205	64	55	New Avalon	2	0
+4346	0	4012	1206	64	55	New Avalon Town Hall	2	0
+4347	0	4012	1207	64	55	Havenshire	2	0
+4354	0	4012	1208	64	55	Light's Point	2	0
+4356	0	4012	1209	64	55	Gloom Hill	2	0
+4358	0	4012	852	64	55	Tyr's Hand	0	0
+4359	0	4012	1210	64	55	King's Harbor	2	0
+4365	0	4012	1211	64	55	Havenshire Mine	2	0
+4381	1	490	1212	0	0	Waygate	0	0
+4382	1	490	1213	0	0	Shaper's Terrace	0	0
+4411	0	1519	688	312	0	Stormwind Harbor	2	0
+4636	0	139	1214	0	58	The Noxious Pass	0	0
+4688	451	151	1215	0	0	The Turtle Farm	0	0
+5011	0	45	1227	64	30	Farwell Stead	0	0
+5012	0	45	1228	64	34	Wildtusk Village	0	0
+5013	0	45	1229	64	34	Ruins of Zul'Rasaz	0	0
+5014	0	47	1230	64	40	The Rasaz Trails	0	0
+5015	0	0	1231	64	0	The Highlands	0	0
+5016	0	5015	1232	64	0	The Grim Reaches	0	0
+5017	0	5016	1233	64	0	Dun Galar	0	0
+5018	0	5016	1234	64	0	Flickerlode Mine	0	0
+5019	0	5016	1235	64	0	Grimstone Field	0	0
+5020	0	5016	1236	64	0	The Parched Basin	0	0
+5021	0	5016	1237	64	0	The Grim Batol Memorial	0	0
+5022	0	5016	1238	64	52	Karfang Retreat	0	0
+5023	27	0	1239	0	0	Sunnyglade Valley	0	0
+5024	1	0	1240	65	42	Icepoint Rock	0	0
+5025	0	5015	1241	64	0	The Hidden Grove	0	0
+5026	0	5015	1242	64	0	The Perch	0	0
+5027	1	0	1243	65	0	North Sea	0	0
+5028	0	85	1244	64	14	Steepcliff Port	0	0
+5029	0	85	1245	64	16	The Whispering Forest	0	0
+5030	0	85	1246	64	18	The Rogue Heights	0	0
+5031	0	85	1247	64	10	The Lafford House	0	0
+5032	0	85	1248	64	14	The Garrick Stead	0	0
+5033	0	85	1249	64	14	Crumblepoint Tower	0	0
+5034	0	85	1250	64	16	Shatteridge Tower	0	0
+5035	0	85	1251	64	18	The Remnants Camp	0	0
+5036	0	85	1252	64	14	The Blacktower Inn	0	0
+5037	0	85	1253	64	16	The Corinth Farmstead	0	0
+5038	0	85	1254	64	15	The Jagged Hills	0	0
+5039	0	85	1255	64	15	Gracestone Mine	0	0
+5040	0	85	1256	64	14	Glenshire	0	0
+5041	0	85	1257	64	18	Ishnu'Danil	0	0
+5042	0	85	1258	64	30	Shalla'Aran	0	0
+5043	0	409	1259	64	49	Shank's Reef	0	0
+5044	0	409	1260	64	49	Crown Island	0	0
+5045	0	409	1261	64	49	The Rock	0	0
+5046	0	409	1262	64	50	Bright Coast	0	0
+5047	0	409	1263	64	51	Zul'Hazu	0	0
+5048	0	409	1264	64	49	The Wallowing Coast	0	0
+5049	0	409	1265	64	50	Hazzuri Glade	0	0
+5050	0	409	1266	64	48	Gor'dosh Heights	0	0
+5051	0	409	1267	64	48	Caelan's Rest	0	0
+5052	1	5024	1268	64	42	Kaneq'nuun	0	0
+5053	801	0	1269	0	60	Moomoo Grove	0	0
+5054	0	408	1270	64	48	The Broken Reef	0	0
+5055	0	408	1271	64	49	Deeptide Sanctum	0	0
+5056	0	408	1272	64	48	The Silver Coast	0	0
+5057	0	408	1273	64	52	The Silver Sandbar	0	0
+5058	0	408	1274	64	50	Zul'Razar	0	0
+5059	0	408	1275	64	48	The Tangled Wood	0	0
+5060	0	408	1276	64	51	The Jade Mine	0	0
+5061	0	408	1277	64	50	Ruins of Zul'Razar	0	0
+5062	0	408	1278	64	48	Gillijim Strand	0	0
+5063	0	408	1279	64	49	Deepneck Cove	0	0
+5064	0	408	1280	64	49	Gillijim Canyon	0	0
+5065	0	408	1281	64	48	Maul'ogg Refuge	0	0
+5066	0	408	1282	64	51	Maul'ogg Post	0	0
+5067	0	408	1283	64	52	Kalkor Point	0	0
+5068	0	408	1284	64	48	Kazon Island	0	0
+5069	0	408	1285	64	51	The Southsea Sandbar	0	0
+5070	0	408	1286	64	48	Distillery Island	0	0
+5071	0	408	1287	64	50	Faelon's Folly	0	0
+5072	0	409	1288	64	53	The Tower of Lapidis	0	0
+5073	1	16	1289	64	53	Flaxwhisker Front	0	0
+5074	1	16	1290	64	51	Bloodfist Point	0	0
+5075	0	8	1291	64	34	Sorrowguard Keep	0	0
+5076	816	4016	1292	0	0	Tamatsune Shrine	0	0
+5077	802	0	1293	0	30	Crescent Grove	0	0
+5078	802	5077	1294	0	32	Vilethorn Scar	0	0
+5079	816	4016	1295	0	0	Nalash'ir Ruins	0	0
+5080	816	4016	1296	0	0	Tsatsuri Wilds	0	0
+5081	816	4016	1297	0	0	Kontsuma Logging Camp	0	0
+5082	816	4016	1298	0	0	Umikari Strand	0	0
+5083	816	4016	1299	0	0	Konko Depths	0	0
+5084	0	33	1300	64	48	Bloodsail Retreat	0	0
+5085	816	4016	1301	0	0	Kontsuma Market	0	0
+5086	800	0	1302	0	58	Karazhan Crypt	0	0
+5087	35	0	1303	0	60	Stormwind Vault	0	0
+5088	0	1	1304	64	0	Everwinter Vale	0	0
+5089	816	4016	1305	0	0	Kontsuma Harbor	0	0
+5093	0	46	1309	64	52	Karfang Hold	0	0
+5094	0	45	1310	64	36	Gallant Square	0	0
+5095	0	45	1311	64	34	Livingstone Croft	0	0
+5096	1	215	1312	64	4	Red Cloud Roost	0	0
+5097	807	0	1313	0	60	Emerald Sanctum	0	0
+5098	808	0	1314	0	50	Hateforge Quarry	0	0
+5099	1	440	1315	64	40	Sandmoon Village	0	0
+5100	1	215	1316	64	10	Suntail Pass	0	0
+5101	0	46	1317	64	47	Hateforge Excavation	0	0
+5102	0	40	1318	64	10	Gartside Plot	0	0
+5103	808	0	1319	0	50	Hateforge Quarry	0	0
+5104	0	3	1320	64	38	Ruins of Corthan	0	0
+5105	0	3	1321	64	40	Temple of Corthan	0	0
+5106	0	3	1322	64	36	Angor Digsite	0	0
+5107	0	3	1323	64	36	Ruins of Zeth	0	0
+5108	0	3	1324	64	38	Crystalline Oasis	0	0
+5109	0	3	1325	64	40	Crystalline Pinnacle	0	0
+5110	0	3	1326	64	42	Redbrand's Digsite	0	0
+5111	0	3	1327	64	41	Scalebane Ridge	0	0
+5112	1	15	1328	64	37	Blackhorn Village	0	0
+5113	1	15	1329	64	40	Deserter's Hideout	0	0
+5114	1	15	1330	64	36	Westhaven Hollow	0	0
+5115	0	1519	1331	64	0	Davenburg	0	0
+5116	1	17	1332	64	15	Anchor's Edge	0	0
+5117	1	406	1333	64	23	Blacksand Oil Fields	0	0
+5118	1	406	1334	64	23	Powder Town	0	0
+5119	1	406	1335	64	18	Bramblethorn Pass	0	0
+5120	1	406	1336	64	17	Bael Hardul	0	0
+5121	1	0	1337	64	0	Tel'Abim	0	0
+5122	1	5121	1338	64	54	The Shallow Strand	0	0
+5123	1	5121	1339	64	52	Tel Co. Basecamp	0	0
+5124	1	5121	1340	64	55	Bixxle's Storehouse	0	0
+5125	1	5121	1341	64	56	Highvale Rise	0	0
+5126	1	5121	1342	64	53	The Derelict Camp	0	0
+5127	1	5121	1343	64	54	Tazzo's Shack	0	0
+5128	1	5121	1344	64	58	The Jagged Isles	0	0
+5129	1	5121	1345	64	54	The Washing Shore	0	0
+5130	813	0	1346	65	10	Winter Veil Vale	0	0
+5131	813	5130	1347	65	10	Icepaw Village	0	0
+5132	33	0	266	0	16	Shadowfang Keep	4	0
+5134	90	0	305	0	0	Gnomeregan	2	0
+5135	189	0	646	0	0	Scarlet Monastery Library	4	0
+5136	189	0	1352	0	0	Scarlet Monastery Graveyard	4	0
+5137	0	0	389	64	0	The Temple of Atal'Hakkar	0	0
+5138	36	0	695	0	0	The Deadmines	2	0
+5139	0	0	697	64	0	Blackrock Spire	0	0
+5140	0	0	698	64	0	Blackrock Depths	0	0
+5142	289	0	797	0	0	Scholomance	0	0
+5144	369	0	843	0	0	Deeprun Tram	2	0
+5145	429	0	946	0	0	Dire Maul	0	0
+5146	469	0	968	0	0	Blackwing Lair	0	0
+5147	531	0	1066	0	0	Ahn'Qiraj	0	0
+5148	533	0	1348	3	0	The Upper Necropolis	0	0
+5150	33	0	1350	0	16	Shadowfang Keep	4	0
+5152	90	0	1351	0	0	Gnomeregan	2	0
+5153	189	0	1352	0	0	Scarlet Monastery Armory	4	0
+5154	0	0	1353	64	0	The Temple of Atal'Hakkar	0	0
+5155	0	0	1354	64	0	Blackrock Spire	0	0
+5156	289	0	1355	0	0	Scholomance	0	0
+5157	429	0	1356	0	0	Dire Maul	0	0
+5158	469	0	1357	0	0	Blackwing Lair	0	0
+5161	33	0	1359	0	16	Shadowfang Keep	4	0
+5162	90	0	1360	0	0	Gnomeregan	2	0
+5163	189	0	1361	0	0	Scarlet Monastery Cathedral	4	0
+5164	0	0	1362	64	0	Blackrock Spire	0	0
+5165	289	0	1363	0	0	Scholomance	0	0
+5166	429	0	1364	0	0	Dire Maul	0	0
+5167	469	0	1365	0	0	Blackwing Lair	0	0
+5169	33	0	1367	0	16	Shadowfang Keep	4	0
+5170	0	0	1368	64	0	Blackrock Spire	0	0
+5171	429	0	1369	0	0	Dire Maul	0	0
+5173	33	0	1371	0	16	Shadowfang Keep	4	0
+5174	0	0	1372	64	0	Blackrock Spire	0	0
+5175	429	0	1373	0	0	Dire Maul	0	0
+5177	33	0	1375	0	16	Shadowfang Keep	4	0
+5178	0	0	1376	64	0	Blackrock Spire	0	0
+5179	0	0	1377	64	0	Gilneas	0	0
+5180	0	5179	1378	64	43	Gilneas City	0	0
+5181	0	5179	1379	64	42	Ravenshire	0	0
+5182	0	5179	1380	64	44	Ravenwood Keep	0	0
+5183	0	5179	1381	64	42	Brol'ok Mound	0	0
+5184	0	5179	1382	64	40	Southmire Orchard	0	0
+5185	0	5179	1383	64	43	Hollow Web Woods	0	0
+5186	0	5179	1384	64	43	Hollow Web Cemetery	0	0
+5187	0	5179	1385	64	42	Shademore Tavern	0	0
+5188	0	5179	1386	64	40	Ruins of Greyshire 	0	0
+5189	0	5179	1387	64	42	Northgate Tower	0	0
+5190	0	5179	1388	64	40	Westgate Tower	0	0
+5191	0	5179	1389	64	41	Rosewick Plantation	0	0
+5192	0	5179	1389	64	40	Glaymore Stead	0	0
+5193	0	5179	1390	64	40	Vagrant Encampment	0	0
+5194	0	5179	1391	64	40	Ebonmere Farm	0	0
+5195	0	5179	1392	64	42	The Overgrown Acre	0	0
+5196	0	5179	1393	64	42	The Dryrock Pit	0	0
+5197	0	5179	1394	64	44	The Dryrock Mine	0	0
+5198	0	5179	1395	64	44	Freyshear Keep	0	0
+5199	0	5179	1396	64	44	Greymane's Watch	0	0
+5200	0	5179	1397	64	41	Oldrock Pass	0	0
+5201	0	5179	1398	64	40	Stillward Church	0	0
+5202	0	5179	1399	64	40	Mossgrove Farm	0	0
+5203	0	5179	1400	64	40	The Greymane Wall	0	0
+5204	269	0	1402	0	60	The Black Morass	0	0
+5205	0	5179	1403	64	44	Dryrock Valley	0	0
+5206	0	5179	1404	64	44	Blackthorn's Camp	0	0
+5207	0	5179	1405	64	40	Dawnstone Mine	0	0
+5208	815	0	1406	0	43	Gilneas City	0	0
+5209	815	5208	1407	0	46	Greymane Tower	0	0
+5210	1	357	1408	64	42	Chimaera Roost Vale	0	0
+5211	0	1	1409	0	10	Gnomeregan Reclamation Facility	0	0
+5212	1	616	1410	64	60	Bleakhollow Crater	0	0
+5213	1	616	1411	64	60	Nordrassil Glade	0	0
+5214	1	616	1412	64	60	Nordanaar	0	0
+5215	1	616	1413	64	60	Barkskin Plateau	0	0
+5216	1	616	1414	64	60	Barkskin Village	0	0
+5217	1	616	1415	64	60	Circle of Power	0	0
+5218	1	616	1416	64	60	The Ruins of Telennas	0	0
+5219	1	616	1417	64	60	Zul'Hatha	0	0
+5220	1	616	1418	64	60	Darkhollow Pass	0	0
+5221	1	616	1419	64	60	The Emerald Gateway	0	0
+5222	1	616	1420	64	60	Darkroot Cave	0	0
+5223	0	616	1421	64	60	Barkskin Hold	0	0
+5224	1	361	1422	64	60	Shrine of the Betrayer	0	0
+5225	0	0	1423	64	0	Thalassian Highlands	2	0
+5526	0	2040	1424	64	8	Wretched Ghetto	0	0
+5527	0	5225	1425	64	8	Ballador's Chapel	0	0
+5528	0	5225	1426	64	10	Felstrider Retreat	0	0
+5529	0	5225	1427	64	8	The Farstride	0	0
+5530	0	5225	1428	64	9	Deepmurk Cave	0	0
+5531	0	5225	1429	64	8	Isle of Eternal Autumn	0	0
+5532	0	5225	1430	64	5	Anasterian Park	0	0
+5533	0	5225	1431	64	0	Brinthilien	0	0
+5534	0	5225	1432	64	10	Ruins of Nashal'aran	0	0
+5535	0	5225	1433	64	10	The Scourged Pass	0	0
+5536	1	0	1434	64	0	Blackstone Island	4	0
+5537	1	5536	1435	64	5	Rustgate Ridge	0	0
+5538	1	5536	1436	64	5	Black Ash Coalpits	0	0
+5539	1	5536	1437	64	5	Black Ash Mine	0	0
+5540	1	5536	1438	64	5	The Water Hole	0	0
+5541	1	5536	1439	64	5	Gazzik's Workshop	0	0
+5542	1	5536	1440	64	5	Venture Co. Slums	0	0
+5543	1	5536	1441	64	5	Rustgate Lumber Yard	0	0
+5544	0	5225	1442	64	5	Thaumarium	0	0
+5545	0	5225	1443	64	5	Silver Covenant Camp	0	0
+5546	0	5225	1444	64	5	The Last Runestone	0	0
+5547	0	139	1445	64	57	Forlorn Summit	0	0
+5548	1	406	1446	64	0	Broken Cliff Mine	0	0
+5550	0	11	1447	64	25	Ruins of Grim Batol	0	0
+5552	0	2040	1448	64	0	The Bazaar	0	0
+5553	0	2040	1449	64	0	Windrunner Pier	0	0
+5554	0	2040	1450	64	0	Sunsworn Mansion	0	0
+5555	0	2040	1451	64	0	Regency Spire	0	0
+5556	1	357	1452	64	0	Feralkin Cave	0	0
+5557	814	0	1453	64	60	The Rock of Desolation	0	0
+5558	814	5557	1454	64	60	The Rock of Desolation	0	0
+5559	814	5557	1455	64	60	Sanv Tribe Village	0	0
+5560	814	5557	1456	64	60	The Seat of Desolation	0	0
+5561	0	0	1457	64	30	Balor	0	0
+5562	0	5561	1458	64	30	Gullwing Wreckage	0	0
+5563	0	5561	1459	64	30	Bilgerat Compound	0	0
+5564	0	5561	1460	64	30	SI:7 Outpost	0	0
+5565	0	5561	1461	64	30	Ruins of Breezehaven	0	0
+5566	0	5561	1462	64	30	Croaking Plateau	0	0
+5567	0	5561	1463	64	30	Langston Orchard	0	0
+5568	0	5561	1464	64	30	Sorrowmore Lake	0	0
+5569	0	5561	1465	64	30	Scurrying Thicket	0	0
+5570	0	5561	1466	64	30	Stormwrought Castle	0	0
+5571	0	5561	1467	64	30	Stormreaver Spire	0	0
+5572	0	5561	1468	64	30	Windrock Cliffs	0	0
+5573	0	5561	1469	64	30	Treacherous Crags	0	0
+5574	0	5561	1470	64	30	Vander Farmstead	0	0
+5575	0	5561	1471	64	30	Grahan Estate	0	0
+5576	0	5561	1472	64	30	Stormbreaker Point	0	0
+5579	814	5557	1474	64	30	Temple of Aka'Sha	0	0
+5580	0	44	1475	64	15	Redwall Keep	0	0
+5581	0	0	1476	64	30	Northwind	0	0
+5582	0	5581	1477	64	30	Merchant's Highroad	0	0
+5583	0	5581	1478	64	30	Ambershire	0	0
+5584	0	5581	1479	64	30	Jousting Grounds	0	0
+5585	0	5581	1480	64	30	Amberwood Keep	0	0
+5586	0	5581	1481	64	30	Auburn Forest	0	0
+5587	0	5581	1482	64	30	Crystal Falls	0	0
+5588	0	5581	1483	64	30	Crawford Winery	0	0
+5589	0	5581	1484	64	30	Northwind Logging Camp	0	0
+5590	0	5581	1485	64	30	Witch Coven	0	0
+5591	0	5581	1486	64	30	Ruins of Birkhaven	0	0
+5592	0	5581	1487	64	30	Mildenhall Horse Farm	0	0
+5593	0	5581	1488	64	30	Sherwood Quarry	0	0
+5594	0	5581	1489	64	30	Blackrock Breach	0	0
+5595	0	5581	1490	64	30	Grimmen Lake	0	0
+5596	0	5581	1491	64	30	Abbey Gardens	0	0
+5597	0	5581	1492	64	30	Stillheart Port	0	0
+5598	1	406	1493	64	23	Earthen Ring	0	0
+5599	0	1	1494	64	10	Rugford's Mountain Rest	0	0
+5600	0	11	1495	64	35	Dragonmaw Retreat	0	0
+5601	816	0	1496	0	35	Dragonmaw Retreat	0	0
+5602	0	0	1497	64	35	Grim Reaches	0	0
+5603	0	5602	1498	64	35	Dun Kithas	0	0
+5606	0	5602	1501	64	35	The Grim Hollow	0	0
+5607	0	5602	1502	64	35	Lake Kithas	0	0
+5608	0	5602	1503	64	35	Slatebeard's Forge	0	0
+5609	0	5602	1504	64	35	The High Pass	0	0
+5610	0	5602	1505	64	35	Baggoth's Wall	0	0
+5611	0	5602	1506	64	35	Sal'Galaz Mines	0	0
+5612	0	5602	1507	64	35	East Ridge Outpost	0	0
+5613	0	5602	1508	64	35	Baggoth's Rampart	0	0
+5614	0	5602	1509	64	35	Ruins of Stolgaz Keep	0	0
+5615	0	5602	1510	64	35	Groldan's Excavation	0	0
+5616	0	5602	1511	64	35	Zarm'geth Stronghold	0	0
+5617	0	5602	1512	64	35	Geth'kar	0	0
+5618	0	5602	1513	64	35	Zarm'geth Point	0	0
+5619	0	5602	1514	64	35	Shatterblade Post	0	0
+5620	0	5602	1515	64	35	Grim Batol Memorial	0	0
+5621	0	5602	1516	64	35	Brangar's Folly	0	0
+5622	0	5581	1534	64	30	Tower of Magilou	0	0
+5623	0	5581	1517	64	30	Bristlewhisker Cavern	0	0
+5624	0	5581	1518	64	30	Amberpaw Hideout	0	0
+5625	0	5581	1519	64	30	Northridge Point	0	0
+5626	0	5581	1520	64	30	Cinderfall Pass	0	0
+5627	1	141	1521	64	10	Ursan Heights	0	0
+5628	818	0	1522	64	30	Stormwrought Ruins	0	0
+5629	814	5557	1523	64	60	Hand of Mephistroth	0	0
+5630	0	5602	1524	64	30	Barleycrest Farmstead	0	0
+5631	409	2717	1525	0	60	Incindis' Lair	0	0
+5632	409	2717	1526	0	60	Old Shadowforge	0	0
+5633	1	16	1527	0	55	Maw of Ursoc	0	0
+5634	816	0	1528	0	30	Zuluhed's Terrace	0	0
+5635	1	440	1529	64	40	Slickwick Oil Rig	0	0
+5638	817	0	1532	64	0	Sunstrider Court	0	0
+5639	0	5602	1533	64	25	Ruins of Grim Batol	0	0
+5640	819	0	1567	64	60	Timbermaw Hold	0	0
+5641	820	0	1535	64	25	Windhorn Canyon	0	0
+5642	1	0	1536	64	55	Moonwhisper Coast	0	0
+5643	1	5642	1537	64	0	Timbermaw Hold	0	0
+5644	1	5642	1538	64	0	Blackroot Village	0	0
+5645	1	5642	1539	64	0	Maras'ethil	0	0
+5646	1	5642	1540	64	0	Moonsilk Hollow	0	0
+5647	1	5642	1541	64	0	Blackroot Hold	0	0
+5648	1	5642	1542	64	0	Shrine of Tides	0	0
+5649	1	5642	1543	64	0	Moro'gai Village	0	0
+5650	1	5642	1544	64	0	Shimmerstar Lake	0	0
+5651	1	5642	1545	64	0	Grove of the Moon	0	0
+5652	1	5642	1546	64	0	Lunarclaw Den	0	0
+5653	1	5642	1547	64	0	Ruins of Nendis	0	0
+5654	1	5642	1548	64	0	Grove of the Sun	0	0
+5655	1	5642	1549	64	0	Shrine of Cyclones	0	0
+5656	1	5642	1550	64	0	Riverhorn Village	0	0
+5657	1	5642	1551	64	0	Moonhoof Village	0	0
+5658	1	5642	1552	64	0	Foulheart Sanctum	0	0
+5659	1	5642	1553	64	0	Narvalis Point	0	0
+5660	1	5642	1554	64	0	Tyrandas	0	0
+5661	1	5642	1555	64	0	Temple of Elunaris	0	0
+5662	1	5642	1556	64	0	Withered Enclave	0	0
+5663	1	5642	1557	64	0	Elun'aran	0	0
+5664	1	5642	1558	64	0	Moonhoof Retreat	0	0
+5665	1	5642	1559	64	0	Shrine of Blazes	0	0
+5666	1	5642	1560	64	0	Shrine of Crags	0	0
+5667	1	5642	1561	64	0	An'she's Respite	0	0
+5668	1	5642	1562	64	0	Ancestral Grounds	0	0
+5669	1	5642	1563	64	0	Whispering Shores	0	0
+5670	1	5642	1564	64	0	Servitor's Sanctuary	0	0
+5671	1	5642	1565	64	0	Starshard Cradle	0	0
+5672	1	5642	1566	64	0	Vysnagosa's Rest	0	0
+5722	821	0	1567	64	0	Thorn Gorge	0	0
+5723	532	0	1568	64	0	Lower Karazhan Halls	0	0
+5725	821	5722	0	64	0	Amberhorn Bluffs	0	0
+5726	821	5722	0	64	0	Dun Bardal	0	0
+5727	821	5722	1572	64	0	Mage Tower	0	0
+5728	821	5722	1573	64	0	Grimtotem Ruins	0	0
+5729	821	5722	1574	64	0	Amberhorn Village	0	0
+5730	821	5722	1575	64	0	Farseer Spire	0	0
+5731	1	0	1576	64	26	Windhorn Caverns	0	0
+5732	1	5642	1577	64	0	Sunsworn Camp	0	0
+5733	1	5642	1578	0	55	Maw of Ursol	0	0
+5734	822	0	1579	64	0	Frostmane Hollow	0	0
+5735	0	1	1580	64	10	Frostmane Hollow	0	0

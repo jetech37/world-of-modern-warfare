@@ -121,7 +121,9 @@ private:
     void Land(Player* player, Fusion::Minstrelsy::SongDef const& song, float potency, float quality);
     void TickBuffs(Player* player, uint32 now);
     void Tip(Player* player, uint64 performer, uint32 copper);
-    void SendWindow(Player* player, bool open, Said const& said = {});
+    void SendWindow(Player* player, bool open, Said const& said);
+    // GCC rejects `= {}` for a nested struct with member initializers, so the default is an overload.
+    void SendWindow(Player* player, bool open) { SendWindow(player, open, Said()); }
     Said Act(Player* player, Fusion::Minstrelsy::Action a, uint32 arg);
     Said Make(Player* player, uint16 recipe);
     Creature* TrainerNear(Player* player) const;

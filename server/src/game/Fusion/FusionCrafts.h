@@ -94,13 +94,16 @@ private:
     void SetSkill(Player* player, Fusion::Crafts::Trade t, Fusion::Crafts::Tier tier, uint16 skill, bool announce);
     void SendSkill(Player* player, Fusion::Crafts::Trade t);
     void SendBook(Player* player, Fusion::Crafts::Trade t);
-    void SendWindow(Player* player, Fusion::Crafts::Trade t, bool open, Said const& said = {});
+    void SendWindow(Player* player, Fusion::Crafts::Trade t, bool open, Said const& said);
+    // GCC rejects `= {}` for a nested struct with member initializers, so the default is an overload.
+    void SendWindow(Player* player, Fusion::Crafts::Trade t, bool open) { SendWindow(player, t, open, Said()); }
     Said Act(Player* player, Fusion::Crafts::Trade t, Fusion::Crafts::Action a, uint32 arg);
     Said Make(Player* player, Fusion::Crafts::Trade t, uint16 recipe);
     Creature* TrainerNear(Player* player, Fusion::Crafts::Trade t) const;
     // The kits' augments.
     Fusion::Crafts::GunInfo GunOf(Player const* player, Fusion::Crafts::GunSlot g) const;
-    void SendAugments(Player* player, bool open, Said const& said = {});
+    void SendAugments(Player* player, bool open, Said const& said);
+    void SendAugments(Player* player, bool open) { SendAugments(player, open, Said()); }
     Said Augment(Player* player, Fusion::Crafts::AugmentAsk const& ask);
 };
 

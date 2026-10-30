@@ -7,15 +7,36 @@
 #
 # Every file is optional for building; see private-assets.md for what each one adds. The stock
 # WoW 1.12 client is never downloaded: you supply your own.
+#
+# The usual way: install the game with the launcher (make an account at play.womw.net), then
+#   powershell -ExecutionPolicy Bypass -File tools\fetch-release-assets.ps1 -FromInstall <launcher install folder>
+# copies the large files out of that install instead of downloading them again.
 param(
     [string]$BaseUrl,
     [string[]]$Only,
-    [string]$Out
+    [string]$Out,
+    [string]$FromInstall
 )
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 if (-not $Out) { $Out = Join-Path $root 'private-assets' }
 $m = Get-Content -Raw (Join-Path $PSScriptRoot 'release-assets.json') | ConvertFrom-Json
+if ($FromInstall) {
+    $inGit = Join-Path $root 'game-data'
+    if (Test-Path $inGit) { New-Item -ItemType Directory -Force $Out | Out-Null; Copy-Item -Recurse -Force (Join-Path $inGit '*') $Out }
+    foreach ($f in $m.files) {
+        if ($Only -and ($Only -notcontains $f.asset)) { continue }
+        # The launcher keeps the layers in game\WoW\Data and the optional HD pack in hd\.
+        $src = @((Join-Path $FromInstall "game\WoW\Data\$($f.asset)"), (Join-Path $FromInstall "hd\$($f.asset)")) |
+            Where-Object { Test-Path $_ } | Select-Object -First 1
+        if (-not $src) { Write-Host "missing   $($f.asset) (not in that install; the HD pack is optional)"; continue }
+        $dest = Join-Path $Out $f.path
+        New-Item -ItemType Directory -Force (Split-Path -Parent $dest) | Out-Null
+        Copy-Item -Force $src $dest
+        Write-Host "copied    $($f.asset)"
+    }
+    return
+}
 if (-not $BaseUrl) { $BaseUrl = if ($env:WOMW_DOWNLOADS) { $env:WOMW_DOWNLOADS } else { $m.baseUrl } }
 $base = $BaseUrl.TrimEnd('/')
 $inGit = Join-Path $root 'game-data'
